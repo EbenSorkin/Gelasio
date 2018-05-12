@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="logicalnot" format="1">
+  <advance width="1317"/>
+  <unicode hex="00AC"/>
+  <outline>
+    <contour>
+      <point x="143" y="496" type="line" name="hr00"/>
+      <point x="1080" y="496" type="line"/>
+      <point x="1080" y="622" type="line"/>
+      <point x="143" y="622" type="line"/>
+    </contour>
+    <contour>
+      <point x="1081" y="125" type="line"/>
+      <point x="1081" y="622" type="line"/>
+      <point x="935" y="622" type="line"/>
+      <point x="935" y="125" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="496" width="126" />
+      <vstem pos="975" width="146" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

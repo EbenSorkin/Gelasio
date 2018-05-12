@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="divide" format="1">
+  <advance width="1317"/>
+  <unicode hex="00F7"/>
+  <outline>
+    <contour>
+      <point x="195" y="496" type="line"/>
+      <point x="1122" y="496" type="line"/>
+      <point x="1122" y="622" type="line"/>
+      <point x="195" y="622" type="line"/>
+    </contour>
+    <component base="period" xOffset="378" yOffset="837"/>
+    <component base="period" xOffset="378" yOffset="44"/>
+  </outline>
+</glyph>

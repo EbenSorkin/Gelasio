@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="t" format="1">
+  <advance width="707"/>
+  <unicode hex="0074"/>
+  <outline>
+    <contour>
+      <point x="655" y="138" type="line"/>
+      <point x="602" y="113"/>
+      <point x="558" y="89"/>
+      <point x="466" y="89" type="curve" smooth="yes"/>
+      <point x="415" y="89"/>
+      <point x="355" y="126"/>
+      <point x="355" y="296" type="curve" smooth="yes"/>
+      <point x="355" y="1267" type="line" smooth="yes"/>
+      <point x="355" y="1275"/>
+      <point x="356" y="1291"/>
+      <point x="339" y="1291" type="curve"/>
+      <point x="316" y="1291"/>
+      <point x="289" y="1295"/>
+      <point x="283" y="1268" type="curve" smooth="yes"/>
+      <point x="235" y="1056"/>
+      <point x="177" y="994"/>
+      <point x="54" y="984" type="curve"/>
+      <point x="169" y="945" type="line"/>
+      <point x="169" y="223" type="line" smooth="yes"/>
+      <point x="169" y="20"/>
+      <point x="273" y="-30"/>
+      <point x="424" y="-30" type="curve" smooth="yes"/>
+      <point x="522" y="-30"/>
+      <point x="654" y="41"/>
+      <point x="689" y="78" type="curve"/>
+    </contour>
+    <contour>
+      <point x="650" y="907" type="line"/>
+      <point x="664" y="913"/>
+      <point x="674" y="935"/>
+      <point x="674" y="960" type="curve" smooth="yes"/>
+      <point x="674" y="976"/>
+      <point x="666" y="993"/>
+      <point x="650" y="994" type="curve"/>
+      <point x="156" y="994" type="line"/>
+      <point x="54" y="984" type="line"/>
+      <point x="40" y="978"/>
+      <point x="30" y="966"/>
+      <point x="30" y="941" type="curve" smooth="yes"/>
+      <point x="30" y="925"/>
+      <point x="38" y="908"/>
+      <point x="54" y="907" type="curve"/>
+    </contour>
+    <contour>
+      <point x="289" y="2132" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="393" y="-200" type="move" name="btm"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.mark</key>
+  <array>
+    <real>0.967</real>
+    <real>0.6</real>
+    <real>1</real>
+    <real>1</real>
+  </array>
+  </dict>
+  </lib>
+</glyph>

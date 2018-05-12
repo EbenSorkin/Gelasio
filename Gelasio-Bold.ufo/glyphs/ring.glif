@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ring" format="1">
+  <advance width="1024"/>
+  <unicode hex="02DA"/>
+  <outline>
+    <contour>
+      <point x="515" y="1142" type="curve" smooth="yes" name="hr00"/>
+      <point x="670" y="1142"/>
+      <point x="797" y="1239"/>
+      <point x="797" y="1397" type="curve" smooth="yes"/>
+      <point x="797" y="1555"/>
+      <point x="670" y="1657"/>
+      <point x="515" y="1657" type="curve" smooth="yes"/>
+      <point x="359" y="1657"/>
+      <point x="233" y="1558"/>
+      <point x="233" y="1400" type="curve" smooth="yes"/>
+      <point x="233" y="1242"/>
+      <point x="359" y="1142"/>
+    </contour>
+    <contour>
+      <point x="515" y="1247" type="curve" smooth="yes"/>
+      <point x="401" y="1247"/>
+      <point x="357" y="1316"/>
+      <point x="357" y="1399" type="curve" smooth="yes"/>
+      <point x="357" y="1482"/>
+      <point x="401" y="1553"/>
+      <point x="515" y="1553" type="curve" smooth="yes"/>
+      <point x="629" y="1553"/>
+      <point x="674" y="1484"/>
+      <point x="674" y="1401" type="curve" smooth="yes"/>
+      <point x="674" y="1318"/>
+      <point x="629" y="1247"/>
+    </contour>
+    <contour>
+      <point x="515" y="2000" type="move" name="_top"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="1142" width="105" />
+      <hstem pos="1553" width="104" />
+      <vstem pos="233" width="124" />
+      <vstem pos="674" width="123" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ccedilla" format="1">
+  <advance width="1087"/>
+  <unicode hex="00E7"/>
+  <outline>
+    <contour>
+      <point x="472" y="-13" type="curve" name="hr01"/>
+      <point x="464" y="-144" type="line"/>
+      <point x="466" y="-144" type="line"/>
+      <point x="464" y="-145" type="line"/>
+      <point x="585" y="-177"/>
+      <point x="603" y="-214"/>
+      <point x="603" y="-258" type="curve" smooth="yes" name="hr02"/>
+      <point x="603" y="-313"/>
+      <point x="517" y="-333"/>
+      <point x="373" y="-316" type="curve" smooth="yes"/>
+      <point x="346" y="-313"/>
+      <point x="337" y="-354"/>
+      <point x="337" y="-380" type="curve" smooth="yes"/>
+      <point x="337" y="-395"/>
+      <point x="342" y="-403"/>
+      <point x="357" y="-408" type="curve" smooth="yes"/>
+      <point x="393" y="-420"/>
+      <point x="455" y="-438"/>
+      <point x="564" y="-438" type="curve" smooth="yes"/>
+      <point x="757" y="-438"/>
+      <point x="848" y="-368"/>
+      <point x="848" y="-279" type="curve" smooth="yes"/>
+      <point x="848" y="-185"/>
+      <point x="779" y="-114"/>
+      <point x="631" y="-91" type="curve" name="hr03"/>
+      <point x="631" y="-28" type="line"/>
+      <point x="639" y="-28"/>
+      <point x="647" y="-29"/>
+      <point x="655" y="-29" type="curve" smooth="yes"/>
+      <point x="779" y="-29"/>
+      <point x="956" y="52"/>
+      <point x="1019" y="173" type="curve" smooth="yes"/>
+      <point x="1027" y="188"/>
+      <point x="1028" y="196"/>
+      <point x="1015" y="202" type="curve" smooth="yes"/>
+      <point x="971" y="223" type="line"/>
+      <point x="958" y="226"/>
+      <point x="951" y="215"/>
+      <point x="945" y="208" type="curve" smooth="yes"/>
+      <point x="885" y="141"/>
+      <point x="796" y="105"/>
+      <point x="681" y="105" type="curve" smooth="yes"/>
+      <point x="554" y="105"/>
+      <point x="407" y="224"/>
+      <point x="407" y="490" type="curve" smooth="yes"/>
+      <point x="407" y="825"/>
+      <point x="505" y="929"/>
+      <point x="616" y="929" type="curve" smooth="yes"/>
+      <point x="694" y="929"/>
+      <point x="686" y="912"/>
+      <point x="686" y="912" type="curve"/>
+      <point x="803" y="670" type="line" smooth="yes"/>
+      <point x="814" y="646"/>
+      <point x="854" y="613"/>
+      <point x="900" y="613" type="curve" smooth="yes"/>
+      <point x="955" y="613"/>
+      <point x="1074" y="670"/>
+      <point x="1022" y="824" type="curve" smooth="yes"/>
+      <point x="975" y="963"/>
+      <point x="859" y="1014"/>
+      <point x="654" y="1014" type="curve" smooth="yes"/>
+      <point x="333" y="1014"/>
+      <point x="62" y="834"/>
+      <point x="62" y="500" type="curve" smooth="yes"/>
+      <point x="62" y="228"/>
+      <point x="184" y="40"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr01">
+      <hstem pos="-438" width="116" />
+      <hstem pos="8" width="-21" />
+      <hstem pos="929" width="85" />
+      <vstem pos="468" width="163" />
+    </hintset>
+    <hintset pointTag="hr02">
+      <hstem pos="-438" width="116" />
+      <hstem pos="-29" width="134" />
+      <hstem pos="929" width="85" />
+      <vstem pos="603" width="245" />
+    </hintset>
+    <hintset pointTag="hr03">
+      <hstem pos="-438" width="116" />
+      <hstem pos="-29" width="134" />
+      <hstem pos="929" width="85" />
+      <vstem pos="468" width="163" />
+    </hintset>
+    <hintset pointTag="hr04">
+      <hstem pos="-438" width="116" />
+      <hstem pos="8" width="-21" />
+      <hstem pos="929" width="85" />
+      <vstem pos="468" width="163" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>
