@@ -4,7 +4,7 @@
   <unicode hex="006D"/>
   <outline>
     <contour>
-      <point x="71" y="41" type="curve" smooth="yes" name="hr01"/>
+      <point x="71" y="41" type="curve" name="hr01" smooth="yes"/>
       <point x="71" y="26"/>
       <point x="82" y="0"/>
       <point x="105" y="0" type="curve" smooth="yes"/>
@@ -112,40 +112,10 @@
       <point x="71" y="62"/>
     </contour>
     <contour>
-      <point x="1063" y="2000" type="move" name="top"/>
-    </contour>
-    <contour>
       <point x="1063" y="-200" type="move" name="btm"/>
     </contour>
+    <contour>
+      <point x="1063" y="2000" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr01">
-      <hstem pos="21" width="-21" />
-      <hstem pos="862" width="152" />
-      <vstem pos="210" width="316" />
-      <vstem pos="906" width="308" />
-      <vstem pos="1581" width="318" />
-    </hintset>
-    <hintset pointTag="hr02">
-      <hstem pos="21" width="-21" />
-      <hstem pos="997" width="-20" />
-      <vstem pos="210" width="316" />
-      <vstem pos="906" width="308" />
-      <vstem pos="1581" width="318" />
-    </hintset>
-    <hintset pointTag="hr03">
-      <hstem pos="21" width="-21" />
-      <hstem pos="862" width="152" />
-      <vstem pos="210" width="316" />
-      <vstem pos="906" width="308" />
-      <vstem pos="1581" width="318" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
 </glyph>

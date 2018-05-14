@@ -62,10 +62,10 @@
       <point x="290" y="1329" type="curve"/>
     </contour>
     <contour>
-      <point x="980" y="1700" type="move" name="top"/>
+      <point x="570" y="-170" type="move" name="btm"/>
     </contour>
     <contour>
-      <point x="570" y="-170" type="move" name="btm"/>
+      <point x="980" y="1700" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

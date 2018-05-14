@@ -28,17 +28,4 @@
     <component base="onesuperior" xOffset="-60"/>
     <component base="fraction" xOffset="785"/>
   </outline>
-  <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="0" width="137" />
-      <vstem pos="1088" width="920" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
 </glyph>

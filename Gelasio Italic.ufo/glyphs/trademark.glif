@@ -4,7 +4,7 @@
   <unicode hex="2122"/>
   <outline>
     <contour>
-      <point x="649" y="1338" type="line" smooth="yes" name="hr01"/>
+      <point x="649" y="1338" type="line" name="hr01" smooth="yes"/>
       <point x="751" y="1338"/>
       <point x="792" y="1226"/>
       <point x="796" y="1193" type="curve" smooth="yes"/>
@@ -143,55 +143,4 @@
       <point x="1419" y="1142" type="line"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr01">
-      <hstem pos="1338" width="89" />
-      <vstem pos="407" width="159" />
-      <vstem pos="1035" width="87" />
-      <vstem pos="1615" width="151" />
-    </hintset>
-    <hintset pointTag="hr02">
-      <hstem pos="1370" width="56" />
-      <vstem pos="407" width="159" />
-      <vstem pos="1035" width="87" />
-      <vstem pos="1615" width="151" />
-    </hintset>
-    <hintset pointTag="hr03">
-      <hstem pos="1338" width="89" />
-      <vstem pos="407" width="159" />
-      <vstem pos="1035" width="87" />
-      <vstem pos="1615" width="151" />
-    </hintset>
-    <hintset pointTag="hr04">
-      <hstem pos="1303" width="124" />
-      <vstem pos="407" width="159" />
-      <vstem pos="1035" width="87" />
-      <vstem pos="1615" width="151" />
-    </hintset>
-    <hintset pointTag="hr05">
-      <hstem pos="1338" width="89" />
-      <vstem pos="407" width="159" />
-      <vstem pos="1035" width="87" />
-      <vstem pos="1615" width="151" />
-    </hintset>
-    <hintset pointTag="hr06">
-      <hstem pos="1370" width="56" />
-      <vstem pos="407" width="159" />
-      <vstem pos="1035" width="87" />
-      <vstem pos="1615" width="151" />
-    </hintset>
-    <hintset pointTag="hr07">
-      <hstem pos="1338" width="89" />
-      <vstem pos="407" width="159" />
-      <vstem pos="1035" width="87" />
-      <vstem pos="1615" width="151" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
 </glyph>

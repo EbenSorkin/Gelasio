@@ -55,24 +55,10 @@
       <point x="254" y="1254" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="1226" y="1700" type="move" name="top"/>
-    </contour>
-    <contour>
       <point x="938" y="-170" type="move" name="btm"/>
     </contour>
+    <contour>
+      <point x="1226" y="1700" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="3" width="-21" />
-      <hstem pos="1331" width="88" />
-      <vstem pos="127" width="2074" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
 </glyph>

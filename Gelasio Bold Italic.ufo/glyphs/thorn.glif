@@ -11,12 +11,12 @@
       <point x="365" y="27" type="line"/>
       <point x="265" y="251" type="line"/>
     </contour>
-    <contour>
-      <point x="309" y="1700" type="move" name="top"/>
-    </contour>
+    <component base="b"/>
     <contour>
       <point x="309" y="-170" type="move" name="btm"/>
     </contour>
-    <component base="b"/>
+    <contour>
+      <point x="309" y="1700" type="move" name="top"/>
+    </contour>
   </outline>
 </glyph>

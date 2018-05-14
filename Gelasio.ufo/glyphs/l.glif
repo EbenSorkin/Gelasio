@@ -56,10 +56,10 @@
       <point x="85" y="0" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="280" y="2000" type="move" name="top"/>
+      <point x="280" y="-200" type="move" name="btm"/>
     </contour>
     <contour>
-      <point x="280" y="-200" type="move" name="btm"/>
+      <point x="280" y="2000" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

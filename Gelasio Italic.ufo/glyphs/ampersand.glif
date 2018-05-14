@@ -111,29 +111,14 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.typemytype.robofont.mark</key>
-  <array>
-    <real>0.6</real>
-    <real>0.609</real>
-    <real>1</real>
-    <real>1</real>
-  </array>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="-29" width="120" />
-      <hstem pos="0" width="208" />
-      <hstem pos="21" width="-21" />
-      <hstem pos="818" width="78" />
-      <hstem pos="1371" width="77" />
-      <vstem pos="26" width="219" />
-      <vstem pos="327" width="198" />
-      <vstem pos="880" width="172" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.609</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
   </lib>
 </glyph>

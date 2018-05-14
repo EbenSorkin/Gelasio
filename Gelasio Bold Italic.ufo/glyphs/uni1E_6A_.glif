@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni1E6A" format="1">
+  <advance width="1401"/>
+  <unicode hex="1E6A"/>
+  <outline>
+    <component base="T"/>
+    <component base="dotaccent.cap" xOffset="348"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018-05-12 15:39:37 +0000</string>
+    </dict>
+  </lib>
+</glyph>

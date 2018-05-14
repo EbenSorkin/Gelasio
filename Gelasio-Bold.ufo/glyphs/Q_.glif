@@ -42,25 +42,10 @@
       <point x="1085" y="65"/>
     </contour>
     <contour>
-      <point x="839" y="2000" type="move" name="top"/>
-    </contour>
-    <contour>
       <point x="839" y="-200" type="move" name="btm"/>
     </contour>
+    <contour>
+      <point x="839" y="2000" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="-419" width="116" />
-      <hstem pos="16" width="-21" />
-      <hstem pos="1356" width="93" />
-      <vstem pos="72" width="1513" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
 </glyph>

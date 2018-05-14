@@ -67,26 +67,10 @@
       <point x="439" y="801" type="line"/>
     </contour>
     <contour>
-      <point x="822" y="1700" type="move" name="top"/>
-    </contour>
-    <contour>
       <point x="642" y="-170" type="move" name="btm"/>
     </contour>
+    <contour>
+      <point x="822" y="1700" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="0" width="96" />
-      <hstem pos="715" width="86" />
-      <hstem pos="1331" width="88" />
-      <vstem pos="1000" width="219" />
-      <vstem pos="1011" width="216" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
 </glyph>

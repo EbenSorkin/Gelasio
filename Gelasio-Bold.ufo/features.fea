@@ -1,5 +1,10 @@
+@sups2 = [ onesuperior twosuperior threesuperior ];
 
-# Script and language coverage
+@sups1 = [ one two three ];
+
+@ordn1 = [ zero one two three four five six seven eight nine ];
+
+# Prefix: Languagesystems
 languagesystem DFLT dflt;
 languagesystem latn dflt;
 languagesystem latn AZE ;
@@ -8,44 +13,16 @@ languagesystem latn MOL ;
 languagesystem latn ROM ;
 languagesystem latn CRT ;
 
+# Prefix: Prefix
+# Script and language coverage
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-feature aalt{
+feature aalt {
   feature locl;
   feature ordn;
-} aalt; 
+} aalt;
 
-feature locl { # Localized Forms
+feature locl {
+ # Localized Forms
 # Latin
 language AZE  exclude_dflt; # Azeri
     sub i by i.cy;
@@ -62,7 +39,7 @@ language ROM exclude_dflt; # Romanian
   sub [uni0162 uni0163] by [uni021A uni021B];
 language CRT  exclude_dflt; # Crimean Tatar
     sub i by i.dot;
-} locl;
+} locl;
 
 feature ordn {
  script latn;
@@ -75,9 +52,11 @@ feature ordn {
  language MOL ; # Moldavian
  language ROM ; # Romanian
  language CRT ; # Crimean Tatar
- } ordn; 
+ 
+} ordn;
 
-feature frac { # Fractions
+feature frac {
+ # Fractions
  script latn; # Latin
     sub one slash four by onequarter;
     sub one slash two by onehalf;
@@ -89,9 +68,11 @@ feature frac { # Fractions
  language MOL ; # Moldavian
  language ROM ; # Romanian
  language CRT ; # Crimean Tatar
- } frac;
+ 
+} frac;
 
-feature sups { # Superscript
+feature sups {
+ # Superscript
  script latn; # Latin
     sub @sups1 by @sups2;  
  language AZE ; # Azeri
@@ -99,7 +80,8 @@ feature sups { # Superscript
  language MOL ; # Moldavian
  language ROM ; # Romanian
  language CRT ; # Crimean Tatar
- } sups;
+ 
+} sups;
 
 feature liga {
  script latn;
@@ -118,49 +100,5 @@ feature liga {
  language MOL ; # Moldavian
  language ROM ; # Romanian
  language CRT ; # Crimean Tatar
-} liga; 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+} liga;
 

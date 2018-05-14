@@ -4,8 +4,14 @@
   <unicode hex="0133"/>
   <outline>
     <component base="dotlessi"/>
-    <component base="dotaccent" xOffset="-161"/>
+    <component base="dotaccent" xOffset="-182"/>
     <component base="dotlessj" xOffset="725"/>
-    <component base="dotaccent" xOffset="567"/>
+    <component base="dotaccent" xOffset="574"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018-05-12 15:39:36 +0000</string>
+    </dict>
+  </lib>
 </glyph>

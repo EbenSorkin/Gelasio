@@ -27,7 +27,7 @@
       <point x="440" y="475" type="line"/>
       <point x="535" y="373"/>
       <point x="623" y="166"/>
-      <point x="699" y="33" type="curve" smooth="yes" name="hr02"/>
+      <point x="699" y="33" type="curve" name="hr02" smooth="yes"/>
       <point x="713" y="6"/>
       <point x="749" y="-14"/>
       <point x="807" y="-17" type="curve" smooth="yes"/>
@@ -72,29 +72,10 @@
       <point x="362" y="503" type="line"/>
     </contour>
     <contour>
-      <point x="600" y="1700" type="move" name="top"/>
-    </contour>
-    <contour>
       <point x="450" y="-170" type="move" name="btm"/>
     </contour>
+    <contour>
+      <point x="600" y="1700" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr01">
-      <hstem pos="21" width="-21" />
-      <hstem pos="899" width="88" />
-      <vstem pos="109" width="993" />
-    </hintset>
-    <hintset pointTag="hr02">
-      <hstem pos="4" width="-21" />
-      <hstem pos="899" width="88" />
-      <vstem pos="109" width="993" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
 </glyph>

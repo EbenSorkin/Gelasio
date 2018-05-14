@@ -96,10 +96,10 @@
       <point x="-53" y="81"/>
     </contour>
     <contour>
-      <point x="1094" y="1700" type="move" name="top"/>
+      <point x="731" y="-170" type="move" name="btm"/>
     </contour>
     <contour>
-      <point x="731" y="-170" type="move" name="btm"/>
+      <point x="1094" y="1700" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

@@ -51,24 +51,10 @@
       <point x="290" y="173" type="curve"/>
     </contour>
     <contour>
-      <point x="872" y="1700" type="move" name="top"/>
-    </contour>
-    <contour>
       <point x="564" y="-170" type="move" name="btm"/>
     </contour>
+    <contour>
+      <point x="872" y="1700" type="move" name="top"/>
+    </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="-30" width="95" />
-      <hstem pos="895" width="118" />
-      <vstem pos="821" width="204" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
 </glyph>

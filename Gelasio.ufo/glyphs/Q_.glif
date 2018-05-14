@@ -20,12 +20,12 @@
       <point x="925" y="29"/>
       <point x="673" y="0"/>
     </contour>
-    <contour>
-      <point x="762" y="2000" type="move" name="top"/>
-    </contour>
+    <component base="O"/>
     <contour>
       <point x="762" y="-200" type="move" name="btm"/>
     </contour>
-    <component base="O"/>
+    <contour>
+      <point x="762" y="2000" type="move" name="top"/>
+    </contour>
   </outline>
 </glyph>

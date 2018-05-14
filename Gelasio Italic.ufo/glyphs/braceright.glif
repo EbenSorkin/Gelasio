@@ -43,17 +43,4 @@
       <point x="544" y="850" type="curve"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem3 stem3List="-328,87,549,110,1449,87" />
-      <vstem pos="-119" width="862" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
 </glyph>

@@ -44,29 +44,29 @@
       <point x="256" y="785" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="525" y="1700" type="move" name="top"/>
+      <point x="252" y="-170" type="move" name="btm"/>
     </contour>
     <contour>
-      <point x="252" y="-170" type="move" name="btm"/>
+      <point x="525" y="1700" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.typemytype.robofont.guides</key>
-  <array>
     <dict>
-      <key>angle</key>
-      <real>82.</real>
-      <key>isGlobal</key>
-      <false/>
-      <key>magnetic</key>
-      <integer>5</integer>
-      <key>x</key>
-      <real>273</real>
-      <key>y</key>
-      <real>0</real>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <integer>82</integer>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <integer>273</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
     </dict>
-  </array>
-  </dict>
   </lib>
 </glyph>

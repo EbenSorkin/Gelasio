@@ -6,6 +6,12 @@
     <component base="dotaccent" xOffset="-121" yOffset="-2"/>
     <component base="dotlessi" xOffset="2"/>
     <component base="dotlessj" xOffset="589"/>
-    <component base="dotaccent" xOffset="510"/>
+    <component base="dotaccent" xOffset="441"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018-05-12 15:39:36 +0000</string>
+    </dict>
+  </lib>
 </glyph>

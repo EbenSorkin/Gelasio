@@ -60,31 +60,4 @@
       <point x="-3" y="-147"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr01">
-      <hstem pos="-448" width="110" />
-      <hstem pos="522" width="107" />
-      <hstem pos="1199" width="118" />
-      <vstem pos="-128" width="1363" />
-    </hintset>
-    <hintset pointTag="hr02">
-      <hstem pos="-448" width="110" />
-      <hstem pos="522" width="107" />
-      <hstem pos="1199" width="118" />
-      <vstem pos="-3" width="11" />
-    </hintset>
-    <hintset pointTag="hr03">
-      <hstem pos="-448" width="110" />
-      <hstem pos="522" width="107" />
-      <hstem pos="1199" width="118" />
-      <vstem pos="-128" width="1363" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
 </glyph>

@@ -52,10 +52,10 @@
       <point x="254" y="892" type="line"/>
     </contour>
     <contour>
-      <point x="623" y="1870" type="move" name="top"/>
+      <point x="365" y="-170" type="move" name="btm"/>
     </contour>
     <contour>
-      <point x="365" y="-170" type="move" name="btm"/>
+      <point x="623" y="1870" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

@@ -39,10 +39,10 @@
       <point x="311" y="878"/>
     </contour>
     <contour>
-      <point x="580" y="1700" type="move" name="top"/>
+      <point x="152" y="-170" type="move" name="btm"/>
     </contour>
     <contour>
-      <point x="152" y="-170" type="move" name="btm"/>
+      <point x="580" y="1700" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

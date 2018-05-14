@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lcaron" format="1">
-  <advance width="1049"/>
+  <advance width="1749"/>
   <unicode hex="013E"/>
   <outline>
     <component base="l"/>
-    <component base="caronvertical" xOffset="573"/>
+    <component base="caronvertical" xOffset="725"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018-05-12 15:39:37 +0000</string>
+    </dict>
+  </lib>
 </glyph>

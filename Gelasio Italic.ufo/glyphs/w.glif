@@ -4,7 +4,7 @@
   <unicode hex="0077"/>
   <outline>
     <contour>
-      <point x="840" y="862" type="curve" smooth="yes" name="hr00"/>
+      <point x="840" y="862" type="curve" name="hr00" smooth="yes"/>
       <point x="941" y="709"/>
       <point x="950" y="362"/>
       <point x="963" y="96" type="curve"/>
@@ -108,35 +108,21 @@
       <point x="205" y="859"/>
     </contour>
     <contour>
-      <point x="1046" y="1700" type="move" name="top"/>
+      <point x="752" y="-170" type="move" name="btm"/>
     </contour>
     <contour>
-      <point x="752" y="-170" type="move" name="btm"/>
+      <point x="1046" y="1700" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.typemytype.robofont.mark</key>
-  <array>
-    <real>0.6</real>
-    <real>0.609</real>
-    <real>1</real>
-    <real>1</real>
-  </array>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="-9" width="-21" />
-      <hstem pos="-30" width="115" />
-      <hstem pos="862" width="93" />
-      <hstem pos="867" width="148" />
-      <vstem pos="385" width="160" />
-      <vstem pos="962" width="160" />
-      <vstem pos="1436" width="198" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.609</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
   </lib>
 </glyph>

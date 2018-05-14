@@ -47,10 +47,10 @@
       <point x="353" y="-30"/>
     </contour>
     <contour>
-      <point x="1036" y="1700" type="move" name="top"/>
+      <point x="726" y="-170" type="move" name="btm"/>
     </contour>
     <contour>
-      <point x="726" y="-170" type="move" name="btm"/>
+      <point x="1036" y="1700" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

@@ -83,34 +83,21 @@
       <point x="1103" y="933"/>
     </contour>
     <contour>
-      <point x="1053" y="1700" type="move" name="top"/>
+      <point x="775" y="-170" type="move" name="btm"/>
     </contour>
     <contour>
-      <point x="775" y="-170" type="move" name="btm"/>
+      <point x="1053" y="1700" type="move" name="top"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.typemytype.robofont.mark</key>
-  <array>
-    <real>0.6</real>
-    <real>0.609</real>
-    <real>1</real>
-    <real>1</real>
-  </array>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="-29" width="104" />
-      <hstem pos="-27" width="140" />
-      <hstem pos="926" width="85" />
-      <hstem pos="933" width="81" />
-      <vstem pos="39" width="195" />
-      <vstem pos="1350" width="187" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <real>0.609</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
   </lib>
 </glyph>

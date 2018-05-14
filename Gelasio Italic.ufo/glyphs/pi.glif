@@ -4,10 +4,10 @@
   <unicode hex="03C0"/>
   <outline>
     <contour>
-      <point x="68" y="172" type="line" smooth="yes" name="hr01"/>
+      <point x="68" y="172" type="line" name="hr01" smooth="yes"/>
       <point x="6" y="172"/>
       <point x="-3" y="-29"/>
-      <point x="139" y="-29" type="curve" smooth="yes" name="hr02"/>
+      <point x="139" y="-29" type="curve" name="hr02" smooth="yes"/>
       <point x="172" y="-29"/>
       <point x="203" y="-15"/>
       <point x="224" y="-8" type="curve" smooth="yes"/>
@@ -50,28 +50,4 @@
       <point x="233" y="172" type="curve" name="hr03"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr01">
-      <hstem pos="-29" width="201" />
-      <hstem pos="832" width="161" />
-      <vstem pos="742" width="186" />
-    </hintset>
-    <hintset pointTag="hr02">
-      <hstem pos="-29" width="137" />
-      <hstem pos="832" width="161" />
-      <vstem pos="742" width="186" />
-    </hintset>
-    <hintset pointTag="hr03">
-      <hstem pos="-29" width="201" />
-      <hstem pos="832" width="161" />
-      <vstem pos="742" width="186" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
 </glyph>

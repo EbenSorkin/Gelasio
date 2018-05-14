@@ -12,17 +12,4 @@
     <component base="period" xOffset="413" yOffset="837"/>
     <component base="period" xOffset="413" yOffset="41"/>
   </outline>
-  <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="492" width="126" />
-      <vstem pos="190" width="927" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
 </glyph>

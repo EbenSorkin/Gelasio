@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni01CC" format="1">
+  <advance width="2161"/>
+  <unicode hex="01CC"/>
+  <outline>
+    <component base="n"/>
+    <component base="dotlessj" xOffset="1413"/>
+    <component base="dotaccent" xOffset="1340"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018-05-12 15:39:37 +0000</string>
+    </dict>
+  </lib>
+</glyph>

@@ -21,23 +21,4 @@
     </contour>
     <component base="c" xOffset="68"/>
   </outline>
-  <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr01">
-      <hstem pos="-27" width="28" />
-      <hstem pos="969" width="256" />
-      <vstem pos="449" width="355" />
-    </hintset>
-    <hintset pointTag="hr02">
-      <hstem pos="-27" width="28" />
-      <hstem pos="969" width="37" />
-      <vstem pos="449" width="355" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
 </glyph>

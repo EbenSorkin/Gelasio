@@ -26,7 +26,7 @@
       <point x="1545" y="906" type="curve"/>
     </contour>
     <contour>
-      <point x="105" y="473" type="curve" smooth="yes" name="hr01"/>
+      <point x="105" y="473" type="curve" name="hr01" smooth="yes"/>
       <point x="700" y="473" type="line" smooth="yes"/>
       <point x="723" y="473"/>
       <point x="734" y="489"/>
@@ -63,18 +63,4 @@
     </contour>
     <component base="fraction" xOffset="932"/>
   </outline>
-  <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr01">
-      <hstem pos="473" width="77" />
-      <hstem pos="1530" width="-20" />
-      <vstem pos="259" width="287" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
 </glyph>

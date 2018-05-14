@@ -4,7 +4,7 @@
   <unicode hex="007B"/>
   <outline>
     <contour>
-      <point x="361" y="-29" type="line" smooth="yes" name="hr01"/>
+      <point x="361" y="-29" type="line" name="hr01" smooth="yes"/>
       <point x="361" y="-251"/>
       <point x="598" y="-328"/>
       <point x="778" y="-328" type="curve" smooth="yes"/>
@@ -21,7 +21,7 @@
       <point x="340" y="618" type="line" name="hr02"/>
       <point x="520" y="628"/>
       <point x="692" y="723"/>
-      <point x="692" y="883" type="curve" smooth="yes" name="hr03"/>
+      <point x="692" y="883" type="curve" name="hr03" smooth="yes"/>
       <point x="692" y="1260" type="line" smooth="yes"/>
       <point x="692" y="1336"/>
       <point x="728" y="1429"/>
@@ -41,38 +41,7 @@
       <point x="142" y="554" type="line" smooth="yes"/>
       <point x="247" y="554"/>
       <point x="361" y="467"/>
-      <point x="361" y="358" type="curve" smooth="yes" name="hr05"/>
+      <point x="361" y="358" type="curve" name="hr05" smooth="yes"/>
     </contour>
   </outline>
-  <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr01">
-      <hstem3 stem3List="-328,107,554,100,1429,107" />
-      <vstem pos="361" width="331" />
-    </hintset>
-    <hintset pointTag="hr02">
-      <hstem3 stem3List="-328,107,554,100,1429,107" />
-      <vstem pos="122" width="218" />
-      <vstem pos="361" width="331" />
-    </hintset>
-    <hintset pointTag="hr03">
-      <hstem3 stem3List="-328,107,554,100,1429,107" />
-      <vstem pos="361" width="331" />
-    </hintset>
-    <hintset pointTag="hr04">
-      <hstem3 stem3List="-328,107,554,100,1429,107" />
-      <vstem pos="122" width="218" />
-      <vstem pos="361" width="331" />
-    </hintset>
-    <hintset pointTag="hr05">
-      <hstem3 stem3List="-328,107,554,100,1429,107" />
-      <vstem pos="361" width="331" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
-  </lib>
 </glyph>
