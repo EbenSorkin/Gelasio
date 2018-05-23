@@ -1,31 +1,5 @@
 {
 .appVersion = "1143";
-DisplayStrings = (
-"¨",
-"/dieresiscomb",
-"´",
-"/gravecomb",
-"/acutecomb",
-"/dotaccent",
-"`",
-"/dotaccent",
-"/caroncomb",
-"/circumflex",
-"/circumflexcomb",
-"/caron",
-"/breve",
-"/brevecomb",
-"HO/zero.lf",
-"/one.lf",
-"/two.lf",
-"/three.lf",
-"/four.lf",
-"/seven.lf",
-"/nine.lf",
-"/nine.lf",
-"9",
-"/nine.osf"
-);
 copyright = "Copyright (c) 2012, Sorkin Type Co (www.sorkintype.com), with Reserved Font Name 'Genoa'";
 customParameters = (
 {
