@@ -3,7 +3,15 @@ Gelasio by Sorkin Type
 
 Gelasio is an original typeface which is metrics compatible with Georgia.
 
-It will support Google Fonts Latin Pro glyph set, enabling the typesetting of English, Western European languages as well as Vietnamese and 130+ other languages.
+Gelasio will support Google Fonts Latin Pro glyph set, enabling the typesetting of English, Western, Eastern and Southern European languages as well as Vietnamese and 130+ other languages.
+
+Note: The design is being made to interpolate now as well as having features added to it. This design will retain the purpose of being metrics compatible with Georgia while expanding somewhat past what Georgia can do in some areas. Howevr to remain a fuctional match to Georgia it may not use kerning. Additions will be made in the form of additional glyphs and OT features.
+
+Later I hope to make a font based on this work with a new name that is
+ - not metrics compatible with Georgia
+ - is a variable font
+ - has kerning
+ - Is tuned to contemporary screen use rather than screens in the mid-90s.
 
 License
 -------
