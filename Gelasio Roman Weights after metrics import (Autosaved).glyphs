@@ -52,7 +52,9 @@ DisplayStrings = (
 "/bracketright.case",
 "/parenright.case",
 "/peseta",
-"/rightanglebracket-math"
+"/rightanglebracket-math",
+"/nine.dnom",
+A
 );
 classes = (
 {
@@ -411,7 +413,7 @@ glyphs = (
 {
 color = 10;
 glyphname = A;
-lastChange = "2018-07-15 18:01:19 +0000";
+lastChange = "2018-07-18 03:34:41 +0000";
 layers = (
 {
 anchors = (
@@ -681,6 +683,7 @@ width = 1553;
 leftKerningGroup = A;
 rightKerningGroup = A;
 unicode = 0041;
+changeCount = 2;
 },
 {
 color = 10;
@@ -20009,9 +20012,8 @@ rightKerningGroup = g;
 unicode = 011D;
 },
 {
-color = 10;
-glyphname = gcommanaccent;
-lastChange = "2018-07-16 17:47:54 +0000";
+glyphname = gcommaaccent;
+lastChange = "2018-07-18 03:04:30 +0000";
 layers = (
 {
 components = (
@@ -20040,9 +20042,8 @@ layerId = "62CA62AF-CD91-478A-AB8B-28A62CC47DA0";
 width = 1181;
 }
 );
-leftKerningGroup = o;
-rightKerningGroup = g;
 unicode = 0123;
+changeCount = 1;
 },
 {
 color = 10;
