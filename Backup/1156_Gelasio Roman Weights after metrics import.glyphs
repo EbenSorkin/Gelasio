@@ -1,5 +1,63 @@
 {
-.appVersion = "1158";
+.appVersion = "1156";
+DisplayStrings = (
+"/zero.tosf/one.tosf/zero.tosf",
+"/eight.tosf",
+"/zero.tf",
+"/zero.tf/one.tf/two.tf/three.tf/four.tf/five.tf/six.tf/seven.tf/eight.tf/nine.tf/zero.tosf/one.tosf/two.tosf/three.tosf/four.tosf/five.tosf/six.tosf/seven.tosf/eight.tosf/nine.tosf/zero.tosf.zero",
+"/zero.tf.zero",
+"/zero.tf",
+"/two.tf",
+"/zero.tf.zero",
+"/zero.tf",
+"/zero.tf.zero",
+"",
+"/zero.lf.zero",
+"/zero.tf.zero",
+"/zero.tf",
+"/five.tosf",
+"/zero.lf.zero",
+"/six.tf",
+"/one.dnom",
+"/oneinferior",
+"/seven.dnom",
+"/one.dnom",
+"/one.dnom",
+"/fraction ¼",
+"/four.dnom ¼",
+"¼",
+"½/onethird/twothirds ¼¾/oneeighth/eight.dnom/threeeighths/fiveeighths/seveneighths",
+"/threeeighths",
+"/fiveeighths",
+"/seveneighths",
+"/onethird",
+"¼",
+".",
+"/one.dnom",
+"/fraction",
+"/eogonek",
+"/ogonekcomb",
+"/commaturnedabovecomb/horncomb",
+"/horncomb",
+"/ogonek",
+"/tilde",
+"/commaturnedmod/commaturnedabovecomb.case",
+"/commaturnedabovecomb.case",
+"/horncomb.case",
+"/f_f_i",
+"/f_f_l",
+"/published",
+"}",
+"/braceright.case",
+"/bracketright.case",
+"/parenright.case",
+"/peseta",
+"/rightanglebracket-math",
+"/nine.dnom",
+A,
+"/Ohorn",
+"/Schwa"
+);
 classes = (
 {
 automatic = 1;
@@ -10,16 +68,12 @@ name = Uppercase;
 copyright = "Copyright (c) 2018, Sorkin Type Co (www.sorkintype.com), with Reserved Font Name 'Gelasio'";
 customParameters = (
 {
-name = description;
-value = "Gelasio's metrics match Georgia's. Gelasio is a general purpose screen oriented text face based on the Romain du Roi style cold metal type seen in a \"OEuvres de Jean Racine\" printed in 1789. This pre-Baskerville style is sometimes called Reale or Transitional style. This and and a large x height offer a nobel, cheerful and simple feeling hence the name Gelasio.";
+name = macintoshFONDName;
+value = Gelasio;
 },
 {
-name = openTypeNameLicense;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
-},
-{
-name = licenseURL;
-value = "http://scripts.sil.org/OFL";
+name = openTypeNameUniqueID;
+value = "EbenSorkin: Gelasio: 2012";
 },
 {
 name = codePageRanges;
@@ -30,6 +84,13 @@ value = (
 1254,
 1257,
 1258
+);
+},
+{
+name = openTypeOS2FamilyClass;
+value = (
+4,
+3
 );
 },
 {
@@ -49,16 +110,12 @@ name = blueShift;
 value = 7;
 },
 {
-name = trademark;
-value = "Gelasio is a trademark of Sorkin Type Co.";
-},
-{
 name = fsType;
 value = (
 );
 }
 );
-date = "2018-07-20 03:49:40 +0000";
+date = "2018-07-12 15:38:13 +0000";
 designer = "Eben Sorkin";
 designerURL = sorkintype.com;
 disablesNiceNames = 1;
@@ -97,11 +154,6 @@ name = sinf;
 },
 {
 automatic = 1;
-code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;\012sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;\012sub N o period by numero;\012";
-name = ordn;
-},
-{
-automatic = 1;
 code = "sub zero by zerosuperior;\012sub one by onesuperior;\012sub two by twosuperior;\012sub three by threesuperior;\012sub four by foursuperior;\012sub five by fivesuperior;\012sub six by sixsuperior;\012sub seven by sevensuperior;\012sub eight by eightsuperior;\012sub nine by ninesuperior;\012";
 name = sups;
 },
@@ -119,6 +171,11 @@ name = dnom;
 automatic = 1;
 code = "lookup FRAC {\012	sub slash by fraction;\012} FRAC;\012lookup UP {\012	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];\012} UP;\012lookup DOWN {\012	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];\012	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];\012} DOWN;\012";
 name = frac;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;\012sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;\012sub N o period by numero;\012";
+name = ordn;
 },
 {
 automatic = 1;
