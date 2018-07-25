@@ -5,9 +5,15 @@ Gelasio is an original typeface which is metrics compatible with Georgia.
 
 Gelasio will support Google Fonts Latin Pro glyph set, enabling the typesetting of English, Western, Eastern and Southern European languages as well as Vietnamese and 130+ other languages.
 
-Note: The design is being made to interpolate now as well as having features added to it. This design will retain the purpose of being metrics compatible with Georgia while expanding somewhat past what Georgia can do in some areas. Howevr to remain a fuctional match to Georgia it may not use kerning. Additions will be made in the form of additional glyphs and OT features.
+Note: The design is being made to interpolate now as well as having features added to it. This design will retain the purpose of being metrics compatible with Georgia in Regular and Bold weights while expanding somewhat past what Georgia can do in some areas such as having case sensitive punctuation and a few more numbers styles.
 
-Later I hope to make a font based on this work with a new name that is
+However to remain a fuctional match to Georgia it Gelasio will not include kerning.
+
+Note that Georgia has some features and glyphs not present in Gelasio such as support for Greek and Cyrillic, Small caps for all three scripts and some additional symbols, currency symbols and box drawing glyphs.
+
+Later I hope to make Gealsio fully equivalent.
+
+I also hope to make a font based on this work with a new name that is
  - not metrics compatible with Georgia
  - is a variable font
  - has kerning
