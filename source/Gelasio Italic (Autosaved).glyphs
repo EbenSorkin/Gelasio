@@ -28543,6 +28543,7 @@ width = 1059;
 }
 );
 unicode = 017A;
+changeCount = 1;
 },
 {
 glyphname = zcaron;
@@ -28576,6 +28577,7 @@ width = 1059;
 }
 );
 unicode = 017E;
+changeCount = 1;
 },
 {
 glyphname = zdotaccent;
@@ -28609,6 +28611,7 @@ width = 1059;
 }
 );
 unicode = 017C;
+changeCount = 1;
 },
 {
 glyphname = zdotbelow;
