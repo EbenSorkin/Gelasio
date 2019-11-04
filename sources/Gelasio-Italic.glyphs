@@ -4,7 +4,7 @@ DisplayStrings = (
 "/tildecomb.case/Otildeacute",
 "/circumflexcomb_hookabovecomb.case/Ocircumflexhookabove",
 "/four.tf",
-"4",
+"/Ocircumflexhookabove nnoHOnoeA ",
 "/four.lf",
 "/seveneighths",
 A,
@@ -63,7 +63,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright (c) 2013-2018, Sorkin Type Co with Reserved Font Name 'Gelasio'";
+copyright = "Copyright 2019 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)";
 customParameters = (
 {
 name = description;
@@ -561,158 +561,6 @@ name = zero;
 fontMaster = (
 {
 alignmentZones = (
-"{1586, -38}",
-"{1418, 55}",
-"{993, 32}",
-"{0, -31}",
-"{-443, -9}"
-);
-ascender = 1549;
-capHeight = 1419;
-custom = Italic;
-customParameters = (
-{
-name = typoAscender;
-value = 1889;
-},
-{
-name = typoDescender;
-value = -671;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 1889;
-},
-{
-name = hheaDescender;
-value = -671;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2510;
-},
-{
-name = winDescent;
-value = 671;
-},
-{
-name = underlineThickness;
-value = 106;
-},
-{
-name = underlinePosition;
-value = -190;
-},
-{
-name = italicAngle;
-value = "8.5";
-}
-);
-descender = -671;
-guideLines = (
-{
-position = "{801, 902}";
-},
-{
-position = "{796, 994}";
-},
-{
-position = "{10, 1470}";
-},
-{
-position = "{0, 0}";
-},
-{
-position = "{10, 1188}";
-},
-{
-position = "{0, 1725}";
-},
-{
-position = "{-335, 1395}";
-},
-{
-position = "{795, 563}";
-},
-{
-position = "{80, 486}";
-},
-{
-angle = 261.4576;
-position = "{0, 0}";
-},
-{
-position = "{851, 1420}";
-},
-{
-position = "{880, 1462}";
-},
-{
-position = "{-2, -15}";
-},
-{
-position = "{81, 503}";
-},
-{
-position = "{798, 1447}";
-},
-{
-position = "{851, 958}";
-},
-{
-position = "{450, -491}";
-},
-{
-position = "{819, 980}";
-},
-{
-position = "{482, -426}";
-},
-{
-position = "{798, 1447}";
-},
-{
-position = "{798, 1172}";
-},
-{
-position = "{1033, 2609}";
-},
-{
-position = "{-310, 1534}";
-},
-{
-position = "{-310, 1534}";
-},
-{
-position = "{-310, 1495}";
-}
-);
-horizontalStems = (
-95,
-87
-);
-id = "BDB4B313-38B1-4B24-B843-560B185382BD";
-italicAngle = 8.5;
-verticalStems = (
-148,
-186,
-207,
-217
-);
-weight = Bold;
-weightValue = 700;
-xHeight = 994;
-},
-{
-alignmentZones = (
 "{1548, 27}",
 "{1418, 33}",
 "{985, 31}",
@@ -848,10 +696,170 @@ position = "{482, -426}";
 position = "{-310, 1495}";
 }
 );
+horizontalStems = (
+93,
+140
+);
 id = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
 italicAngle = 8.5;
+verticalStems = (
+193,
+214,
+243
+);
 weightValue = 400;
 xHeight = 986;
+},
+{
+alignmentZones = (
+"{1586, -38}",
+"{1418, 55}",
+"{993, 32}",
+"{0, -31}",
+"{-443, -9}"
+);
+ascender = 1549;
+capHeight = 1419;
+custom = Italic;
+customParameters = (
+{
+name = typoAscender;
+value = 1900;
+},
+{
+name = typoDescender;
+value = -700;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 1900;
+},
+{
+name = hheaDescender;
+value = -700;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 2600;
+},
+{
+name = winDescent;
+value = 700;
+},
+{
+name = underlineThickness;
+value = 106;
+},
+{
+name = underlinePosition;
+value = -190;
+},
+{
+name = italicAngle;
+value = "8.5";
+}
+);
+descender = -671;
+guideLines = (
+{
+position = "{801, 902}";
+},
+{
+position = "{796, 994}";
+},
+{
+position = "{10, 1470}";
+},
+{
+position = "{0, 0}";
+},
+{
+position = "{10, 1188}";
+},
+{
+position = "{0, 1725}";
+},
+{
+position = "{-335, 1395}";
+},
+{
+position = "{795, 563}";
+},
+{
+position = "{80, 486}";
+},
+{
+angle = 261.4576;
+position = "{0, 0}";
+},
+{
+position = "{851, 1420}";
+},
+{
+position = "{880, 1462}";
+},
+{
+position = "{-2, -15}";
+},
+{
+position = "{81, 503}";
+},
+{
+position = "{798, 1447}";
+},
+{
+position = "{851, 958}";
+},
+{
+position = "{450, -491}";
+},
+{
+position = "{819, 980}";
+},
+{
+position = "{482, -426}";
+},
+{
+position = "{798, 1447}";
+},
+{
+position = "{798, 1172}";
+},
+{
+position = "{1033, 2609}";
+},
+{
+position = "{-310, 1534}";
+},
+{
+position = "{-310, 1534}";
+},
+{
+position = "{-310, 1495}";
+}
+);
+horizontalStems = (
+93,
+155
+);
+id = "BDB4B313-38B1-4B24-B843-560B185382BD";
+italicAngle = 8.5;
+verticalStems = (
+314,
+340,
+370
+);
+weight = Bold;
+weightValue = 700;
+xHeight = 994;
 }
 );
 glyphs = (
@@ -61490,8 +61498,9 @@ interpolationWeight = 700;
 instanceInterpolations = {
 "BDB4B313-38B1-4B24-B843-560B185382BD" = 1;
 };
+isBold = 1;
 isItalic = 1;
-linkStyle = Bold;
+linkStyle = Regular;
 name = "Bold Italic";
 weightClass = Bold;
 },
@@ -61511,8 +61520,6 @@ instanceInterpolations = {
 "BDB4B313-38B1-4B24-B843-560B185382BD" = 0.66667;
 "D92FDD0B-F694-41DD-AE46-0E4F694F0F38" = 0.33333;
 };
-isItalic = 1;
-linkStyle = SemiBold;
 name = "SemiBold Italic";
 weightClass = SemiBold;
 },
@@ -61532,8 +61539,6 @@ instanceInterpolations = {
 "BDB4B313-38B1-4B24-B843-560B185382BD" = 0.33333;
 "D92FDD0B-F694-41DD-AE46-0E4F694F0F38" = 0.66667;
 };
-isItalic = 1;
-linkStyle = Medium;
 name = "Medium Italic";
 weightClass = Medium;
 },

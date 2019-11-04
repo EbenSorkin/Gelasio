@@ -1,9 +1,9 @@
 {
-.appVersion = "1270";
+.appVersion = "1230";
 DisplayStrings = (
 "/Ecircumflexhookabove",
 "/Ecircumflextilde",
-"/Ocircumflexhookabove",
+"/Ocircumflexhookabove nnoHOnoeA",
 "/Otildeacute",
 "/tildecomb.case Õ",
 "/brevecomb_acutecomb/abreveacute",
@@ -22,7 +22,6 @@ DisplayStrings = (
 "/circumflexcomb_gravecomb.case",
 "/circumflexcomb_hookabovecomb.case",
 "/circumflexcomb_tildecomb.case",
-"/brevecomb_tildecomb.case",
 "/brevecomb_hookabovecomb",
 "/brevecomb_tildecomb",
 "/cedi",
@@ -44,7 +43,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright (c) 2013-2018, Sorkin Type Co with Reserved Font Name 'Gelasio'";
+copyright = "Copyright 2019 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)";
 customParameters = (
 {
 name = description;
@@ -210,11 +209,11 @@ capHeight = 1419;
 customParameters = (
 {
 name = typoAscender;
-value = 1889;
+value = 1900;
 },
 {
 name = typoDescender;
-value = -671;
+value = -700;
 },
 {
 name = typoLineGap;
@@ -222,11 +221,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 1889;
+value = 1900;
 },
 {
 name = hheaDescender;
-value = -671;
+value = -700;
 },
 {
 name = hheaLineGap;
@@ -234,11 +233,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 2510;
+value = 2600;
 },
 {
 name = winDescent;
-value = 671;
+value = 700;
 },
 {
 name = underlineThickness;
@@ -312,7 +311,16 @@ position = "{899, 2439}";
 position = "{-310, 1515}";
 }
 );
+horizontalStems = (
+96,
+115
+);
 id = "DD6F9F34-BC40-4E8F-B1D3-DF3B42A9710F";
+verticalStems = (
+188,
+215,
+204
+);
 weightValue = 400;
 xHeight = 986;
 },
@@ -434,7 +442,16 @@ position = "{-310, 1515}";
 position = "{-310, 1515}";
 }
 );
+horizontalStems = (
+96,
+115
+);
 id = "62CA62AF-CD91-478A-AB8B-28A62CC47DA0";
+verticalStems = (
+318,
+351,
+337
+);
 weight = Bold;
 weightValue = 700;
 xHeight = 994;
