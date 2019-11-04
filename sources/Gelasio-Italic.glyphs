@@ -1,5 +1,5 @@
 {
-.appVersion = "1270";
+.appVersion = "1230";
 DisplayStrings = (
 "/tildecomb.case/Otildeacute",
 "/circumflexcomb_hookabovecomb.case/Ocircumflexhookabove",
@@ -43,7 +43,6 @@ f,
 "/Abreveacute/Abrevegrave/Abrevehookabove",
 "/brevecomb_gravecomb.case/brevecomb_gravecomb.case/brevecomb_hookabovecomb.case/brevecomb_tildecomb.case",
 "/brevecomb_tildecomb",
-"/brevecomb_acutecomb",
 "/brevecomb_gravecomb",
 "/dblgravecomb/adblgrave",
 "ª",
@@ -64,7 +63,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright 2019 The Gelasio Project Authors (https://github.com/SorkinType/Gelasio)";
+copyright = "Copyright (c) 2013-2018, Sorkin Type Co with Reserved Font Name 'Gelasio'";
 customParameters = (
 {
 name = description;
@@ -113,13 +112,6 @@ Tag = wght;
 );
 },
 {
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-name = "Enforce Compatibility Check";
-value = 1;
-}
-);
-date = "2019-09-13 03:31:22 +0000";
-=======
 name = "Use Line Breaks";
 value = 1;
 },
@@ -129,7 +121,6 @@ value = 0.03963;
 }
 );
 date = "2019-10-20 02:08:36 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 designer = "Eben Sorkin";
 designerURL = sorkintype.com;
 disablesNiceNames = 1;
@@ -570,6 +561,158 @@ name = zero;
 fontMaster = (
 {
 alignmentZones = (
+"{1586, -38}",
+"{1418, 55}",
+"{993, 32}",
+"{0, -31}",
+"{-443, -9}"
+);
+ascender = 1549;
+capHeight = 1419;
+custom = Italic;
+customParameters = (
+{
+name = typoAscender;
+value = 1889;
+},
+{
+name = typoDescender;
+value = -671;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 1889;
+},
+{
+name = hheaDescender;
+value = -671;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 2510;
+},
+{
+name = winDescent;
+value = 671;
+},
+{
+name = underlineThickness;
+value = 106;
+},
+{
+name = underlinePosition;
+value = -190;
+},
+{
+name = italicAngle;
+value = "8.5";
+}
+);
+descender = -671;
+guideLines = (
+{
+position = "{801, 902}";
+},
+{
+position = "{796, 994}";
+},
+{
+position = "{10, 1470}";
+},
+{
+position = "{0, 0}";
+},
+{
+position = "{10, 1188}";
+},
+{
+position = "{0, 1725}";
+},
+{
+position = "{-335, 1395}";
+},
+{
+position = "{795, 563}";
+},
+{
+position = "{80, 486}";
+},
+{
+angle = 261.4576;
+position = "{0, 0}";
+},
+{
+position = "{851, 1420}";
+},
+{
+position = "{880, 1462}";
+},
+{
+position = "{-2, -15}";
+},
+{
+position = "{81, 503}";
+},
+{
+position = "{798, 1447}";
+},
+{
+position = "{851, 958}";
+},
+{
+position = "{450, -491}";
+},
+{
+position = "{819, 980}";
+},
+{
+position = "{482, -426}";
+},
+{
+position = "{798, 1447}";
+},
+{
+position = "{798, 1172}";
+},
+{
+position = "{1033, 2609}";
+},
+{
+position = "{-310, 1534}";
+},
+{
+position = "{-310, 1534}";
+},
+{
+position = "{-310, 1495}";
+}
+);
+horizontalStems = (
+95,
+87
+);
+id = "BDB4B313-38B1-4B24-B843-560B185382BD";
+italicAngle = 8.5;
+verticalStems = (
+148,
+186,
+207,
+217
+);
+weight = Bold;
+weightValue = 700;
+xHeight = 994;
+},
+{
+alignmentZones = (
 "{1548, 27}",
 "{1418, 33}",
 "{985, 31}",
@@ -606,7 +749,7 @@ value = 0;
 },
 {
 name = winAscent;
-value = 2600;
+value = 2510;
 },
 {
 name = winDescent;
@@ -662,6 +805,7 @@ position = "{798, 1121}";
 position = "{798, -21}";
 },
 {
+angle = 90;
 position = "{851, 939}";
 },
 {
@@ -674,10 +818,7 @@ position = "{80, 486}";
 position = "{880, 1462}";
 },
 {
-position = "{81, 503}";
-},
-{
-position = "{-310, 1577}";
+position = "{-310, 1495}";
 },
 {
 position = "{798, 0}";
@@ -698,205 +839,19 @@ position = "{751, 1725}";
 position = "{40, 805}";
 },
 {
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
 position = "{804, 1703}";
 },
 {
 position = "{482, -426}";
-=======
-position = "{1033, 2609}";
-},
-{
-position = "{-310, 1534}";
-},
-{
-position = "{-310, 1534}";
 },
 {
 position = "{-310, 1495}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 id = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
 italicAngle = 8.5;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-weightValue = 193;
-xHeight = 986;
-=======
-verticalStems = (
-148,
-186,
-207,
-217
-);
-weight = Bold;
-weightValue = 700;
-xHeight = 994;
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
-},
-{
-alignmentZones = (
-"{1586, -38}",
-"{1418, 55}",
-"{993, 32}",
-"{0, -31}",
-"{-443, -9}"
-);
-ascender = 1549;
-capHeight = 1419;
-custom = Italic;
-customParameters = (
-{
-name = typoAscender;
-value = 1889;
-},
-{
-name = typoDescender;
-value = -671;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
-name = hheaAscender;
-value = 1889;
-},
-{
-name = hheaDescender;
-value = -671;
-},
-{
-name = hheaLineGap;
-value = 0;
-},
-{
-name = winAscent;
-value = 2600;
-},
-{
-name = winDescent;
-value = 671;
-},
-{
-name = underlineThickness;
-value = 106;
-},
-{
-name = underlinePosition;
-value = -190;
-},
-{
-name = italicAngle;
-value = "8.5";
-}
-);
-descender = -671;
-guideLines = (
-{
-position = "{801, 902}";
-},
-{
-position = "{796, 994}";
-},
-{
-position = "{177, 1551}";
-},
-{
-position = "{0, 0}";
-},
-{
-position = "{10, 1188}";
-},
-{
-position = "{0, 1725}";
-},
-{
-position = "{-335, 1395}";
-},
-{
-position = "{795, 563}";
-},
-{
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-position = "{80, 486}";
-=======
-angle = 90;
-position = "{851, 939}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
-},
-{
-angle = 261.4576;
-position = "{0, 0}";
-},
-{
-position = "{897, 1455}";
-},
-{
-position = "{880, 1462}";
-},
-{
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-position = "{-2, -15}";
-},
-{
-position = "{81, 503}";
-=======
-position = "{-310, 1495}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
-},
-{
-position = "{798, 1447}";
-},
-{
-position = "{851, 958}";
-},
-{
-position = "{450, -491}";
-},
-{
-position = "{819, 980}";
-},
-{
-position = "{482, -426}";
-},
-{
-position = "{798, 1447}";
-},
-{
-position = "{798, 1172}";
-},
-{
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-position = "{1033, 2609}";
-=======
-position = "{482, -426}";
-},
-{
-position = "{-310, 1495}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
-}
-);
-horizontalStems = (
-95,
-87
-);
-id = "BDB4B313-38B1-4B24-B843-560B185382BD";
-italicAngle = 8.5;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-verticalStems = (
-148,
-186,
-207,
-217
-);
-weight = Bold;
-weightValue = 314;
-xHeight = 994;
-=======
 weightValue = 400;
 xHeight = 986;
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 glyphs = (
@@ -1171,11 +1126,7 @@ com.typemytype.robofont.mark = (
 },
 {
 glyphname = Abreveacute;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-09-13 03:30:54 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -1184,7 +1135,7 @@ name = A;
 },
 {
 name = brevecomb_acutecomb.case;
-transform = "{1, 0, 0, 1, 707, 425}";
+transform = "{1, 0, 0, 1, 706, 425}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -1197,7 +1148,7 @@ name = A;
 },
 {
 name = brevecomb_acutecomb.case;
-transform = "{1, 0, 0, 1, 792, 425}";
+transform = "{1, 0, 0, 1, 787, 425}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -1258,11 +1209,7 @@ name = A;
 },
 {
 name = brevecomb_gravecomb.case;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 707, 425}";
-=======
 transform = "{1, 0, 0, 1, 704, 425}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -1275,11 +1222,7 @@ name = A;
 },
 {
 name = brevecomb_gravecomb.case;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 792, 425}";
-=======
 transform = "{1, 0, 0, 1, 790, 425}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -1299,11 +1242,7 @@ name = A;
 },
 {
 name = brevecomb_hookabovecomb.case;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 707, 425}";
-=======
 transform = "{1, 0, 0, 1, 721, 425}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -1316,11 +1255,7 @@ name = A;
 },
 {
 name = brevecomb_hookabovecomb.case;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 792, 425}";
-=======
 transform = "{1, 0, 0, 1, 794, 425}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -1331,11 +1266,7 @@ unicode = 1EB2;
 },
 {
 glyphname = Abrevetilde;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-09-13 03:30:54 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -1344,7 +1275,7 @@ name = A;
 },
 {
 name = brevecomb_tildecomb.case;
-transform = "{1, 0, 0, 1, 707, 425}";
+transform = "{1, 0, 0, 1, 710, 425}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -1722,11 +1653,7 @@ unicode = 1EA0;
 },
 {
 glyphname = Agrave;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-09-13 03:30:54 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -2030,11 +1957,7 @@ com.typemytype.robofont.mark = (
 },
 {
 glyphname = AE;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 anchors = (
@@ -2249,7 +2172,7 @@ position = "{1031, 0}";
 },
 {
 name = top;
-position = "{1349, 1419}";
+position = "{1258, 1419}";
 }
 );
 background = {
@@ -2473,7 +2396,7 @@ name = AE;
 },
 {
 name = acutecomb.case;
-transform = "{1, 0, 0, 1, 1197, 425}";
+transform = "{1, 0, 0, 1, 1106, 425}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -9259,20 +9182,20 @@ paths = (
 {
 closed = 1;
 nodes = (
-"1322 1302 OFFCURVE",
-"1554 1378 OFFCURVE",
-"1554 1613 CURVE SMOOTH",
-"1554 1628 OFFCURVE",
-"1552 1643 OFFCURVE",
-"1549 1660 CURVE",
-"1376 1660 LINE",
-"1377 1651 OFFCURVE",
-"1377 1639 OFFCURVE",
-"1377 1624 CURVE SMOOTH",
-"1377 1479 OFFCURVE",
-"1263 1381 OFFCURVE",
-"1102 1378 CURVE",
-"1213 1302 LINE"
+"1302 1322 OFFCURVE",
+"1534 1398 OFFCURVE",
+"1534 1633 CURVE SMOOTH",
+"1534 1648 OFFCURVE",
+"1532 1663 OFFCURVE",
+"1529 1680 CURVE",
+"1356 1680 LINE",
+"1357 1671 OFFCURVE",
+"1357 1659 OFFCURVE",
+"1357 1644 CURVE SMOOTH",
+"1357 1499 OFFCURVE",
+"1243 1401 OFFCURVE",
+"1082 1398 CURVE",
+"1193 1322 LINE"
 );
 }
 );
@@ -9289,20 +9212,20 @@ paths = (
 {
 closed = 1;
 nodes = (
-"1557 1292 OFFCURVE",
-"1760 1401 OFFCURVE",
-"1760 1607 CURVE SMOOTH",
-"1760 1625 OFFCURVE",
-"1757 1697 OFFCURVE",
-"1754 1718 CURVE",
-"1538 1718 LINE",
-"1540 1707 OFFCURVE",
-"1540 1692 OFFCURVE",
-"1540 1674 CURVE SMOOTH",
-"1540 1576 OFFCURVE",
-"1486 1383 OFFCURVE",
-"1233 1383 CURVE",
-"1443 1292 LINE"
+"1527 1312 OFFCURVE",
+"1730 1421 OFFCURVE",
+"1730 1627 CURVE SMOOTH",
+"1730 1645 OFFCURVE",
+"1727 1717 OFFCURVE",
+"1724 1738 CURVE",
+"1508 1738 LINE",
+"1510 1727 OFFCURVE",
+"1510 1712 OFFCURVE",
+"1510 1694 CURVE SMOOTH",
+"1510 1596 OFFCURVE",
+"1456 1403 OFFCURVE",
+"1203 1403 CURVE",
+"1413 1312 LINE"
 );
 }
 );
@@ -9379,11 +9302,7 @@ unicode = 1EE2;
 },
 {
 glyphname = Ohorngrave;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-09-13 03:30:54 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -9869,11 +9788,7 @@ unicode = 00D5;
 },
 {
 glyphname = Otildeacute;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-09-13 03:30:54 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -9886,7 +9801,7 @@ transform = "{1, 0, 0, 1, 700, 425}";
 },
 {
 name = acutecomb.case;
-transform = "{1, 0, 0, 1, 748, 743}";
+transform = "{1, 0, 0, 1, 748, 717}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -9903,7 +9818,7 @@ transform = "{1, 0, 0, 1, 830, 480}";
 },
 {
 name = acutecomb.case;
-transform = "{1, 0, 0, 1, 878, 816}";
+transform = "{1, 0, 0, 1, 879, 787}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -9914,11 +9829,7 @@ unicode = 1E4C;
 },
 {
 glyphname = Otildedieresis;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-09-13 03:30:54 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -9931,7 +9842,7 @@ transform = "{1, 0, 0, 1, 700, 425}";
 },
 {
 name = dieresiscomb.case;
-transform = "{1, 0, 0, 1, 748, 743}";
+transform = "{1, 0, 0, 1, 748, 717}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -9948,7 +9859,7 @@ transform = "{1, 0, 0, 1, 830, 480}";
 },
 {
 name = dieresiscomb.case;
-transform = "{1, 0, 0, 1, 881, 816}";
+transform = "{1, 0, 0, 1, 882, 787}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -9959,11 +9870,7 @@ unicode = 1E4E;
 },
 {
 glyphname = Otildemacron;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-09-13 03:30:54 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -9976,7 +9883,7 @@ transform = "{1, 0, 0, 1, 700, 425}";
 },
 {
 name = macroncomb.case;
-transform = "{1, 0, 0, 1, 748, 743}";
+transform = "{1, 0, 0, 1, 748, 717}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -9993,7 +9900,7 @@ transform = "{1, 0, 0, 1, 830, 480}";
 },
 {
 name = macroncomb.case;
-transform = "{1, 0, 0, 1, 881, 816}";
+transform = "{1, 0, 0, 1, 882, 787}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -10799,12 +10706,12 @@ nodes = (
 "464 172 CURVE",
 "519 625 LINE",
 "670 625 LINE SMOOTH",
-"833 625 OFFCURVE",
-"889 251 OFFCURVE",
-"976 66 CURVE SMOOTH",
-"991 34 OFFCURVE",
-"1026 0 OFFCURVE",
-"1057 0 CURVE SMOOTH",
+"870 625 OFFCURVE",
+"890 251 OFFCURVE",
+"977 66 CURVE SMOOTH",
+"992 34 OFFCURVE",
+"1027 0 OFFCURVE",
+"1058 0 CURVE SMOOTH",
 "1335 0 LINE SMOOTH",
 "1374 0 OFFCURVE",
 "1371 63 OFFCURVE",
@@ -10816,13 +10723,13 @@ nodes = (
 "1192 125 OFFCURVE",
 "1155 209 CURVE SMOOTH",
 "1081 378 OFFCURVE",
-"1015 615 OFFCURVE",
+"1041 588 OFFCURVE",
 "897 636 CURVE",
-"1077 668 OFFCURVE",
+"1087 659 OFFCURVE",
 "1307 858 OFFCURVE",
 "1307 1067 CURVE SMOOTH",
-"1307 1268 OFFCURVE",
-"1197 1419 OFFCURVE",
+"1307 1284 OFFCURVE",
+"1185 1419 OFFCURVE",
 "783 1419 CURVE SMOOTH",
 "259 1419 LINE SMOOTH",
 "226 1419 OFFCURVE",
@@ -10848,11 +10755,11 @@ closed = 1;
 nodes = (
 "607 1332 LINE {name = hr00;}",
 "743 1332 LINE SMOOTH",
-"1023 1332 OFFCURVE",
-"1087 1252 OFFCURVE",
+"1011 1332 OFFCURVE",
+"1087 1265 OFFCURVE",
 "1087 1054 CURVE SMOOTH",
 "1087 853 OFFCURVE",
-"938 711 OFFCURVE",
+"959 711 OFFCURVE",
 "717 711 CURVE SMOOTH",
 "529 711 LINE"
 );
@@ -10966,11 +10873,11 @@ nodes = (
 "629 625 LINE",
 "798 625 LINE",
 "943 560 OFFCURVE",
-"988 226 OFFCURVE",
-"1060 80 CURVE SMOOTH",
-"1088 23 OFFCURVE",
-"1123 0 OFFCURVE",
-"1177 0 CURVE SMOOTH",
+"970 226 OFFCURVE",
+"1042 80 CURVE SMOOTH",
+"1070 23 OFFCURVE",
+"1105 0 OFFCURVE",
+"1159 0 CURVE SMOOTH",
 "1543 0 LINE SMOOTH",
 "1565 0 OFFCURVE",
 "1577 17 OFFCURVE",
@@ -10982,7 +10889,7 @@ nodes = (
 "1410 167 OFFCURVE",
 "1356 253 CURVE SMOOTH",
 "1296 349 OFFCURVE",
-"1250 623 OFFCURVE",
+"1250 606 OFFCURVE",
 "1068 664 CURVE",
 "1296 716 OFFCURVE",
 "1463 857 OFFCURVE",
@@ -13624,11 +13531,7 @@ unicode = 0168;
 },
 {
 glyphname = Utildeacute;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-09-13 03:30:54 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -13641,7 +13544,7 @@ transform = "{1, 0, 0, 1, 791, 425}";
 },
 {
 name = acutecomb.case;
-transform = "{1, 0, 0, 1, 839, 743}";
+transform = "{1, 0, 0, 1, 839, 717}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -13658,7 +13561,7 @@ transform = "{1, 0, 0, 1, 928, 480}";
 },
 {
 name = acutecomb.case;
-transform = "{1, 0, 0, 1, 976, 816}";
+transform = "{1, 0, 0, 1, 977, 787}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -14070,11 +13973,7 @@ unicode = 1E84;
 },
 {
 glyphname = Wgrave;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-09-13 03:30:54 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -14670,11 +14569,7 @@ unicode = 1EF4;
 },
 {
 glyphname = Ygrave;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-09-13 03:30:54 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -15179,7 +15074,7 @@ width = 1173;
 anchors = (
 {
 name = bottom;
-position = "{595, 0}";
+position = "{565, 0}";
 },
 {
 name = ogonek;
@@ -15477,7 +15372,7 @@ name = a;
 },
 {
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, 599, 0}";
+transform = "{1, 0, 0, 1, 569, 0}";
 },
 {
 name = brevecomb;
@@ -15687,11 +15582,7 @@ name = a;
 },
 {
 name = circumflexcomb_acutecomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 640, 0}";
-=======
 transform = "{1, 0, 0, 1, 641, 0}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -15728,7 +15619,7 @@ name = a;
 },
 {
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, 599, 0}";
+transform = "{1, 0, 0, 1, 569, 0}";
 },
 {
 name = circumflexcomb;
@@ -15938,7 +15829,7 @@ name = a;
 },
 {
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, 599, 0}";
+transform = "{1, 0, 0, 1, 569, 0}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -16032,7 +15923,7 @@ name = a;
 },
 {
 name = breveinvertedcomb;
-transform = "{1, 0, 0, 1, 596, 0}";
+transform = "{1, 0, 0, 1, 591, 0}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -16188,27 +16079,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"956 1614 OFFCURVE",
-"1099 1668 OFFCURVE",
-"1135 1700 CURVE SMOOTH",
-"1162 1724 OFFCURVE",
-"1186 1758 OFFCURVE",
-"1186 1795 CURVE SMOOTH",
-"1186 1813 OFFCURVE",
-"1181 1830 OFFCURVE",
-"1167 1848 CURVE SMOOTH",
-"1149 1871 OFFCURVE",
-"1124 1881 OFFCURVE",
-"1100 1881 CURVE SMOOTH",
-"1067 1881 OFFCURVE",
-"1034 1865 OFFCURVE",
-"1010 1845 CURVE SMOOTH",
-"974 1815 OFFCURVE",
-"869 1678 OFFCURVE",
-"795 1605 CURVE",
-"842 1547 LINE"
-=======
 "1072 1585 OFFCURVE",
 "1178 1624 OFFCURVE",
 "1214 1656 CURVE SMOOTH",
@@ -16228,7 +16098,6 @@ nodes = (
 "977 1663 OFFCURVE",
 "863 1551 CURVE",
 "910 1493 LINE"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -16249,27 +16118,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"1060 1616 OFFCURVE",
-"1221 1680 OFFCURVE",
-"1256 1711 CURVE SMOOTH",
-"1282 1734 OFFCURVE",
-"1304 1776 OFFCURVE",
-"1304 1818 CURVE SMOOTH",
-"1304 1841 OFFCURVE",
-"1297 1863 OFFCURVE",
-"1282 1882 CURVE SMOOTH",
-"1264 1905 OFFCURVE",
-"1236 1915 OFFCURVE",
-"1206 1915 CURVE SMOOTH",
-"1168 1915 OFFCURVE",
-"1128 1899 OFFCURVE",
-"1104 1879 CURVE SMOOTH",
-"1068 1849 OFFCURVE",
-"968 1710 OFFCURVE",
-"886 1624 CURVE",
-"933 1566 LINE {name = hr00;}"
-=======
 "1225 1575 OFFCURVE",
 "1344 1601 OFFCURVE",
 "1379 1632 CURVE SMOOTH",
@@ -16289,7 +16137,6 @@ nodes = (
 "1132 1671 OFFCURVE",
 "1009 1540 CURVE",
 "1056 1482 LINE {name = hr00;}"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -17068,7 +16915,7 @@ name = c;
 },
 {
 name = cedillacomb;
-transform = "{1, 0, 0, 1, 503, 0}";
+transform = "{1, 0, 0, 1, 527, 0}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -17113,7 +16960,7 @@ name = c;
 },
 {
 name = cedillacomb;
-transform = "{1, 0, 0, 1, 503, 0}";
+transform = "{1, 0, 0, 1, 527, 0}";
 },
 {
 name = acutecomb;
@@ -17194,11 +17041,7 @@ unicode = 010B;
 },
 {
 glyphname = d;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-09-13 03:33:06 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 anchors = (
@@ -17216,7 +17059,7 @@ position = "{986, 1450}";
 },
 {
 name = topright;
-position = "{1178, 994}";
+position = "{1228, 994}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -17323,7 +17166,7 @@ position = "{1158, 1464}";
 },
 {
 name = topright;
-position = "{1377, 994}";
+position = "{1407, 994}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -17568,11 +17411,7 @@ unicode = 00F0;
 },
 {
 glyphname = dcaron;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-09-13 03:33:25 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -17582,7 +17421,7 @@ name = d;
 {
 alignment = -1;
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 952, 0}";
+transform = "{1, 0, 0, 1, 992, 0}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -18136,7 +17975,7 @@ name = e;
 },
 {
 name = cedillacomb;
-transform = "{1, 0, 0, 1, 480, 0}";
+transform = "{1, 0, 0, 1, 504, 0}";
 },
 {
 name = brevecomb;
@@ -18206,11 +18045,7 @@ name = e;
 },
 {
 name = circumflexcomb_acutecomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 569, 0}";
-=======
 transform = "{1, 0, 0, 1, 570, 0}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -18568,7 +18403,7 @@ name = e;
 },
 {
 name = breveinvertedcomb;
-transform = "{1, 0, 0, 1, 533, 0}";
+transform = "{1, 0, 0, 1, 528, 0}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -18638,7 +18473,7 @@ transform = "{1, 0, 0, 1, 460, 0}";
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 602, 272}";
+transform = "{1, 0, 0, 1, 587, 272}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -18655,7 +18490,7 @@ transform = "{1, 0, 0, 1, 571, 0}";
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 718, 288}";
+transform = "{1, 0, 0, 1, 701, 288}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -18679,7 +18514,7 @@ transform = "{1, 0, 0, 1, 460, 0}";
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, 351, 272}";
+transform = "{1, 0, 0, 1, 336, 272}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -18696,7 +18531,7 @@ transform = "{1, 0, 0, 1, 571, 0}";
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, 522, 288}";
+transform = "{1, 0, 0, 1, 505, 288}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -18810,11 +18645,7 @@ position = "{434, 0}";
 },
 {
 name = top;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-position = "{639, 1462}";
-=======
 position = "{509, 1549}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -18887,11 +18718,7 @@ position = "{600, 0}";
 },
 {
 name = top;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-position = "{730, 1462}";
-=======
 position = "{572, 1570}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -18970,11 +18797,7 @@ name = f;
 },
 {
 name = dotaccentcomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 486, 468}";
-=======
 transform = "{1, 0, 0, 1, 356, 555}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -18987,11 +18810,7 @@ name = f;
 },
 {
 name = dotaccentcomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 584, 468}";
-=======
 transform = "{1, 0, 0, 1, 426, 576}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -19814,7 +19633,7 @@ name = idotless;
 },
 {
 name = dotaccentcomb;
-transform = "{1, 0, 0, 1, 312, 0}";
+transform = "{1, 0, 0, 1, 292, 0}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -19913,7 +19732,7 @@ position = "{606, 10}";
 },
 {
 name = top;
-position = "{458, 994}";
+position = "{438, 994}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -20005,7 +19824,7 @@ name = idotless;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 397, 0}";
+transform = "{1, 0, 0, 1, 377, 0}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -20038,7 +19857,7 @@ name = idotless;
 },
 {
 name = brevecomb;
-transform = "{1, 0, 0, 1, 311, 0}";
+transform = "{1, 0, 0, 1, 291, 0}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -20071,7 +19890,7 @@ name = idotless;
 },
 {
 name = caroncomb;
-transform = "{1, 0, 0, 1, 309, 0}";
+transform = "{1, 0, 0, 1, 289, 0}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -20104,7 +19923,7 @@ name = idotless;
 },
 {
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, 307, 0}";
+transform = "{1, 0, 0, 1, 287, 0}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -20137,7 +19956,7 @@ name = idotless;
 },
 {
 name = dblgravecomb;
-transform = "{1, 0, 0, 1, 309, 0}";
+transform = "{1, 0, 0, 1, 289, 0}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -20170,7 +19989,7 @@ name = idotless;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 322, 0}";
+transform = "{1, 0, 0, 1, 302, 0}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -20207,11 +20026,11 @@ name = idotless;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 322, 0}";
+transform = "{1, 0, 0, 1, 302, 0}";
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 466, 458}";
+transform = "{1, 0, 0, 1, 446, 458}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -20244,7 +20063,7 @@ name = idotless;
 },
 {
 name = dotaccentcomb;
-transform = "{1, 0, 0, 1, 312, 0}";
+transform = "{1, 0, 0, 1, 292, 0}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -20309,7 +20128,7 @@ name = idotless;
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, 201, 0}";
+transform = "{1, 0, 0, 1, 181, 0}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -20342,7 +20161,7 @@ name = idotless;
 },
 {
 name = hookabovecomb;
-transform = "{1, 0, 0, 1, 309, 0}";
+transform = "{1, 0, 0, 1, 289, 0}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -20362,7 +20181,7 @@ name = idotless;
 },
 {
 name = breveinvertedcomb;
-transform = "{1, 0, 0, 1, 285, 0}";
+transform = "{1, 0, 0, 1, 280, 0}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -20375,7 +20194,7 @@ name = idotless;
 },
 {
 name = breveinvertedcomb;
-transform = "{1, 0, 0, 1, 309, 0}";
+transform = "{1, 0, 0, 1, 289, 0}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -20486,7 +20305,7 @@ name = idotless;
 },
 {
 name = macroncomb;
-transform = "{1, 0, 0, 1, 310, 0}";
+transform = "{1, 0, 0, 1, 290, 0}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -20523,7 +20342,7 @@ name = idotless;
 },
 {
 name = dotaccentcomb;
-transform = "{1, 0, 0, 1, 312, 0}";
+transform = "{1, 0, 0, 1, 292, 0}";
 },
 {
 name = ogonekcomb;
@@ -20560,7 +20379,7 @@ name = idotless;
 },
 {
 name = tildecomb;
-transform = "{1, 0, 0, 1, 384, 0}";
+transform = "{1, 0, 0, 1, 364, 0}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -20622,9 +20441,9 @@ paths = (
 {
 closed = 1;
 nodes = (
-"173 -449 OFFCURVE",
-"301 -239 OFFCURVE",
-"351 88 CURVE SMOOTH",
+"149 -449 OFFCURVE",
+"307 -186 OFFCURVE",
+"350 88 CURVE SMOOTH",
 "485 957 LINE",
 "486 989 OFFCURVE",
 "472 997 OFFCURVE",
@@ -20641,10 +20460,10 @@ nodes = (
 "174 886 OFFCURVE",
 "273 900 OFFCURVE",
 "273 803 CURVE",
-"139 -78 LINE",
+"154 56 LINE",
 "102 -317 OFFCURVE",
-"38 -361 OFFCURVE",
-"-31 -363 CURVE",
+"33 -345 OFFCURVE",
+"-36 -347 CURVE",
 "-88 -202 LINE SMOOTH",
 "-94 -185 OFFCURVE",
 "-111 -178 OFFCURVE",
@@ -20677,8 +20496,8 @@ paths = (
 closed = 1;
 nodes = (
 "236 -449 OFFCURVE",
-"458 -283 OFFCURVE",
-"522 172 CURVE SMOOTH",
+"463 -235 OFFCURVE",
+"507 74 CURVE SMOOTH",
 "633 957 LINE",
 "634 989 OFFCURVE",
 "620 997 OFFCURVE",
@@ -20695,12 +20514,12 @@ nodes = (
 "245 884 OFFCURVE",
 "301 879 OFFCURVE",
 "301 817 CURVE",
-"203 128 LINE",
-"147 -272 OFFCURVE",
-"82 -358 OFFCURVE",
-"14 -360 CURVE",
+"193 56 LINE",
+"144 -297 OFFCURVE",
+"70 -345 OFFCURVE",
+"2 -347 CURVE",
 "-92 -181 LINE SMOOTH",
-"-109 -153 OFFCURVE",
+"-108 -153 OFFCURVE",
 "-134 -138 OFFCURVE",
 "-165 -138 CURVE SMOOTH",
 "-245 -138 OFFCURVE",
@@ -22780,7 +22599,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-position = "{476, 0}";
+position = "{494, 0}";
 },
 {
 name = center;
@@ -22792,7 +22611,7 @@ position = "{940, 10}";
 },
 {
 name = top;
-position = "{618, 994}";
+position = "{617, 994}";
 },
 {
 name = topright;
@@ -22842,7 +22661,7 @@ width = 1100;
 anchors = (
 {
 name = bottom;
-position = "{579, 0}";
+position = "{582, 0}";
 },
 {
 name = center;
@@ -22854,11 +22673,7 @@ position = "{1114, 10}";
 },
 {
 name = top;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-position = "{714, 994}";
-=======
 position = "{734, 994}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 },
 {
 name = topright;
@@ -22918,7 +22733,7 @@ name = o;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 557, 0}";
+transform = "{1, 0, 0, 1, 556, 0}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -22931,11 +22746,7 @@ name = o;
 },
 {
 name = acutecomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 653, 0}";
-=======
 transform = "{1, 0, 0, 1, 673, 0}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -22955,7 +22766,7 @@ name = o;
 },
 {
 name = brevecomb;
-transform = "{1, 0, 0, 1, 469, 0}";
+transform = "{1, 0, 0, 1, 468, 0}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -22968,11 +22779,7 @@ name = o;
 },
 {
 name = brevecomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 567, 0}";
-=======
 transform = "{1, 0, 0, 1, 587, 0}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -22992,7 +22799,7 @@ name = o;
 },
 {
 name = caroncomb;
-transform = "{1, 0, 0, 1, 469, 0}";
+transform = "{1, 0, 0, 1, 468, 0}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -23005,11 +22812,7 @@ name = o;
 },
 {
 name = caroncomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 565, 0}";
-=======
 transform = "{1, 0, 0, 1, 585, 0}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -23029,7 +22832,7 @@ name = o;
 },
 {
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, 467, 0}";
+transform = "{1, 0, 0, 1, 466, 0}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -23042,11 +22845,7 @@ name = o;
 },
 {
 name = circumflexcomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 563, 0}";
-=======
 transform = "{1, 0, 0, 1, 583, 0}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -23066,11 +22865,7 @@ name = o;
 },
 {
 name = circumflexcomb_acutecomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 468, 0}";
-=======
 transform = "{1, 0, 0, 1, 467, 0}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -23083,11 +22878,7 @@ name = o;
 },
 {
 name = circumflexcomb_acutecomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 564, 0}";
-=======
 transform = "{1, 0, 0, 1, 585, 0}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -23107,11 +22898,11 @@ name = o;
 },
 {
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, 480, 0}";
+transform = "{1, 0, 0, 1, 498, 0}";
 },
 {
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, 467, 0}";
+transform = "{1, 0, 0, 1, 466, 0}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -23124,15 +22915,11 @@ name = o;
 },
 {
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, 583, 0}";
+transform = "{1, 0, 0, 1, 586, 0}";
 },
 {
 name = circumflexcomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 563, 0}";
-=======
 transform = "{1, 0, 0, 1, 583, 0}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -23152,11 +22939,7 @@ name = o;
 },
 {
 name = circumflexcomb_gravecomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 468, 0}";
-=======
 transform = "{1, 0, 0, 1, 467, 0}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -23169,11 +22952,7 @@ name = o;
 },
 {
 name = circumflexcomb_gravecomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 564, 0}";
-=======
 transform = "{1, 0, 0, 1, 584, 0}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -23193,11 +22972,7 @@ name = o;
 },
 {
 name = circumflexcomb_hookabovecomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 468, 0}";
-=======
 transform = "{1, 0, 0, 1, 467, 0}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -23210,11 +22985,7 @@ name = o;
 },
 {
 name = circumflexcomb_hookabovecomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 565, 0}";
-=======
 transform = "{1, 0, 0, 1, 585, 0}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -23234,11 +23005,7 @@ name = o;
 },
 {
 name = circumflexcomb_tildecomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 469, 0}";
-=======
 transform = "{1, 0, 0, 1, 468, 0}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -23251,11 +23018,7 @@ name = o;
 },
 {
 name = circumflexcomb_tildecomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 565, 0}";
-=======
 transform = "{1, 0, 0, 1, 585, 0}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -23275,7 +23038,7 @@ name = o;
 },
 {
 name = dblgravecomb;
-transform = "{1, 0, 0, 1, 469, 0}";
+transform = "{1, 0, 0, 1, 468, 0}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -23288,11 +23051,7 @@ name = o;
 },
 {
 name = dblgravecomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 565, 0}";
-=======
 transform = "{1, 0, 0, 1, 585, 0}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -23312,7 +23071,7 @@ name = o;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 465, 0}";
+transform = "{1, 0, 0, 1, 464, 0}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -23325,11 +23084,7 @@ name = o;
 },
 {
 name = dieresiscomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 578, 0}";
-=======
 transform = "{1, 0, 0, 1, 598, 0}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -23349,11 +23104,11 @@ name = o;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 465, 0}";
+transform = "{1, 0, 0, 1, 464, 0}";
 },
 {
 name = macroncomb;
-transform = "{1, 0, 0, 1, 524, 375}";
+transform = "{1, 0, 0, 1, 523, 375}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -23366,19 +23121,11 @@ name = o;
 },
 {
 name = dieresiscomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 578, 0}";
-},
-{
-name = macroncomb;
-transform = "{1, 0, 0, 1, 635, 458}";
-=======
 transform = "{1, 0, 0, 1, 598, 0}";
 },
 {
 name = macroncomb;
 transform = "{1, 0, 0, 1, 655, 458}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -23389,11 +23136,7 @@ unicode = 022B;
 },
 {
 glyphname = odotaccentmacron;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-09-13 03:30:54 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -23402,11 +23145,11 @@ name = o;
 },
 {
 name = dotaccentcomb;
-transform = "{1, 0, 0, 1, 465, 0}";
+transform = "{1, 0, 0, 1, 464, 0}";
 },
 {
 name = macroncomb;
-transform = "{1, 0, 0, 1, 529, 394}";
+transform = "{1, 0, 0, 1, 528, 394}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -23419,19 +23162,11 @@ name = o;
 },
 {
 name = dotaccentcomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 568, 0}";
-},
-{
-name = macroncomb;
-transform = "{1, 0, 0, 1, 659, 553}";
-=======
 transform = "{1, 0, 0, 1, 588, 0}";
 },
 {
 name = macroncomb;
 transform = "{1, 0, 0, 1, 659, 473}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -23451,7 +23186,7 @@ name = o;
 },
 {
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, 480, 0}";
+transform = "{1, 0, 0, 1, 498, 0}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -23464,7 +23199,7 @@ name = o;
 },
 {
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, 583, 0}";
+transform = "{1, 0, 0, 1, 586, 0}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -23484,7 +23219,7 @@ name = o;
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, 306, 0}";
+transform = "{1, 0, 0, 1, 305, 0}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -23497,11 +23232,7 @@ name = o;
 },
 {
 name = gravecomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 457, 0}";
-=======
 transform = "{1, 0, 0, 1, 477, 0}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -23521,7 +23252,7 @@ name = o;
 },
 {
 name = hookabovecomb;
-transform = "{1, 0, 0, 1, 469, 0}";
+transform = "{1, 0, 0, 1, 468, 0}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -23534,11 +23265,7 @@ name = o;
 },
 {
 name = hookabovecomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 565, 0}";
-=======
 transform = "{1, 0, 0, 1, 585, 0}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -23562,22 +23289,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"898 890 LINE",
-"1007 890 OFFCURVE",
-"1193 941 OFFCURVE",
-"1207 1146 CURVE SMOOTH",
-"1208 1161 OFFCURVE",
-"1205 1176 OFFCURVE",
-"1202 1193 CURVE",
-"1029 1193 LINE",
-"1030 1184 OFFCURVE",
-"1030 1172 OFFCURVE",
-"1030 1157 CURVE SMOOTH",
-"1030 1025 OFFCURVE",
-"922 962 OFFCURVE",
-"763 962 CURVE"
-=======
 "878 890 LINE",
 "1027 890 OFFCURVE",
 "1193 1011 OFFCURVE",
@@ -23592,7 +23303,6 @@ nodes = (
 "1030 1095 OFFCURVE",
 "942 962 OFFCURVE",
 "743 962 CURVE"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -23609,22 +23319,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"1075 895 LINE",
-"1134 895 OFFCURVE",
-"1419 922 OFFCURVE",
-"1419 1158 CURVE SMOOTH",
-"1419 1176 OFFCURVE",
-"1416 1248 OFFCURVE",
-"1413 1269 CURVE",
-"1197 1269 LINE",
-"1199 1258 OFFCURVE",
-"1199 1243 OFFCURVE",
-"1199 1225 CURVE SMOOTH",
-"1199 1097 OFFCURVE",
-"1087 962 OFFCURVE",
-"871 962 CURVE"
-=======
 "1055 895 LINE",
 "1144 895 OFFCURVE",
 "1409 972 OFFCURVE",
@@ -23639,7 +23333,6 @@ nodes = (
 "1189 1147 OFFCURVE",
 "1097 962 OFFCURVE",
 "851 962 CURVE"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -23659,7 +23352,7 @@ name = ohorn;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 557, 0}";
+transform = "{1, 0, 0, 1, 556, 0}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -23672,11 +23365,7 @@ name = ohorn;
 },
 {
 name = acutecomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 653, 0}";
-=======
 transform = "{1, 0, 0, 1, 673, 0}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -23696,7 +23385,7 @@ name = ohorn;
 },
 {
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, 480, 0}";
+transform = "{1, 0, 0, 1, 498, 0}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -23709,7 +23398,7 @@ name = ohorn;
 },
 {
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, 583, 0}";
+transform = "{1, 0, 0, 1, 586, 0}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -23729,7 +23418,7 @@ name = ohorn;
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, 306, 0}";
+transform = "{1, 0, 0, 1, 305, 0}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -23742,11 +23431,7 @@ name = ohorn;
 },
 {
 name = gravecomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 457, 0}";
-=======
 transform = "{1, 0, 0, 1, 477, 0}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -23766,7 +23451,7 @@ name = ohorn;
 },
 {
 name = hookabovecomb;
-transform = "{1, 0, 0, 1, 469, 0}";
+transform = "{1, 0, 0, 1, 468, 0}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -23779,11 +23464,7 @@ name = ohorn;
 },
 {
 name = hookabovecomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 565, 0}";
-=======
 transform = "{1, 0, 0, 1, 585, 0}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -23803,7 +23484,7 @@ name = ohorn;
 },
 {
 name = tildecomb;
-transform = "{1, 0, 0, 1, 542, -10}";
+transform = "{1, 0, 0, 1, 541, -10}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -23816,11 +23497,7 @@ name = ohorn;
 },
 {
 name = tildecomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 640, 0}";
-=======
 transform = "{1, 0, 0, 1, 660, 0}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -23840,7 +23517,7 @@ name = o;
 },
 {
 name = hungarumlautcomb;
-transform = "{1, 0, 0, 1, 466, 0}";
+transform = "{1, 0, 0, 1, 465, 0}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -23853,11 +23530,7 @@ name = o;
 },
 {
 name = hungarumlautcomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 568, 0}";
-=======
 transform = "{1, 0, 0, 1, 588, 0}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -23877,7 +23550,7 @@ name = o;
 },
 {
 name = breveinvertedcomb;
-transform = "{1, 0, 0, 1, 543, 0}";
+transform = "{1, 0, 0, 1, 537, 0}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -23890,11 +23563,7 @@ name = o;
 },
 {
 name = breveinvertedcomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 565, 0}";
-=======
 transform = "{1, 0, 0, 1, 585, 0}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -23914,7 +23583,7 @@ name = o;
 },
 {
 name = macroncomb;
-transform = "{1, 0, 0, 1, 470, 0}";
+transform = "{1, 0, 0, 1, 469, 0}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -23927,11 +23596,7 @@ name = o;
 },
 {
 name = macroncomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 566, 0}";
-=======
 transform = "{1, 0, 0, 1, 586, 0}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -23951,11 +23616,11 @@ name = o;
 },
 {
 name = macroncomb;
-transform = "{1, 0, 0, 1, 470, 0}";
+transform = "{1, 0, 0, 1, 469, 0}";
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 612, 272}";
+transform = "{1, 0, 0, 1, 596, 272}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -23968,19 +23633,11 @@ name = o;
 },
 {
 name = macroncomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 566, 0}";
-},
-{
-name = acutecomb;
-transform = "{1, 0, 0, 1, 713, 288}";
-=======
 transform = "{1, 0, 0, 1, 586, 0}";
 },
 {
 name = acutecomb;
 transform = "{1, 0, 0, 1, 716, 288}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -24000,11 +23657,11 @@ name = o;
 },
 {
 name = macroncomb;
-transform = "{1, 0, 0, 1, 470, 0}";
+transform = "{1, 0, 0, 1, 469, 0}";
 },
 {
 name = gravecomb;
-transform = "{1, 0, 0, 1, 361, 272}";
+transform = "{1, 0, 0, 1, 345, 272}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -24017,19 +23674,11 @@ name = o;
 },
 {
 name = macroncomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 566, 0}";
-},
-{
-name = gravecomb;
-transform = "{1, 0, 0, 1, 517, 288}";
-=======
 transform = "{1, 0, 0, 1, 586, 0}";
 },
 {
 name = gravecomb;
 transform = "{1, 0, 0, 1, 520, 288}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -24284,7 +23933,7 @@ name = o;
 },
 {
 name = tildecomb;
-transform = "{1, 0, 0, 1, 542, -10}";
+transform = "{1, 0, 0, 1, 541, -10}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -24297,11 +23946,7 @@ name = o;
 },
 {
 name = tildecomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 640, 0}";
-=======
 transform = "{1, 0, 0, 1, 660, 0}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -24321,11 +23966,11 @@ name = o;
 },
 {
 name = tildecomb;
-transform = "{1, 0, 0, 1, 542, -10}";
+transform = "{1, 0, 0, 1, 541, -10}";
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 607, 321}";
+transform = "{1, 0, 0, 1, 606, 419}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -24338,19 +23983,11 @@ name = o;
 },
 {
 name = tildecomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 640, 0}";
-},
-{
-name = acutecomb;
-transform = "{1, 0, 0, 1, 704, 341}";
-=======
 transform = "{1, 0, 0, 1, 660, 0}";
 },
 {
 name = acutecomb;
 transform = "{1, 0, 0, 1, 724, 364}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -24370,11 +24007,11 @@ name = o;
 },
 {
 name = tildecomb;
-transform = "{1, 0, 0, 1, 542, -10}";
+transform = "{1, 0, 0, 1, 541, -10}";
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 515, 321}";
+transform = "{1, 0, 0, 1, 514, 419}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -24387,19 +24024,11 @@ name = o;
 },
 {
 name = tildecomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 640, 0}";
-},
-{
-name = dieresiscomb;
-transform = "{1, 0, 0, 1, 629, 341}";
-=======
 transform = "{1, 0, 0, 1, 660, 0}";
 },
 {
 name = dieresiscomb;
 transform = "{1, 0, 0, 1, 649, 364}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -24419,11 +24048,11 @@ name = o;
 },
 {
 name = tildecomb;
-transform = "{1, 0, 0, 1, 542, -10}";
+transform = "{1, 0, 0, 1, 541, -10}";
 },
 {
 name = macroncomb;
-transform = "{1, 0, 0, 1, 520, 321}";
+transform = "{1, 0, 0, 1, 519, 419}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -24436,19 +24065,11 @@ name = o;
 },
 {
 name = tildecomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-transform = "{1, 0, 0, 1, 640, 0}";
-},
-{
-name = macroncomb;
-transform = "{1, 0, 0, 1, 617, 341}";
-=======
 transform = "{1, 0, 0, 1, 660, 0}";
 },
 {
 name = macroncomb;
 transform = "{1, 0, 0, 1, 637, 364}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -25258,7 +24879,7 @@ position = "{209, 0}";
 },
 {
 name = top;
-position = "{479, 994}";
+position = "{593, 994}";
 }
 );
 background = {
@@ -25391,7 +25012,7 @@ position = "{286, 0}";
 },
 {
 name = top;
-position = "{519, 994}";
+position = "{699, 994}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -25455,7 +25076,7 @@ name = r;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 418, 0}";
+transform = "{1, 0, 0, 1, 532, 0}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -25468,7 +25089,7 @@ name = r;
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 458, 0}";
+transform = "{1, 0, 0, 1, 638, 0}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -25488,7 +25109,7 @@ name = r;
 },
 {
 name = caroncomb;
-transform = "{1, 0, 0, 1, 330, 0}";
+transform = "{1, 0, 0, 1, 444, 0}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -25501,7 +25122,7 @@ name = r;
 },
 {
 name = caroncomb;
-transform = "{1, 0, 0, 1, 370, 0}";
+transform = "{1, 0, 0, 1, 550, 0}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -25554,7 +25175,7 @@ name = r;
 },
 {
 name = dblgravecomb;
-transform = "{1, 0, 0, 1, 330, 0}";
+transform = "{1, 0, 0, 1, 444, 0}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -25567,7 +25188,7 @@ name = r;
 },
 {
 name = dblgravecomb;
-transform = "{1, 0, 0, 1, 370, 0}";
+transform = "{1, 0, 0, 1, 550, 0}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -25620,7 +25241,7 @@ name = r;
 },
 {
 name = breveinvertedcomb;
-transform = "{1, 0, 0, 1, 404, 0}";
+transform = "{1, 0, 0, 1, 513, 0}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -25633,7 +25254,7 @@ name = r;
 },
 {
 name = breveinvertedcomb;
-transform = "{1, 0, 0, 1, 370, 0}";
+transform = "{1, 0, 0, 1, 550, 0}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -25984,7 +25605,7 @@ name = s;
 },
 {
 name = cedillacomb;
-transform = "{1, 0, 0, 1, 449, 0}";
+transform = "{1, 0, 0, 1, 473, 0}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -26438,7 +26059,7 @@ position = "{364, 497}";
 },
 {
 name = top;
-position = "{445, 1222}";
+position = "{401, 1191}";
 },
 {
 name = topright;
@@ -26523,7 +26144,7 @@ position = "{427, 497}";
 },
 {
 name = top;
-position = "{531, 1252}";
+position = "{486, 1191}";
 },
 {
 name = topright;
@@ -26628,7 +26249,7 @@ nodes = (
 "692 664 OFFCURVE",
 "685 675 OFFCURVE",
 "672 676 CURVE",
-"371 676 LINE {name = hr00;}"
+"263 676 LINE {name = hr00;}"
 );
 }
 );
@@ -26663,7 +26284,7 @@ nodes = (
 "752 664 OFFCURVE",
 "745 675 OFFCURVE",
 "732 676 CURVE",
-"474 676 LINE"
+"253 676 LINE"
 );
 }
 );
@@ -26729,7 +26350,7 @@ name = t;
 },
 {
 name = cedillacomb;
-transform = "{1, 0, 0, 1, 336, 0}";
+transform = "{1, 0, 0, 1, 360, 0}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -26782,7 +26403,7 @@ name = t;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 292, 228}";
+transform = "{1, 0, 0, 1, 248, 197}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -26795,7 +26416,7 @@ name = t;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 395, 258}";
+transform = "{1, 0, 0, 1, 350, 197}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -27814,7 +27435,7 @@ name = u;
 },
 {
 name = breveinvertedcomb;
-transform = "{1, 0, 0, 1, 578, 0}";
+transform = "{1, 0, 0, 1, 573, 0}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -27884,7 +27505,7 @@ transform = "{1, 0, 0, 1, 505, 0}";
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 555, 272}";
+transform = "{1, 0, 0, 1, 540, 272}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -27901,7 +27522,7 @@ transform = "{1, 0, 0, 1, 608, 0}";
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 680, 288}";
+transform = "{1, 0, 0, 1, 663, 288}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -27921,7 +27542,7 @@ name = t;
 },
 {
 name = dotaccentcomb;
-transform = "{1, 0, 0, 1, 292, 228}";
+transform = "{1, 0, 0, 1, 248, 197}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -27934,7 +27555,7 @@ name = t;
 },
 {
 name = dotaccentcomb;
-transform = "{1, 0, 0, 1, 385, 258}";
+transform = "{1, 0, 0, 1, 340, 197}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -28057,7 +27678,7 @@ transform = "{1, 0, 0, 1, 577, -10}";
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 642, 321}";
+transform = "{1, 0, 0, 1, 642, 419}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -28074,7 +27695,7 @@ transform = "{1, 0, 0, 1, 682, 0}";
 },
 {
 name = acutecomb;
-transform = "{1, 0, 0, 1, 746, 341}";
+transform = "{1, 0, 0, 1, 746, 364}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -28308,18 +27929,18 @@ nodes = (
 "1123 1010 OFFCURVE",
 "910 1010 CURVE SMOOTH",
 "839 1010 OFFCURVE",
-"770 974 OFFCURVE",
-"708 888 CURVE SMOOTH",
-"703 881 OFFCURVE",
-"705 874 OFFCURVE",
-"705 867 CURVE SMOOTH",
-"705 851 OFFCURVE",
-"710 827 OFFCURVE",
-"733 827 CURVE SMOOTH",
-"744 827 OFFCURVE",
-"757 835 OFFCURVE",
-"769 847 CURVE",
-"782 861 OFFCURVE",
+"720 958 OFFCURVE",
+"667 866 CURVE SMOOTH",
+"662 859 OFFCURVE",
+"664 852 OFFCURVE",
+"664 845 CURVE SMOOTH",
+"664 829 OFFCURVE",
+"669 805 OFFCURVE",
+"692 805 CURVE SMOOTH",
+"703 805 OFFCURVE",
+"716 813 OFFCURVE",
+"728 825 CURVE",
+"741 839 OFFCURVE",
 "795 875 OFFCURVE",
 "821 875 CURVE SMOOTH",
 "833 875 OFFCURVE",
@@ -28425,23 +28046,6 @@ nodes = (
 "1269 1017 OFFCURVE",
 "1027 1014 CURVE SMOOTH",
 "953 1013 OFFCURVE",
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"853 979 OFFCURVE",
-"767 858 CURVE SMOOTH",
-"762 851 OFFCURVE",
-"761 841 OFFCURVE",
-"761 833 CURVE SMOOTH",
-"761 799 OFFCURVE",
-"783 787 OFFCURVE",
-"797 787 CURVE SMOOTH",
-"808 787 OFFCURVE",
-"818 793 OFFCURVE",
-"826 801 CURVE SMOOTH",
-"851 826 OFFCURVE",
-"860 831 OFFCURVE",
-"876 831 CURVE SMOOTH",
-"898 831 OFFCURVE",
-=======
 "826 965 OFFCURVE",
 "742 844 CURVE SMOOTH",
 "737 837 OFFCURVE",
@@ -28457,50 +28061,12 @@ nodes = (
 "862 831 OFFCURVE",
 "877 831 CURVE SMOOTH",
 "899 831 OFFCURVE",
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 "920 817 OFFCURVE",
 "930 798 CURVE SMOOTH",
 "967 730 OFFCURVE",
 "951 684 OFFCURVE",
 "958 644 CURVE",
 "958 418 OFFCURVE",
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"743 165 OFFCURVE",
-"584 95 CURVE",
-"600 159 OFFCURVE",
-"623 217 OFFCURVE",
-"623 278 CURVE SMOOTH",
-"623 646 OFFCURVE",
-"592 1014 OFFCURVE",
-"349 1014 CURVE SMOOTH",
-"218 1014 OFFCURVE",
-"101 958 OFFCURVE",
-"38 857 CURVE SMOOTH",
-"33 849 OFFCURVE",
-"32 840 OFFCURVE",
-"32 832 CURVE SMOOTH",
-"32 798 OFFCURVE",
-"54 786 OFFCURVE",
-"68 786 CURVE SMOOTH",
-"79 786 OFFCURVE",
-"89 792 OFFCURVE",
-"97 800 CURVE SMOOTH",
-"123 826 OFFCURVE",
-"144 832 OFFCURVE",
-"167 832 CURVE SMOOTH",
-"191 832 OFFCURVE",
-"209 818 OFFCURVE",
-"220 799 CURVE SMOOTH",
-"266 720 OFFCURVE",
-"363 523 OFFCURVE",
-"363 91 CURVE SMOOTH",
-"363 66 OFFCURVE",
-"362 43 OFFCURVE",
-"362 31 CURVE SMOOTH",
-"362 -4 OFFCURVE",
-"389 -15 OFFCURVE",
-"487 -15 CURVE SMOOTH"
-=======
 "747 165 OFFCURVE",
 "591 95 CURVE",
 "607 159 OFFCURVE",
@@ -28536,7 +28102,6 @@ nodes = (
 "374 -4 OFFCURVE",
 "400 -15 OFFCURVE",
 "496 -15 CURVE SMOOTH"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -32455,13 +32020,8 @@ com.typemytype.robofont.mark = (
 };
 },
 {
-color = 8;
 glyphname = five;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -32989,11 +32549,6 @@ width = 1327;
 unicode = 0039;
 },
 {
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-color = 8;
-glyphname = zero.lf;
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 glyphname = zero.zero;
 lastChange = "2019-10-12 03:45:35 +0000";
 layers = (
@@ -33076,7 +32631,6 @@ width = 1436;
 {
 glyphname = zero.lf;
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -34135,13 +33689,8 @@ leftKerningGroup = nine.lf;
 rightKerningGroup = nine.lf;
 },
 {
-color = 8;
 glyphname = zero.lf.zero;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -34478,13 +34027,8 @@ leftMetricsKey = nine;
 widthMetricsKey = nine;
 },
 {
-color = 8;
 glyphname = zero.osf.zero;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -34563,13 +34107,8 @@ leftMetricsKey = zero;
 widthMetricsKey = zero;
 },
 {
-color = 8;
 glyphname = zero.tf;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -34669,13 +34208,8 @@ source = zero;
 };
 },
 {
-color = 8;
 glyphname = one.tf;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -35057,13 +34591,8 @@ source = three;
 };
 },
 {
-color = 8;
 glyphname = four.tf;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -35278,13 +34807,8 @@ source = five;
 };
 },
 {
-color = 8;
 glyphname = six.tf;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -35765,13 +35289,8 @@ source = nine;
 };
 },
 {
-color = 8;
 glyphname = zero.tf.zero;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -35955,13 +35474,8 @@ source = zero;
 };
 },
 {
-color = 8;
 glyphname = one.tosf;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -36091,13 +35605,8 @@ source = one;
 };
 },
 {
-color = 8;
 glyphname = two.tosf;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -36215,13 +35724,8 @@ source = two;
 };
 },
 {
-color = 8;
 glyphname = three.tosf;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -37175,90 +36679,6 @@ width = 1306;
 );
 },
 {
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-color = 8;
-glyphname = zero.zero;
-lastChange = "2019-08-30 21:39:21 +0000";
-layers = (
-{
-components = (
-{
-name = zero;
-transform = "{1, 0, 0, 1, 7, 0}";
-}
-);
-layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
-paths = (
-{
-closed = 1;
-nodes = (
-"254 111 LINE {name = hr01;}",
-"252 96 OFFCURVE",
-"265 77 OFFCURVE",
-"287 63 CURVE SMOOTH",
-"295 58 OFFCURVE",
-"308 54 OFFCURVE",
-"319 54 CURVE SMOOTH",
-"326 54 OFFCURVE",
-"332 56 OFFCURVE",
-"336 61 CURVE",
-"1008 1064 LINE",
-"1010 1079 OFFCURVE",
-"988 1105 OFFCURVE",
-"967 1117 CURVE SMOOTH",
-"960 1121 OFFCURVE",
-"952 1123 OFFCURVE",
-"945 1123 CURVE SMOOTH",
-"937 1123 OFFCURVE",
-"930 1121 OFFCURVE",
-"925 1114 CURVE"
-);
-}
-);
-width = 1257;
-},
-{
-components = (
-{
-name = zero;
-transform = "{1, 0, 0, 1, 9, 0}";
-}
-);
-layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
-paths = (
-{
-closed = 1;
-nodes = (
-"356 111 LINE {name = hr01;}",
-"354 96 OFFCURVE",
-"367 77 OFFCURVE",
-"389 63 CURVE SMOOTH",
-"397 58 OFFCURVE",
-"410 54 OFFCURVE",
-"421 54 CURVE SMOOTH",
-"428 54 OFFCURVE",
-"434 56 OFFCURVE",
-"438 61 CURVE",
-"1110 1064 LINE",
-"1112 1079 OFFCURVE",
-"1090 1105 OFFCURVE",
-"1069 1117 CURVE SMOOTH",
-"1062 1121 OFFCURVE",
-"1054 1123 OFFCURVE",
-"1047 1123 CURVE SMOOTH",
-"1039 1123 OFFCURVE",
-"1032 1121 OFFCURVE",
-"1027 1114 CURVE"
-);
-}
-);
-width = 1436;
-}
-);
-},
-{
-=======
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 glyphname = zeroinferior;
 lastChange = "2019-10-12 03:45:35 +0000";
 layers = (
@@ -44876,13 +44296,8 @@ rightKerningGroup = kip;
 unicode = 20AD;
 },
 {
-color = 8;
 glyphname = lira;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -46571,13 +45986,8 @@ rightKerningGroup = uni20B9;
 unicode = 20B9;
 },
 {
-color = 8;
 glyphname = sterling;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -52166,11 +51576,7 @@ unicode = 00B0;
 },
 {
 glyphname = minute;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-29 17:38:22 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -52178,29 +51584,29 @@ paths = (
 {
 closed = 1;
 nodes = (
-"407 1268 OFFCURVE",
-"508 1397 OFFCURVE",
-"525 1438 CURVE",
-"532 1453 OFFCURVE",
-"536 1471 OFFCURVE",
-"536 1488 CURVE SMOOTH",
-"536 1522 OFFCURVE",
-"520 1555 OFFCURVE",
-"475 1573 CURVE SMOOTH",
-"460 1579 OFFCURVE",
-"446 1582 OFFCURVE",
-"433 1582 CURVE SMOOTH",
-"386 1582 OFFCURVE",
-"352 1546 OFFCURVE",
-"336 1509 CURVE",
-"321 1469 OFFCURVE",
-"311 1295 OFFCURVE",
-"229 1052 CURVE",
-"303 1021 LINE {name = hr00;}"
+"410 1268 OFFCURVE",
+"511 1397 OFFCURVE",
+"528 1438 CURVE",
+"535 1453 OFFCURVE",
+"539 1471 OFFCURVE",
+"539 1488 CURVE SMOOTH",
+"539 1522 OFFCURVE",
+"523 1555 OFFCURVE",
+"478 1573 CURVE SMOOTH",
+"463 1579 OFFCURVE",
+"449 1582 OFFCURVE",
+"436 1582 CURVE SMOOTH",
+"389 1582 OFFCURVE",
+"355 1546 OFFCURVE",
+"339 1509 CURVE",
+"324 1469 OFFCURVE",
+"314 1295 OFFCURVE",
+"232 1052 CURVE",
+"306 1021 LINE {name = hr00;}"
 );
 }
 );
-width = 655;
+width = 658;
 },
 {
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -53832,39 +53238,27 @@ unicode = 02BB;
 },
 {
 glyphname = doubleprimemod;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-29 17:37:33 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
 {
 name = minute;
-transform = "{1, 0, 0.14945, 1, -251, 1}";
-},
-{
-name = minute;
-transform = "{1, 0, 0.14945, 1, 26, 0}";
+transform = "{1, 0, 0.14945, 1, -383, 0}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
-width = 849;
+width = 0;
 },
 {
 components = (
 {
 name = minute;
-transform = "{1, 0, 0.14945, 1, -254, 1}";
-},
-{
-name = minute;
-transform = "{1, 0, 0.14945, 1, 90, 0}";
+transform = "{1, 0, 0.14945, 1, -405, 0}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
-width = 921;
+width = 0;
 }
 );
 unicode = 02BA;
@@ -53925,21 +53319,17 @@ unicode = 02CB;
 },
 {
 glyphname = primemod;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-29 17:37:38 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
 {
 name = minute;
-transform = "{1, 0, 0.14945, 1, -256, 0}";
+transform = "{1, 0, 0.14945, 1, -236, 0}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
-width = 573;
+width = 600;
 },
 {
 components = (
@@ -54789,11 +54179,7 @@ unicode = 030B;
 },
 {
 glyphname = caroncomb.alt;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-09-13 03:32:37 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -54801,30 +54187,36 @@ paths = (
 {
 closed = 1;
 nodes = (
-"340 1676 OFFCURVE",
-"302 1601 OFFCURVE",
-"302 1506 CURVE SMOOTH",
-"302 1414 OFFCURVE",
-"352 1403 OFFCURVE",
-"353 1392 CURVE",
-"354 1348 OFFCURVE",
-"358 1274 OFFCURVE",
-"292 1182 CURVE SMOOTH",
-"277 1161 OFFCURVE",
-"271 1144 OFFCURVE",
-"271 1131 CURVE SMOOTH",
-"271 1110 OFFCURVE",
-"292 1096 OFFCURVE",
-"311 1096 CURVE SMOOTH",
-"323 1096 OFFCURVE",
-"335 1100 OFFCURVE",
-"345 1107 CURVE SMOOTH {name = hr01;}",
-"454 1184 OFFCURVE",
-"535 1394 OFFCURVE",
-"535 1528 CURVE SMOOTH",
-"535 1617 OFFCURVE",
-"493 1676 OFFCURVE",
-"424 1676 CURVE SMOOTH"
+"362 1085 OFFCURVE",
+"478 1276 OFFCURVE",
+"511 1477 CURVE SMOOTH {name = hr02;}",
+"514 1495 OFFCURVE",
+"515 1512 OFFCURVE",
+"515 1528 CURVE SMOOTH",
+"515 1617 OFFCURVE",
+"473 1676 OFFCURVE",
+"404 1676 CURVE SMOOTH",
+"321 1676 OFFCURVE",
+"275 1616 OFFCURVE",
+"264 1538 CURVE SMOOTH",
+"262 1526 OFFCURVE",
+"262 1516 OFFCURVE",
+"262 1506 CURVE SMOOTH",
+"262 1414 OFFCURVE",
+"326 1403 OFFCURVE",
+"327 1392 CURVE",
+"328 1348 OFFCURVE",
+"317 1205 OFFCURVE",
+"252 1112 CURVE SMOOTH",
+"237 1091 OFFCURVE",
+"231 1074 OFFCURVE",
+"231 1061 CURVE SMOOTH",
+"231 1040 OFFCURVE",
+"247 1030 OFFCURVE",
+"266 1030 CURVE SMOOTH",
+"278 1030 OFFCURVE",
+"290 1034 OFFCURVE",
+"300 1041 CURVE SMOOTH {name = hr01;}"
 );
 }
 );
@@ -54836,8 +54228,20 @@ paths = (
 {
 closed = 1;
 nodes = (
-"324 1676 OFFCURVE",
-"262 1606 OFFCURVE",
+"384 1085 OFFCURVE",
+"536 1235 OFFCURVE",
+"564 1477 CURVE SMOOTH",
+"565 1490 OFFCURVE",
+"566 1501 OFFCURVE",
+"566 1513 CURVE SMOOTH",
+"566 1631 OFFCURVE",
+"487.998 1676 OFFCURVE",
+"414 1676 CURVE SMOOTH",
+"331 1676 OFFCURVE",
+"275 1616 OFFCURVE",
+"264 1538 CURVE SMOOTH",
+"262 1526 OFFCURVE",
+"262 1516 OFFCURVE",
 "262 1506 CURVE SMOOTH",
 "262 1414 OFFCURVE",
 "326 1403 OFFCURVE",
@@ -54853,13 +54257,7 @@ nodes = (
 "286 1031 CURVE SMOOTH",
 "299 1031 OFFCURVE",
 "313 1034 OFFCURVE",
-"322 1041 CURVE SMOOTH",
-"458 1137 OFFCURVE",
-"551 1344 OFFCURVE",
-"551 1513 CURVE SMOOTH",
-"551 1631 OFFCURVE",
-"487.998 1676 OFFCURVE",
-"414 1676 CURVE SMOOTH"
+"322 1041 CURVE SMOOTH"
 );
 }
 );
@@ -54920,18 +54318,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-60 1131 LINE",
-"204 1342 LINE",
-"399 1131 LINE",
-"542 1131 LINE",
-"353 1490 LINE SMOOTH",
-"336 1522 OFFCURVE",
-"304 1550 OFFCURVE",
-"235 1550 CURVE SMOOTH",
-"167 1550 OFFCURVE",
-"129 1528 OFFCURVE",
-"104 1499 CURVE SMOOTH",
-"-208 1131 LINE {name = hr00;}"
+"-50 1140 LINE",
+"204 1351 LINE",
+"399 1140 LINE",
+"542 1140 LINE",
+"353 1499 LINE SMOOTH",
+"336 1531 OFFCURVE",
+"304 1559 OFFCURVE",
+"235 1559 CURVE SMOOTH",
+"167 1559 OFFCURVE",
+"128 1538 OFFCURVE",
+"104 1508 CURVE SMOOTH",
+"-198 1140 LINE {name = hr00;}"
 );
 }
 );
@@ -55219,11 +54617,7 @@ unicode = 030A;
 },
 {
 glyphname = tildecomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 anchors = (
@@ -55233,7 +54627,7 @@ position = "{76, 1004}";
 },
 {
 name = top;
-position = "{126, 1325}";
+position = "{126, 1423}";
 }
 );
 background = {
@@ -55298,32 +54692,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"332 1128 OFFCURVE",
-"420 1250 OFFCURVE",
-"420 1303 CURVE SMOOTH",
-"420 1332 OFFCURVE",
-"394 1361 OFFCURVE",
-"375 1361 CURVE SMOOTH",
-"356 1361 OFFCURVE",
-"323 1271 OFFCURVE",
-"266 1271 CURVE SMOOTH",
-"171 1271 OFFCURVE",
-"102 1394 OFFCURVE",
-"0 1394 CURVE SMOOTH {name = hr03;}",
-"-109 1394 OFFCURVE",
-"-195 1272 OFFCURVE",
-"-195 1219 CURVE SMOOTH",
-"-195 1190 OFFCURVE",
-"-172 1161 OFFCURVE",
-"-153 1161 CURVE SMOOTH",
-"-132 1161 OFFCURVE",
-"-101 1251 OFFCURVE",
-"-44 1251 CURVE SMOOTH",
-"48 1251 OFFCURVE",
-"113 1128 OFFCURVE",
-"223 1128 CURVE SMOOTH {name = hr03;}"
-=======
 "308 1136 OFFCURVE",
 "393 1251 OFFCURVE",
 "393 1300 CURVE SMOOTH",
@@ -55348,7 +54716,6 @@ nodes = (
 "37 1252 OFFCURVE",
 "99 1136 OFFCURVE",
 "204 1136 CURVE SMOOTH {name = hr03;}"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -55362,7 +54729,7 @@ position = "{74, 994}";
 },
 {
 name = top;
-position = "{125, 1335}";
+position = "{125, 1358}";
 }
 );
 background = {
@@ -55403,32 +54770,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"363 1118 OFFCURVE",
-"464 1251 OFFCURVE",
-"464 1328 CURVE SMOOTH",
-"464 1362 OFFCURVE",
-"435 1400 OFFCURVE",
-"411 1400 CURVE SMOOTH",
-"365 1400 OFFCURVE",
-"362 1306 OFFCURVE",
-"270 1306 CURVE SMOOTH",
-"162 1306 OFFCURVE",
-"92 1445 OFFCURVE",
-"-28 1445 CURVE SMOOTH {name = hr03;}",
-"-162 1445 OFFCURVE",
-"-248 1312 OFFCURVE",
-"-248 1235 CURVE SMOOTH",
-"-248 1201 OFFCURVE",
-"-219 1163 OFFCURVE",
-"-195 1163 CURVE SMOOTH",
-"-149 1163 OFFCURVE",
-"-157 1257 OFFCURVE",
-"-60 1257 CURVE SMOOTH",
-"41 1257 OFFCURVE",
-"125 1120 OFFCURVE",
-"246 1119 CURVE SMOOTH {name = hr02;}"
-=======
 "354 1118 OFFCURVE",
 "448 1251 OFFCURVE",
 "448 1328 CURVE SMOOTH",
@@ -55453,7 +54794,6 @@ nodes = (
 "34 1257 OFFCURVE",
 "122 1120 OFFCURVE",
 "235 1119 CURVE SMOOTH {name = hr02;}"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -55476,7 +54816,7 @@ position = "{148, 994}";
 },
 {
 name = top;
-position = "{203, 1266}";
+position = "{188, 1266}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -55501,7 +54841,7 @@ position = "{148, 994}";
 },
 {
 name = top;
-position = "{208, 1282}";
+position = "{191, 1282}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -55643,13 +54983,8 @@ rightKerningGroup = hookabovecomb;
 unicode = 0309;
 },
 {
-color = 8;
 glyphname = dblgravecomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 lastChange = "2019-10-20 02:02:54 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 anchors = (
@@ -55792,7 +55127,7 @@ layers = (
 anchors = (
 {
 name = _top;
-position = "{75, 994}";
+position = "{80, 994}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -55800,26 +55135,26 @@ paths = (
 {
 closed = 1;
 nodes = (
-"33 1497 OFFCURVE",
-"-183 1446 OFFCURVE",
-"-236 1134 CURVE",
-"-123 1134 LINE",
-"-103 1232 OFFCURVE",
-"-15 1349 OFFCURVE",
-"129 1349 CURVE SMOOTH",
-"264 1349 OFFCURVE",
-"318 1247 OFFCURVE",
-"318 1153 CURVE SMOOTH",
-"318 1147 OFFCURVE",
-"318 1140 OFFCURVE",
-"317 1134 CURVE",
-"430 1134 LINE",
-"433 1161 OFFCURVE",
-"435 1186 OFFCURVE",
-"435 1209 CURVE SMOOTH",
-"435 1454 OFFCURVE",
-"259 1497 OFFCURVE",
-"151 1497 CURVE SMOOTH"
+"39 1547 OFFCURVE",
+"-177 1496 OFFCURVE",
+"-230 1184 CURVE",
+"-117 1184 LINE",
+"-97 1282 OFFCURVE",
+"-9 1399 OFFCURVE",
+"135 1399 CURVE SMOOTH",
+"270 1399 OFFCURVE",
+"324 1297 OFFCURVE",
+"324 1203 CURVE SMOOTH",
+"324 1197 OFFCURVE",
+"324 1190 OFFCURVE",
+"323 1184 CURVE",
+"436 1184 LINE",
+"439 1211 OFFCURVE",
+"441 1236 OFFCURVE",
+"441 1259 CURVE SMOOTH",
+"441 1504 OFFCURVE",
+"265 1547 OFFCURVE",
+"157 1547 CURVE SMOOTH"
 );
 }
 );
@@ -55837,26 +55172,26 @@ paths = (
 {
 closed = 1;
 nodes = (
-"52 1507 OFFCURVE",
-"-127 1436 OFFCURVE",
-"-159 1134 CURVE",
-"-26 1134 LINE",
-"-2 1252 OFFCURVE",
-"76 1309 OFFCURVE",
-"190 1309 CURVE SMOOTH",
-"322 1309 OFFCURVE",
-"385 1261 OFFCURVE",
-"385 1161 CURVE SMOOTH",
-"385 1153 OFFCURVE",
-"385 1144 OFFCURVE",
-"384 1134 CURVE",
-"517 1134 LINE",
-"524 1172 OFFCURVE",
-"528 1207 OFFCURVE",
-"528 1238 CURVE SMOOTH",
-"528 1433 OFFCURVE",
-"367 1507 OFFCURVE",
-"220 1507 CURVE SMOOTH {name = hr00;}"
+"65 1553 OFFCURVE",
+"-114 1482 OFFCURVE",
+"-146 1180 CURVE",
+"-13 1180 LINE",
+"11 1298 OFFCURVE",
+"89 1355 OFFCURVE",
+"203 1355 CURVE SMOOTH",
+"335 1355 OFFCURVE",
+"398 1307 OFFCURVE",
+"398 1207 CURVE SMOOTH",
+"398 1199 OFFCURVE",
+"398 1190 OFFCURVE",
+"397 1180 CURVE",
+"530 1180 LINE",
+"537 1218 OFFCURVE",
+"541 1253 OFFCURVE",
+"541 1284 CURVE SMOOTH",
+"541 1479 OFFCURVE",
+"380 1553 OFFCURVE",
+"233 1553 CURVE SMOOTH {name = hr00;}"
 );
 }
 );
@@ -56063,18 +55398,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"16 -431 OFFCURVE",
-"79 -356 OFFCURVE",
-"79 -265 CURVE SMOOTH",
-"79 -200 OFFCURVE",
-"41 -153 OFFCURVE",
-"-23 -153 CURVE SMOOTH",
-"-105 -153 OFFCURVE",
-"-167 -228 OFFCURVE",
-"-167 -318 CURVE SMOOTH",
-"-167 -383 OFFCURVE",
-"-130 -431 OFFCURVE",
-"-65 -431 CURVE SMOOTH"
+"6 -471 OFFCURVE",
+"69 -396 OFFCURVE",
+"69 -305 CURVE SMOOTH",
+"69 -240 OFFCURVE",
+"31 -193 OFFCURVE",
+"-33 -193 CURVE SMOOTH",
+"-115 -193 OFFCURVE",
+"-177 -268 OFFCURVE",
+"-177 -358 CURVE SMOOTH",
+"-177 -423 OFFCURVE",
+"-140 -471 OFFCURVE",
+"-75 -471 CURVE SMOOTH"
 );
 }
 );
@@ -56096,18 +55431,18 @@ paths = (
 {
 closed = 1;
 nodes = (
-"40 -483 OFFCURVE",
-"142 -383 OFFCURVE",
-"142 -271 CURVE SMOOTH",
-"142 -179 OFFCURVE",
-"73 -116 OFFCURVE",
-"-21 -116 CURVE SMOOTH",
-"-138 -116 OFFCURVE",
-"-238 -215 OFFCURVE",
-"-238 -331 CURVE SMOOTH",
-"-238 -422 OFFCURVE",
-"-170 -483 OFFCURVE",
-"-76 -483 CURVE SMOOTH"
+"28 -563 OFFCURVE",
+"130 -463 OFFCURVE",
+"130 -351 CURVE SMOOTH",
+"130 -259 OFFCURVE",
+"61 -196 OFFCURVE",
+"-33 -196 CURVE SMOOTH",
+"-150 -196 OFFCURVE",
+"-250 -295 OFFCURVE",
+"-250 -411 CURVE SMOOTH",
+"-250 -502 OFFCURVE",
+"-182 -563 OFFCURVE",
+"-88 -563 CURVE SMOOTH"
 );
 }
 );
@@ -56411,33 +55746,33 @@ paths = (
 {
 closed = 1;
 nodes = (
-"42 -476 OFFCURVE",
-"171 -388 OFFCURVE",
-"171 -269 CURVE SMOOTH",
-"171 -190 OFFCURVE",
-"94 -141 OFFCURVE",
-"-23 -129 CURVE {name = hr03;}",
-"48 18 LINE",
-"-69 18 LINE {name = hr01;}",
-"-145 -191 LINE",
-"-71 -191 OFFCURVE",
-"-5 -219 OFFCURVE",
-"5 -272 CURVE SMOOTH {name = hr02;}",
-"16 -331 OFFCURVE",
-"-48 -363 OFFCURVE",
-"-141 -363 CURVE SMOOTH",
-"-172 -363 OFFCURVE",
-"-206 -358 OFFCURVE",
-"-253 -347 CURVE SMOOTH",
-"-279 -341 OFFCURVE",
-"-316 -403 OFFCURVE",
-"-316 -426 CURVE SMOOTH",
-"-316 -436 OFFCURVE",
-"-311 -442 OFFCURVE",
-"-300 -446 CURVE SMOOTH",
-"-265 -459 OFFCURVE",
-"-221 -476 OFFCURVE",
-"-112 -476 CURVE SMOOTH"
+"69 -476 OFFCURVE",
+"198 -388 OFFCURVE",
+"198 -269 CURVE SMOOTH",
+"198 -190 OFFCURVE",
+"131 -141 OFFCURVE",
+"14 -129 CURVE {name = hr03;}",
+"75 18 LINE",
+"-42 18 LINE {name = hr01;}",
+"-108 -191 LINE",
+"-34 -191 OFFCURVE",
+"32 -219 OFFCURVE",
+"32 -272 CURVE SMOOTH {name = hr02;}",
+"32 -332 OFFCURVE",
+"-21 -363 OFFCURVE",
+"-114 -363 CURVE SMOOTH",
+"-153 -363 OFFCURVE",
+"-187 -358 OFFCURVE",
+"-234 -347 CURVE SMOOTH",
+"-260 -340 OFFCURVE",
+"-304 -403 OFFCURVE",
+"-304 -426 CURVE SMOOTH",
+"-304 -436 OFFCURVE",
+"-299 -442 OFFCURVE",
+"-288 -446 CURVE SMOOTH",
+"-253 -459 OFFCURVE",
+"-194 -476 OFFCURVE",
+"-85 -476 CURVE SMOOTH"
 );
 }
 );
@@ -56447,7 +55782,7 @@ width = 0;
 anchors = (
 {
 name = _bottom;
-position = "{21, 0}";
+position = "{-3, 0}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -56455,33 +55790,33 @@ paths = (
 {
 closed = 1;
 nodes = (
-"70 -513 OFFCURVE",
-"220 -417 OFFCURVE",
-"220 -281 CURVE SMOOTH",
-"220 -205 OFFCURVE",
-"151 -111 OFFCURVE",
-"5 -111 CURVE {name = hr03;}",
-"65 18 LINE",
+"61 -492 OFFCURVE",
+"211 -380 OFFCURVE",
+"211 -244 CURVE SMOOTH",
+"211 -168 OFFCURVE",
+"161 -123 OFFCURVE",
+"31 -111 CURVE {name = hr03;}",
+"94 18 LINE",
 "-63 18 LINE {name = hr01;}",
 "-145 -191 LINE",
 "-73 -191 OFFCURVE",
-"-5 -221 OFFCURVE",
-"-5 -274 CURVE SMOOTH {name = hr02;}",
-"-5 -327 OFFCURVE",
+"-5 -204 OFFCURVE",
+"-5 -257 CURVE SMOOTH {name = hr02;}",
+"-5 -310 OFFCURVE",
 "-53 -359 OFFCURVE",
 "-126 -359 CURVE SMOOTH",
 "-157 -359 OFFCURVE",
 "-200 -354 OFFCURVE",
 "-246 -341 CURVE SMOOTH",
 "-271 -334 OFFCURVE",
-"-321 -387 OFFCURVE",
-"-321 -427 CURVE SMOOTH",
-"-321 -444 OFFCURVE",
-"-309 -449 OFFCURVE",
-"-301 -455 CURVE SMOOTH",
-"-263 -483 OFFCURVE",
-"-177 -513 OFFCURVE",
-"-89 -513 CURVE SMOOTH"
+"-307 -407 OFFCURVE",
+"-307 -434 CURVE SMOOTH",
+"-307 -446 OFFCURVE",
+"-302 -453 OFFCURVE",
+"-291 -457 CURVE SMOOTH",
+"-255 -470 OFFCURVE",
+"-207 -492 OFFCURVE",
+"-98 -492 CURVE SMOOTH"
 );
 }
 );
@@ -56717,10 +56052,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"242 -357 LINE",
-"263 -216 LINE",
-"-325 -216 LINE",
-"-346 -357 LINE"
+"245 -317 LINE",
+"266 -176 LINE",
+"-322 -176 LINE",
+"-343 -317 LINE"
 );
 }
 );
@@ -56738,10 +56073,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"239 -358 LINE",
-"262 -207 LINE",
-"-325 -207 LINE",
-"-348 -358 LINE {name = hr00;}"
+"242 -328 LINE",
+"265 -177 LINE",
+"-322 -177 LINE",
+"-345 -328 LINE {name = hr00;}"
 );
 }
 );
@@ -56779,11 +56114,7 @@ unicode = 0335;
 },
 {
 glyphname = dieresis;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-29 18:04:47 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -56791,6 +56122,12 @@ paths = (
 {
 closed = 1;
 nodes = (
+"299 1373 OFFCURVE",
+"298 1362 OFFCURVE",
+"298 1351 CURVE SMOOTH",
+"298 1291 OFFCURVE",
+"329 1250 OFFCURVE",
+"392 1250 CURVE SMOOTH",
 "465 1250 OFFCURVE",
 "511 1306 OFFCURVE",
 "523 1384 CURVE SMOOTH",
@@ -56802,18 +56139,18 @@ nodes = (
 "432 1518 CURVE SMOOTH",
 "358 1518 OFFCURVE",
 "313 1462 OFFCURVE",
-"301 1384 CURVE SMOOTH",
-"299 1373 OFFCURVE",
-"298 1362 OFFCURVE",
-"298 1351 CURVE SMOOTH",
-"298 1291 OFFCURVE",
-"329 1250 OFFCURVE",
-"392 1250 CURVE SMOOTH"
+"301 1384 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
+"724 1373 OFFCURVE",
+"723 1362 OFFCURVE",
+"723 1351 CURVE SMOOTH",
+"723 1291 OFFCURVE",
+"754 1250 OFFCURVE",
+"817 1250 CURVE SMOOTH",
 "890 1250 OFFCURVE",
 "936 1306 OFFCURVE",
 "948 1384 CURVE SMOOTH",
@@ -56825,13 +56162,7 @@ nodes = (
 "857 1518 CURVE SMOOTH",
 "783 1518 OFFCURVE",
 "738 1462 OFFCURVE",
-"726 1384 CURVE SMOOTH",
-"724 1373 OFFCURVE",
-"723 1362 OFFCURVE",
-"723 1351 CURVE SMOOTH",
-"723 1291 OFFCURVE",
-"754 1250 OFFCURVE",
-"817 1250 CURVE SMOOTH"
+"726 1384 CURVE SMOOTH"
 );
 }
 );
@@ -56840,29 +56171,6 @@ width = 1024;
 {
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
 paths = (
-{
-closed = 1;
-nodes = (
-"385 1180 OFFCURVE",
-"456 1255 OFFCURVE",
-"469 1345 CURVE SMOOTH",
-"471 1355 OFFCURVE",
-"471 1365 OFFCURVE",
-"471 1375 CURVE SMOOTH",
-"471 1452 OFFCURVE",
-"424 1510 OFFCURVE",
-"342 1510 CURVE SMOOTH",
-"249 1510 OFFCURVE",
-"180 1436 OFFCURVE",
-"166 1345 CURVE SMOOTH",
-"165 1335 OFFCURVE",
-"164 1325 OFFCURVE",
-"164 1316 CURVE SMOOTH",
-"164 1239 OFFCURVE",
-"210 1180 OFFCURVE",
-"293 1180 CURVE SMOOTH"
-);
-},
 {
 closed = 1;
 nodes = (
@@ -56884,6 +56192,29 @@ nodes = (
 "641 1239 OFFCURVE",
 "687 1180 OFFCURVE",
 "770 1180 CURVE SMOOTH {name = hr00;}"
+);
+},
+{
+closed = 1;
+nodes = (
+"385 1180 OFFCURVE",
+"456 1255 OFFCURVE",
+"469 1345 CURVE SMOOTH",
+"471 1355 OFFCURVE",
+"471 1365 OFFCURVE",
+"471 1375 CURVE SMOOTH",
+"471 1452 OFFCURVE",
+"424 1510 OFFCURVE",
+"342 1510 CURVE SMOOTH",
+"249 1510 OFFCURVE",
+"180 1436 OFFCURVE",
+"166 1345 CURVE SMOOTH",
+"165 1335 OFFCURVE",
+"164 1325 OFFCURVE",
+"164 1316 CURVE SMOOTH",
+"164 1239 OFFCURVE",
+"210 1180 OFFCURVE",
+"293 1180 CURVE SMOOTH"
 );
 }
 );
@@ -57071,11 +56402,7 @@ unicode = 00B4;
 },
 {
 glyphname = hungarumlaut;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-29 18:03:46 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -57137,30 +56464,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"408 1293 OFFCURVE",
-"547 1392 OFFCURVE",
-"578 1427 CURVE SMOOTH",
-"599 1449 OFFCURVE",
-"612 1479 OFFCURVE",
-"612 1512 CURVE SMOOTH",
-"612 1536 OFFCURVE",
-"603 1561 OFFCURVE",
-"580 1581 CURVE SMOOTH",
-"560 1599 OFFCURVE",
-"537 1606 OFFCURVE",
-"516 1606 CURVE SMOOTH",
-"482 1606 OFFCURVE",
-"449 1588 OFFCURVE",
-"427 1564 CURVE SMOOTH",
-"396 1529 OFFCURVE",
-"313 1364 OFFCURVE",
-"140 1149 CURVE",
-"214 1081 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
 "842 1293 OFFCURVE",
 "981 1392 OFFCURVE",
 "1012 1427 CURVE",
@@ -57180,6 +56483,30 @@ nodes = (
 "747 1364 OFFCURVE",
 "574 1149 CURVE",
 "648 1081 LINE {name = hr00;}"
+);
+},
+{
+closed = 1;
+nodes = (
+"408 1293 OFFCURVE",
+"547 1392 OFFCURVE",
+"578 1427 CURVE SMOOTH",
+"599 1449 OFFCURVE",
+"612 1479 OFFCURVE",
+"612 1512 CURVE SMOOTH",
+"612 1536 OFFCURVE",
+"603 1561 OFFCURVE",
+"580 1581 CURVE SMOOTH",
+"560 1599 OFFCURVE",
+"537 1606 OFFCURVE",
+"516 1606 CURVE SMOOTH",
+"482 1606 OFFCURVE",
+"449 1588 OFFCURVE",
+"427 1564 CURVE SMOOTH",
+"396 1529 OFFCURVE",
+"313 1364 OFFCURVE",
+"140 1149 CURVE",
+"214 1081 LINE"
 );
 }
 );
@@ -58602,11 +57929,7 @@ rightKerningGroup = ring.cap;
 },
 {
 glyphname = tildecomb.case;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 anchors = (
@@ -58616,7 +57939,7 @@ position = "{149, 994}";
 },
 {
 name = top;
-position = "{197, 1312}";
+position = "{197, 1286}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -58624,30 +57947,30 @@ paths = (
 {
 closed = 1;
 nodes = (
-"414 1113 OFFCURVE",
-"506 1235 OFFCURVE",
-"506 1288 CURVE SMOOTH",
-"506 1317 OFFCURVE",
-"479 1346 OFFCURVE",
-"459 1346 CURVE SMOOTH",
-"439 1346 OFFCURVE",
-"405 1256 OFFCURVE",
-"345 1256 CURVE SMOOTH",
-"246 1256 OFFCURVE",
-"174 1379 OFFCURVE",
-"68 1379 CURVE SMOOTH {name = hr03;}",
-"-45 1379 OFFCURVE",
-"-135 1257 OFFCURVE",
-"-135 1204 CURVE SMOOTH",
-"-135 1175 OFFCURVE",
-"-111 1146 OFFCURVE",
-"-91 1146 CURVE SMOOTH",
-"-69 1146 OFFCURVE",
-"-37 1236 OFFCURVE",
-"23 1236 CURVE SMOOTH",
-"119 1236 OFFCURVE",
-"186 1113 OFFCURVE",
-"300 1113 CURVE SMOOTH {name = hr03;}"
+"423 1108 OFFCURVE",
+"519 1230 OFFCURVE",
+"519 1283 CURVE SMOOTH",
+"519 1312 OFFCURVE",
+"491 1341 OFFCURVE",
+"470 1341 CURVE SMOOTH",
+"449 1341 OFFCURVE",
+"414 1251 OFFCURVE",
+"352 1251 CURVE SMOOTH",
+"249 1251 OFFCURVE",
+"174 1374 OFFCURVE",
+"63 1374 CURVE SMOOTH {name = hr03;}",
+"-55 1374 OFFCURVE",
+"-148 1252 OFFCURVE",
+"-148 1199 CURVE SMOOTH",
+"-148 1170 OFFCURVE",
+"-123 1141 OFFCURVE",
+"-102 1141 CURVE SMOOTH",
+"-80 1141 OFFCURVE",
+"-46 1231 OFFCURVE",
+"16 1231 CURVE SMOOTH",
+"116 1231 OFFCURVE",
+"186 1108 OFFCURVE",
+"305 1108 CURVE SMOOTH {name = hr03;}"
 );
 }
 );
@@ -58661,7 +57984,7 @@ position = "{141, 939}";
 },
 {
 name = top;
-position = "{200, 1330}";
+position = "{201, 1301}";
 }
 );
 background = {
@@ -58702,30 +58025,30 @@ paths = (
 {
 closed = 1;
 nodes = (
-"459 1073 OFFCURVE",
-"561 1206 OFFCURVE",
-"561 1283 CURVE SMOOTH",
-"561 1317 OFFCURVE",
-"532 1355 OFFCURVE",
-"508 1355 CURVE SMOOTH",
-"461 1355 OFFCURVE",
-"458 1261 OFFCURVE",
-"354 1261 CURVE SMOOTH",
-"244 1261 OFFCURVE",
-"163 1400 OFFCURVE",
-"41 1400 CURVE SMOOTH {name = hr03;}",
-"-96 1400 OFFCURVE",
-"-193 1267 OFFCURVE",
-"-193 1190 CURVE SMOOTH",
-"-193 1156 OFFCURVE",
-"-164 1118 OFFCURVE",
-"-140 1118 CURVE SMOOTH",
-"-93 1118 OFFCURVE",
-"-92 1212 OFFCURVE",
-"8 1212 CURVE SMOOTH",
-"111 1212 OFFCURVE",
-"206 1075 OFFCURVE",
-"330 1074 CURVE SMOOTH {name = hr02;}"
+"473 1093 OFFCURVE",
+"580 1226 OFFCURVE",
+"580 1303 CURVE SMOOTH",
+"580 1337 OFFCURVE",
+"549 1375 OFFCURVE",
+"524 1375 CURVE SMOOTH",
+"475 1375 OFFCURVE",
+"472 1281 OFFCURVE",
+"364 1281 CURVE SMOOTH",
+"249 1281 OFFCURVE",
+"165 1420 OFFCURVE",
+"38 1420 CURVE SMOOTH {name = hr03;}",
+"-105 1420 OFFCURVE",
+"-206 1287 OFFCURVE",
+"-206 1210 CURVE SMOOTH",
+"-206 1176 OFFCURVE",
+"-175 1138 OFFCURVE",
+"-150 1138 CURVE SMOOTH",
+"-101 1138 OFFCURVE",
+"-100 1232 OFFCURVE",
+"4 1232 CURVE SMOOTH",
+"111 1232 OFFCURVE",
+"210 1095 OFFCURVE",
+"339 1094 CURVE SMOOTH {name = hr02;}"
 );
 }
 );
@@ -59303,20 +58626,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"20 -404 OFFCURVE",
-"83 -329 OFFCURVE",
-"83 -238 CURVE SMOOTH",
-"83 -173 OFFCURVE",
-"45 -126 OFFCURVE",
-"-19 -126 CURVE SMOOTH",
-"-101 -126 OFFCURVE",
-"-163 -201 OFFCURVE",
-"-163 -291 CURVE SMOOTH",
-"-163 -356 OFFCURVE",
-"-126 -404 OFFCURVE",
-"-61 -404 CURVE SMOOTH"
-=======
 "18 -384 OFFCURVE",
 "81 -309 OFFCURVE",
 "81 -218 CURVE SMOOTH",
@@ -59329,7 +58638,6 @@ nodes = (
 "-165 -336 OFFCURVE",
 "-128 -384 OFFCURVE",
 "-63 -384 CURVE SMOOTH"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -59351,20 +58659,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"44 -473 OFFCURVE",
-"145 -377 OFFCURVE",
-"145 -261 CURVE SMOOTH",
-"145 -169 OFFCURVE",
-"76 -106 OFFCURVE",
-"-18 -106 CURVE SMOOTH",
-"-134 -106 OFFCURVE",
-"-235 -199 OFFCURVE",
-"-235 -321 CURVE SMOOTH",
-"-235 -412 OFFCURVE",
-"-167 -473 OFFCURVE",
-"-73 -473 CURVE SMOOTH"
-=======
 "48 -462 OFFCURVE",
 "149 -366 OFFCURVE",
 "149 -250 CURVE SMOOTH",
@@ -59377,7 +58671,6 @@ nodes = (
 "-231 -401 OFFCURVE",
 "-163 -462 OFFCURVE",
 "-69 -462 CURVE SMOOTH"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -59980,11 +59273,7 @@ width = 0;
 },
 {
 glyphname = brevecomb_acutecomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 lastChange = "2019-10-20 02:01:53 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 anchors = (
@@ -60002,27 +59291,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"293 1592 OFFCURVE",
-"451 1698 OFFCURVE",
-"483 1723 CURVE SMOOTH",
-"506 1741 OFFCURVE",
-"525 1772 OFFCURVE",
-"525 1805 CURVE SMOOTH",
-"525 1820 OFFCURVE",
-"520 1835 OFFCURVE",
-"509 1849 CURVE SMOOTH",
-"493 1869 OFFCURVE",
-"473 1880 OFFCURVE",
-"453 1880 CURVE SMOOTH",
-"425 1880 OFFCURVE",
-"395 1867 OFFCURVE",
-"375 1849 CURVE SMOOTH",
-"346 1823 OFFCURVE",
-"202 1643 OFFCURVE",
-"152 1579 CURVE",
-"202 1534 LINE"
-=======
 "112 1495 LINE",
 "261 1619 OFFCURVE",
 "381 1689 OFFCURVE",
@@ -60039,34 +59307,11 @@ nodes = (
 "259 1815 OFFCURVE",
 "205 1698 OFFCURVE",
 "63 1542 CURVE"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 },
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"301 1184 OFFCURVE",
-"497 1244 OFFCURVE",
-"520 1502 CURVE",
-"414 1502 LINE",
-"394 1408 OFFCURVE",
-"324 1326 OFFCURVE",
-"212 1326 CURVE SMOOTH",
-"69 1326 OFFCURVE",
-"19 1398 OFFCURVE",
-"19 1484 CURVE SMOOTH",
-"19 1490 OFFCURVE",
-"19 1496 OFFCURVE",
-"20 1502 CURVE",
-"-86 1502 LINE",
-"-89 1480 OFFCURVE",
-"-93 1460 OFFCURVE",
-"-93 1441 CURVE SMOOTH",
-"-93 1225 OFFCURVE",
-"88 1184 OFFCURVE",
-"190 1184 CURVE SMOOTH"
-=======
 "214 1184 OFFCURVE",
 "417 1233 OFFCURVE",
 "463 1502 CURVE",
@@ -60087,7 +59332,6 @@ nodes = (
 "-167 1225 OFFCURVE",
 "1 1184 OFFCURVE",
 "103 1184 CURVE SMOOTH"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -60101,11 +59345,7 @@ position = "{72, 994}";
 },
 {
 name = top;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-position = "{234, 1553}";
-=======
 position = "{155, 1553}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -60113,27 +59353,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"309 1597 OFFCURVE",
-"480 1712 OFFCURVE",
-"515 1739 CURVE SMOOTH",
-"540 1758 OFFCURVE",
-"560 1792 OFFCURVE",
-"560 1827 CURVE SMOOTH",
-"560 1844 OFFCURVE",
-"555 1860 OFFCURVE",
-"543 1875 CURVE SMOOTH",
-"526 1897 OFFCURVE",
-"504 1909 OFFCURVE",
-"482 1909 CURVE SMOOTH",
-"452 1909 OFFCURVE",
-"420 1894 OFFCURVE",
-"398 1875 CURVE SMOOTH",
-"366 1848 OFFCURVE",
-"211 1652 OFFCURVE",
-"157 1583 CURVE",
-"211 1534 LINE"
-=======
 "116 1495 LINE",
 "273 1608 OFFCURVE",
 "384 1689 OFFCURVE",
@@ -60150,34 +59369,11 @@ nodes = (
 "230 1804 OFFCURVE",
 "192 1713 OFFCURVE",
 "67 1546 CURVE {name = hr00;}"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 },
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"335 1184 OFFCURVE",
-"559 1243 OFFCURVE",
-"559 1542 CURVE",
-"430 1542 LINE",
-"405 1420 OFFCURVE",
-"337 1371 OFFCURVE",
-"201 1371 CURVE SMOOTH",
-"48 1371 OFFCURVE",
-"22 1438 OFFCURVE",
-"22 1524 CURVE SMOOTH",
-"22 1530 OFFCURVE",
-"22 1536 OFFCURVE",
-"23 1542 CURVE",
-"-97 1542 LINE",
-"-103 1525 OFFCURVE",
-"-121 1492 OFFCURVE",
-"-121 1437 CURVE SMOOTH",
-"-121 1259 OFFCURVE",
-"23 1184 OFFCURVE",
-"177 1184 CURVE SMOOTH"
-=======
 "257 1180 OFFCURVE",
 "453 1247 OFFCURVE",
 "479 1501 CURVE",
@@ -60198,7 +59394,6 @@ nodes = (
 "-194 1232 OFFCURVE",
 "-40 1180 OFFCURVE",
 "99 1180 CURVE SMOOTH {name = hr00;}"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -60210,11 +59405,7 @@ rightKerningGroup = brevecomb;
 },
 {
 glyphname = brevecomb_gravecomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 lastChange = "2019-10-20 02:02:06 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 anchors = (
@@ -60232,53 +59423,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"-20 1574 LINE",
-"-74 1642 OFFCURVE",
-"-200 1831 OFFCURVE",
-"-228 1859 CURVE SMOOTH",
-"-247 1878 OFFCURVE",
-"-273 1894 OFFCURVE",
-"-300 1897 CURVE SMOOTH",
-"-320 1899 OFFCURVE",
-"-342 1895 OFFCURVE",
-"-359 1875 CURVE SMOOTH",
-"-370 1862 OFFCURVE",
-"-378 1848 OFFCURVE",
-"-380 1833 CURVE SMOOTH",
-"-384 1800 OFFCURVE",
-"-367 1768 OFFCURVE",
-"-346 1747 CURVE SMOOTH",
-"-317 1718 OFFCURVE",
-"-149 1600 OFFCURVE",
-"-64 1533 CURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-16 1184 OFFCURVE",
-"187 1233 OFFCURVE",
-"233 1502 CURVE",
-"127 1502 LINE",
-"107 1408 OFFCURVE",
-"30 1326 OFFCURVE",
-"-106 1326 CURVE SMOOTH",
-"-233 1326 OFFCURVE",
-"-288 1398 OFFCURVE",
-"-288 1484 CURVE SMOOTH",
-"-288 1490 OFFCURVE",
-"-288 1496 OFFCURVE",
-"-287 1502 CURVE",
-"-393 1502 LINE",
-"-396 1480 OFFCURVE",
-"-397 1460 OFFCURVE",
-"-397 1441 CURVE SMOOTH",
-"-397 1225 OFFCURVE",
-"-229 1184 OFFCURVE",
-"-127 1184 CURVE SMOOTH"
-);
-=======
 "214 1184 OFFCURVE",
 "417 1233 OFFCURVE",
 "463 1502 CURVE",
@@ -60321,7 +59465,6 @@ nodes = (
 "26 1661 OFFCURVE",
 "155 1494 CURVE"
 );
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 width = 0;
@@ -60342,27 +59485,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"-11 1583 LINE",
-"-121 1727 OFFCURVE",
-"-206 1862 OFFCURVE",
-"-232 1888 CURVE SMOOTH",
-"-249 1905 OFFCURVE",
-"-276 1923 OFFCURVE",
-"-304 1925 CURVE SMOOTH",
-"-327 1927 OFFCURVE",
-"-357 1915 OFFCURVE",
-"-372 1899 CURVE SMOOTH",
-"-385 1885 OFFCURVE",
-"-392 1868 OFFCURVE",
-"-394 1851 CURVE SMOOTH",
-"-398 1818 OFFCURVE",
-"-379 1790 OFFCURVE",
-"-363 1772 CURVE SMOOTH",
-"-338 1743 OFFCURVE",
-"-197 1656 OFFCURVE",
-"-53 1540 CURVE {name = hr00;}"
-=======
 "257 1180 OFFCURVE",
 "453 1247 OFFCURVE",
 "479 1501 CURVE",
@@ -60383,34 +59505,11 @@ nodes = (
 "-194 1232 OFFCURVE",
 "-40 1180 OFFCURVE",
 "99 1180 CURVE SMOOTH {name = hr00;}"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 },
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"31 1184 OFFCURVE",
-"255 1243 OFFCURVE",
-"255 1542 CURVE",
-"126 1542 LINE",
-"101 1420 OFFCURVE",
-"33 1371 OFFCURVE",
-"-103 1371 CURVE SMOOTH",
-"-256 1371 OFFCURVE",
-"-282 1438 OFFCURVE",
-"-282 1524 CURVE SMOOTH",
-"-282 1530 OFFCURVE",
-"-282 1536 OFFCURVE",
-"-281 1542 CURVE",
-"-401 1542 LINE",
-"-407 1525 OFFCURVE",
-"-425 1492 OFFCURVE",
-"-425 1437 CURVE SMOOTH",
-"-425 1259 OFFCURVE",
-"-281 1184 OFFCURVE",
-"-127 1184 CURVE SMOOTH"
-=======
 "210 1530 LINE",
 "141 1710 OFFCURVE",
 "91 1839 OFFCURVE",
@@ -60427,7 +59526,6 @@ nodes = (
 "-59 1718 OFFCURVE",
 "19 1659 OFFCURVE",
 "148 1495 CURVE {name = hr00;}"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -60439,11 +59537,7 @@ rightKerningGroup = brevecomb;
 },
 {
 glyphname = brevecomb_hookabovecomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 lastChange = "2019-10-20 02:01:28 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 anchors = (
@@ -60453,11 +59547,7 @@ position = "{74, 994}";
 },
 {
 name = top;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-position = "{-71, 1549}";
-=======
 position = "{158, 1553}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -60465,42 +59555,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"-16 1547 LINE",
-"-17 1554 OFFCURVE",
-"-18 1561 OFFCURVE",
-"-18 1568 CURVE SMOOTH",
-"-18 1589 OFFCURVE",
-"-5 1615 OFFCURVE",
-"16 1629 CURVE SMOOTH",
-"94 1681 OFFCURVE",
-"154 1691 OFFCURVE",
-"154 1793 CURVE SMOOTH",
-"154 1867 OFFCURVE",
-"80 1915 OFFCURVE",
-"-9 1915 CURVE SMOOTH",
-"-85 1915 OFFCURVE",
-"-135 1895 OFFCURVE",
-"-171 1876 CURVE SMOOTH",
-"-198 1862 OFFCURVE",
-"-216 1828 OFFCURVE",
-"-216 1797 CURVE SMOOTH",
-"-216 1781 OFFCURVE",
-"-209 1764 OFFCURVE",
-"-194 1764 CURVE SMOOTH",
-"-184 1764 OFFCURVE",
-"-143 1798 OFFCURVE",
-"-88 1800 CURVE SMOOTH",
-"-6 1803 OFFCURVE",
-"15 1779 OFFCURVE",
-"-1 1735 CURVE SMOOTH",
-"-13 1702 OFFCURVE",
-"-117 1682 OFFCURVE",
-"-117 1597 CURVE SMOOTH",
-"-117 1578 OFFCURVE",
-"-112 1564 OFFCURVE",
-"-104 1547 CURVE"
-=======
 "205 1547 LINE",
 "204 1556 OFFCURVE",
 "203 1565 OFFCURVE",
@@ -60535,34 +59589,11 @@ nodes = (
 "98 1586 OFFCURVE",
 "106 1568 OFFCURVE",
 "111 1547 CURVE"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 },
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"-14 1184 OFFCURVE",
-"189 1233 OFFCURVE",
-"235 1502 CURVE",
-"129 1502 LINE",
-"109 1408 OFFCURVE",
-"32 1326 OFFCURVE",
-"-104 1326 CURVE SMOOTH",
-"-231 1326 OFFCURVE",
-"-286 1398 OFFCURVE",
-"-286 1484 CURVE SMOOTH",
-"-286 1490 OFFCURVE",
-"-286 1496 OFFCURVE",
-"-285 1502 CURVE",
-"-391 1502 LINE",
-"-394 1480 OFFCURVE",
-"-395 1460 OFFCURVE",
-"-395 1441 CURVE SMOOTH",
-"-395 1225 OFFCURVE",
-"-227 1184 OFFCURVE",
-"-125 1184 CURVE SMOOTH"
-=======
 "214 1184 OFFCURVE",
 "417 1233 OFFCURVE",
 "463 1502 CURVE",
@@ -60583,7 +59614,6 @@ nodes = (
 "-167 1225 OFFCURVE",
 "1 1184 OFFCURVE",
 "103 1184 CURVE SMOOTH"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -60597,11 +59627,7 @@ position = "{72, 994}";
 },
 {
 name = top;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-position = "{-70, 1549}";
-=======
 position = "{155, 1553}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -60609,42 +59635,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"-32 1549 LINE",
-"-33 1554 OFFCURVE",
-"-32 1560 OFFCURVE",
-"-32 1563 CURVE SMOOTH",
-"-32 1610 OFFCURVE",
-"-4 1625 OFFCURVE",
-"45 1649 CURVE SMOOTH",
-"116 1684 OFFCURVE",
-"165 1718 OFFCURVE",
-"165 1796 CURVE SMOOTH",
-"165 1857 OFFCURVE",
-"103 1919 OFFCURVE",
-"-22 1919 CURVE SMOOTH",
-"-93 1919 OFFCURVE",
-"-153 1907 OFFCURVE",
-"-198 1882 CURVE SMOOTH",
-"-228 1865 OFFCURVE",
-"-249 1851 OFFCURVE",
-"-249 1796 CURVE SMOOTH",
-"-249 1775 OFFCURVE",
-"-243 1751 OFFCURVE",
-"-228 1751 CURVE SMOOTH",
-"-198 1751 OFFCURVE",
-"-178 1791 OFFCURVE",
-"-94 1791 CURVE SMOOTH",
-"-52 1791 OFFCURVE",
-"-29 1785 OFFCURVE",
-"-32 1748 CURVE SMOOTH",
-"-36 1694 OFFCURVE",
-"-133 1699 OFFCURVE",
-"-143 1596 CURVE SMOOTH",
-"-145 1576 OFFCURVE",
-"-136 1557 OFFCURVE",
-"-132 1549 CURVE"
-=======
 "214 1550 LINE",
 "213 1557 OFFCURVE",
 "213 1564 OFFCURVE",
@@ -60679,34 +59669,11 @@ nodes = (
 "94 1586 OFFCURVE",
 "105 1561 OFFCURVE",
 "110 1550 CURVE"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 },
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"19 1184 OFFCURVE",
-"243 1243 OFFCURVE",
-"243 1542 CURVE",
-"114 1542 LINE",
-"89 1420 OFFCURVE",
-"21 1371 OFFCURVE",
-"-115 1371 CURVE SMOOTH",
-"-268 1371 OFFCURVE",
-"-294 1438 OFFCURVE",
-"-294 1524 CURVE SMOOTH",
-"-294 1530 OFFCURVE",
-"-294 1536 OFFCURVE",
-"-293 1542 CURVE",
-"-413 1542 LINE",
-"-419 1525 OFFCURVE",
-"-437 1492 OFFCURVE",
-"-437 1437 CURVE SMOOTH",
-"-437 1259 OFFCURVE",
-"-293 1184 OFFCURVE",
-"-139 1184 CURVE SMOOTH"
-=======
 "257 1180 OFFCURVE",
 "453 1247 OFFCURVE",
 "479 1501 CURVE",
@@ -60727,7 +59694,6 @@ nodes = (
 "-194 1232 OFFCURVE",
 "-40 1180 OFFCURVE",
 "99 1180 CURVE SMOOTH {name = hr00;}"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -60739,11 +59705,7 @@ rightKerningGroup = brevecomb;
 },
 {
 glyphname = brevecomb_tildecomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 lastChange = "2019-10-20 02:01:37 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 anchors = (
@@ -60761,32 +59723,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"467 1777 OFFCURVE",
-"454 1719 OFFCURVE",
-"392 1719 CURVE SMOOTH",
-"332 1719 OFFCURVE",
-"269 1834 OFFCURVE",
-"131 1834 CURVE SMOOTH",
-"70 1834 OFFCURVE",
-"-2 1770 OFFCURVE",
-"-14 1693 CURVE SMOOTH",
-"-17 1673 OFFCURVE",
-"5 1653 OFFCURVE",
-"21 1653 CURVE SMOOTH",
-"40 1653 OFFCURVE",
-"53 1709 OFFCURVE",
-"107 1709 CURVE SMOOTH",
-"193 1709 OFFCURVE",
-"273 1593 OFFCURVE",
-"372 1593 CURVE SMOOTH",
-"457 1593 OFFCURVE",
-"509 1654 OFFCURVE",
-"521 1737 CURVE SMOOTH",
-"524 1758 OFFCURVE",
-"502 1777 OFFCURVE",
-"486 1777 CURVE SMOOTH"
-=======
 "377 1807 OFFCURVE",
 "365 1749 OFFCURVE",
 "312 1749 CURVE SMOOTH",
@@ -60811,34 +59747,11 @@ nodes = (
 "434 1788 OFFCURVE",
 "412 1807 OFFCURVE",
 "396 1807 CURVE SMOOTH"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 },
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"331 1184 OFFCURVE",
-"495 1245 OFFCURVE",
-"539 1502 CURVE",
-"423 1502 LINE",
-"408 1407 OFFCURVE",
-"323 1326 OFFCURVE",
-"207 1326 CURVE SMOOTH",
-"64 1326 OFFCURVE",
-"18 1398 OFFCURVE",
-"18 1484 CURVE SMOOTH",
-"18 1490 OFFCURVE",
-"18 1496 OFFCURVE",
-"19 1502 CURVE",
-"-87 1502 LINE",
-"-90 1480 OFFCURVE",
-"-91 1459 OFFCURVE",
-"-91 1419 CURVE SMOOTH",
-"-91 1246 OFFCURVE",
-"49 1184 OFFCURVE",
-"193 1184 CURVE SMOOTH"
-=======
 "214 1184 OFFCURVE",
 "417 1233 OFFCURVE",
 "463 1502 CURVE",
@@ -60859,7 +59772,6 @@ nodes = (
 "-167 1225 OFFCURVE",
 "1 1184 OFFCURVE",
 "103 1184 CURVE SMOOTH"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -60881,32 +59793,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"531 1836 OFFCURVE",
-"518 1772 OFFCURVE",
-"457 1772 CURVE SMOOTH",
-"391 1772 OFFCURVE",
-"262 1897 OFFCURVE",
-"140 1897 CURVE SMOOTH",
-"50 1897 OFFCURVE",
-"-32 1817 OFFCURVE",
-"-32 1730 CURVE SMOOTH",
-"-32 1708 OFFCURVE",
-"-5 1679 OFFCURVE",
-"13 1679 CURVE SMOOTH",
-"34 1679 OFFCURVE",
-"38 1741 OFFCURVE",
-"98 1741 CURVE SMOOTH",
-"193 1741 OFFCURVE",
-"311 1613 OFFCURVE",
-"420 1613 CURVE SMOOTH",
-"531 1613 OFFCURVE",
-"587 1695 OFFCURVE",
-"599 1787 CURVE SMOOTH",
-"602 1810 OFFCURVE",
-"570 1836 OFFCURVE",
-"552 1836 CURVE SMOOTH"
-=======
 "399 1803 OFFCURVE",
 "386 1741 OFFCURVE",
 "331 1741 CURVE SMOOTH",
@@ -60931,34 +59817,11 @@ nodes = (
 "460 1782 OFFCURVE",
 "437 1803 OFFCURVE",
 "420 1803 CURVE SMOOTH"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 },
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"351 1184 OFFCURVE",
-"575 1243 OFFCURVE",
-"575 1542 CURVE",
-"446 1542 LINE",
-"421 1420 OFFCURVE",
-"353 1371 OFFCURVE",
-"217 1371 CURVE SMOOTH",
-"64 1371 OFFCURVE",
-"38 1438 OFFCURVE",
-"38 1524 CURVE SMOOTH",
-"38 1530 OFFCURVE",
-"38 1536 OFFCURVE",
-"39 1542 CURVE",
-"-81 1542 LINE",
-"-87 1525 OFFCURVE",
-"-105 1492 OFFCURVE",
-"-105 1437 CURVE SMOOTH",
-"-105 1259 OFFCURVE",
-"39 1184 OFFCURVE",
-"193 1184 CURVE SMOOTH"
-=======
 "257 1180 OFFCURVE",
 "453 1247 OFFCURVE",
 "479 1501 CURVE",
@@ -60979,7 +59842,6 @@ nodes = (
 "-194 1232 OFFCURVE",
 "-40 1180 OFFCURVE",
 "99 1180 CURVE SMOOTH {name = hr00;}"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -60991,131 +59853,7 @@ rightKerningGroup = brevecomb;
 },
 {
 glyphname = circumflexcomb_acutecomb;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-30 21:39:21 +0000";
-layers = (
-{
-anchors = (
-{
-name = _top;
-position = "{150, 994}";
-},
-{
-name = top;
-position = "{233, 1549}";
-}
-);
-layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
-paths = (
-{
-closed = 1;
-nodes = (
-"-50 1140 LINE",
-"201 1317 LINE",
-"399 1140 LINE",
-"512 1140 LINE",
-"316 1429 LINE",
-"292 1462 OFFCURVE",
-"275 1489 OFFCURVE",
-"226 1489 CURVE SMOOTH",
-"178 1489 OFFCURVE",
-"148 1466 OFFCURVE",
-"122 1438 CURVE",
-"-168 1140 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"554 1494 OFFCURVE",
-"734 1596 OFFCURVE",
-"766 1620 CURVE SMOOTH",
-"789 1638 OFFCURVE",
-"808 1669 OFFCURVE",
-"808 1702 CURVE SMOOTH",
-"808 1717 OFFCURVE",
-"803 1732 OFFCURVE",
-"792 1746 CURVE SMOOTH",
-"777 1767 OFFCURVE",
-"756 1774 OFFCURVE",
-"736 1774 CURVE SMOOTH",
-"708 1774 OFFCURVE",
-"680 1761 OFFCURVE",
-"660 1743 CURVE SMOOTH",
-"630 1718 OFFCURVE",
-"483 1545 OFFCURVE",
-"423 1482 CURVE",
-"463 1436 LINE"
-);
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
-position = "{150, 994}";
-},
-{
-name = top;
-position = "{233, 1549}";
-}
-);
-layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
-paths = (
-{
-closed = 1;
-nodes = (
-"-36 1140 LINE",
-"203 1307 LINE",
-"386 1140 LINE",
-"512 1140 LINE",
-"327 1434 LINE SMOOTH",
-"310 1462 OFFCURVE",
-"286 1497 OFFCURVE",
-"225 1497 CURVE SMOOTH",
-"165 1497 OFFCURVE",
-"134 1467 OFFCURVE",
-"111 1442 CURVE SMOOTH",
-"-167 1140 LINE {name = hr00;}"
-);
-},
-{
-closed = 1;
-nodes = (
-"564 1499 OFFCURVE",
-"735 1614 OFFCURVE",
-"770 1641 CURVE SMOOTH",
-"795 1660 OFFCURVE",
-"815 1694 OFFCURVE",
-"815 1729 CURVE SMOOTH",
-"815 1746 OFFCURVE",
-"810 1762 OFFCURVE",
-"798 1777 CURVE SMOOTH",
-"781 1799 OFFCURVE",
-"759 1811 OFFCURVE",
-"737 1811 CURVE SMOOTH",
-"707 1811 OFFCURVE",
-"675 1796 OFFCURVE",
-"653 1777 CURVE SMOOTH",
-"621 1750 OFFCURVE",
-"466 1554 OFFCURVE",
-"412 1485 CURVE",
-"466 1436 LINE {name = hr00;}"
-);
-}
-);
-width = 0;
-}
-);
-},
-{
-glyphname = circumflexcomb_gravecomb;
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 anchors = (
@@ -61133,164 +59871,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"642 1442 LINE",
-"589 1511 OFFCURVE",
-"461 1699 OFFCURVE",
-"434 1727 CURVE SMOOTH",
-"415 1746 OFFCURVE",
-"389 1762 OFFCURVE",
-"362 1765 CURVE SMOOTH",
-"342 1767 OFFCURVE",
-"320 1763 OFFCURVE",
-"303 1743 CURVE SMOOTH",
-"292 1730 OFFCURVE",
-"284 1716 OFFCURVE",
-"282 1701 CURVE SMOOTH",
-"279 1668 OFFCURVE",
-"295 1636 OFFCURVE",
-"316 1615 CURVE SMOOTH",
-"345 1587 OFFCURVE",
-"513 1468 OFFCURVE",
-"598 1401 CURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-50 1140 LINE",
-"201 1317 LINE",
-"399 1140 LINE",
-"512 1140 LINE",
-"316 1429 LINE",
-"292 1462 OFFCURVE",
-"275 1489 OFFCURVE",
-"226 1489 CURVE SMOOTH",
-"178 1489 OFFCURVE",
-"148 1466 OFFCURVE",
-"122 1438 CURVE",
-"-168 1140 LINE"
-);
-}
-);
-width = 0;
-},
-{
-anchors = (
-{
-name = _top;
-position = "{150, 994}";
-},
-{
-name = top;
-position = "{233, 1549}";
-}
-);
-layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
-paths = (
-{
-closed = 1;
-nodes = (
-"663 1434 LINE",
-"553 1578 OFFCURVE",
-"468 1714 OFFCURVE",
-"442 1739 CURVE SMOOTH",
-"425 1756 OFFCURVE",
-"398 1773 OFFCURVE",
-"370 1776 CURVE SMOOTH",
-"347 1778 OFFCURVE",
-"317 1766 OFFCURVE",
-"302 1750 CURVE SMOOTH",
-"289 1736 OFFCURVE",
-"282 1719 OFFCURVE",
-"280 1702 CURVE SMOOTH",
-"276 1669 OFFCURVE",
-"295 1641 OFFCURVE",
-"311 1623 CURVE SMOOTH",
-"337 1595 OFFCURVE",
-"477 1507 OFFCURVE",
-"621 1391 CURVE {name = hr00;}"
-);
-},
-{
-closed = 1;
-nodes = (
-"-36 1140 LINE",
-"203 1307 LINE",
-"386 1140 LINE",
-"512 1140 LINE",
-"327 1434 LINE SMOOTH",
-"310 1462 OFFCURVE",
-"286 1497 OFFCURVE",
-"225 1497 CURVE SMOOTH",
-"165 1497 OFFCURVE",
-"134 1467 OFFCURVE",
-"111 1442 CURVE SMOOTH",
-"-167 1140 LINE {name = hr00;}"
-);
-}
-);
-width = 0;
-}
-);
-leftKerningGroup = circumflexcomb;
-rightKerningGroup = circumflexcomb;
-},
-{
-glyphname = circumflexcomb_hookabovecomb;
-lastChange = "2019-08-30 21:39:21 +0000";
-layers = (
-{
-anchors = (
-{
-name = _top;
-position = "{150, 994}";
-},
-{
-name = top;
-position = "{233, 1551}";
-}
-);
-layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
-paths = (
-{
-closed = 1;
-nodes = (
-"565 1457 LINE",
-"564 1464 OFFCURVE",
-"563 1471 OFFCURVE",
-"563 1478 CURVE SMOOTH",
-"563 1499 OFFCURVE",
-"576 1525 OFFCURVE",
-"597 1539 CURVE SMOOTH",
-"675 1592 OFFCURVE",
-"735 1603 OFFCURVE",
-"735 1703 CURVE SMOOTH",
-"735 1777 OFFCURVE",
-"661 1825 OFFCURVE",
-"572 1825 CURVE SMOOTH",
-"496 1825 OFFCURVE",
-"446 1805 OFFCURVE",
-"410 1786 CURVE SMOOTH",
-"383 1772 OFFCURVE",
-"365 1738 OFFCURVE",
-"365 1707 CURVE SMOOTH",
-"365 1691 OFFCURVE",
-"372 1674 OFFCURVE",
-"387 1674 CURVE SMOOTH",
-"397 1674 OFFCURVE",
-"438 1708 OFFCURVE",
-"493 1710 CURVE SMOOTH",
-"575 1713 OFFCURVE",
-"596 1689 OFFCURVE",
-"580 1645 CURVE SMOOTH",
-"568 1612 OFFCURVE",
-"464 1592 OFFCURVE",
-"464 1507 CURVE SMOOTH",
-"464 1488 OFFCURVE",
-"469 1474 OFFCURVE",
-"477 1457 CURVE"
-=======
 "622 1488 OFFCURVE",
 "747 1548 OFFCURVE",
 "777 1571 CURVE SMOOTH",
@@ -61310,21 +59890,20 @@ nodes = (
 "554 1540 OFFCURVE",
 "440 1431 CURVE",
 "478 1383 LINE"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 },
 {
 closed = 1;
 nodes = (
 "-50 1140 LINE",
-"201 1317 LINE",
+"202 1341 LINE",
 "399 1140 LINE",
 "512 1140 LINE",
-"316 1429 LINE",
-"292 1462 OFFCURVE",
-"275 1489 OFFCURVE",
-"226 1489 CURVE SMOOTH",
-"178 1489 OFFCURVE",
+"310 1429 LINE",
+"293 1462 OFFCURVE",
+"273 1489 OFFCURVE",
+"224 1489 CURVE SMOOTH",
+"176 1489 OFFCURVE",
 "148 1466 OFFCURVE",
 "122 1438 CURVE",
 "-168 1140 LINE"
@@ -61341,7 +59920,7 @@ position = "{149, 994}";
 },
 {
 name = top;
-position = "{233, 1551}";
+position = "{221, 1475}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -61349,42 +59928,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"569 1457 LINE",
-"568 1462 OFFCURVE",
-"569 1468 OFFCURVE",
-"569 1471 CURVE SMOOTH",
-"573 1518 OFFCURVE",
-"597 1533 OFFCURVE",
-"646 1557 CURVE SMOOTH",
-"717 1592 OFFCURVE",
-"766 1626 OFFCURVE",
-"766 1704 CURVE SMOOTH",
-"766 1765 OFFCURVE",
-"704 1827 OFFCURVE",
-"579 1827 CURVE SMOOTH",
-"508 1827 OFFCURVE",
-"448 1815 OFFCURVE",
-"403 1790 CURVE SMOOTH",
-"373 1773 OFFCURVE",
-"352 1759 OFFCURVE",
-"352 1704 CURVE SMOOTH",
-"352 1683 OFFCURVE",
-"358 1659 OFFCURVE",
-"373 1659 CURVE SMOOTH",
-"403 1659 OFFCURVE",
-"423 1699 OFFCURVE",
-"507 1699 CURVE SMOOTH",
-"549 1699 OFFCURVE",
-"572 1693 OFFCURVE",
-"569 1656 CURVE SMOOTH",
-"564 1602 OFFCURVE",
-"467 1607 OFFCURVE",
-"458 1504 CURVE SMOOTH",
-"456 1484 OFFCURVE",
-"465 1465 OFFCURVE",
-"469 1457 CURVE"
-=======
 "653 1524 OFFCURVE",
 "783 1589 OFFCURVE",
 "811 1612 CURVE SMOOTH",
@@ -61464,26 +60007,15 @@ nodes = (
 "345 1624 OFFCURVE",
 "443 1550 OFFCURVE",
 "561 1383 CURVE"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 },
 {
 closed = 1;
 nodes = (
-"-36 1140 LINE",
-"203 1307 LINE",
-"386 1140 LINE",
+"-50 1140 LINE",
+"202 1341 LINE",
+"399 1140 LINE",
 "512 1140 LINE",
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"327 1434 LINE SMOOTH",
-"310 1462 OFFCURVE",
-"286 1497 OFFCURVE",
-"225 1497 CURVE SMOOTH",
-"165 1497 OFFCURVE",
-"134 1467 OFFCURVE",
-"111 1442 CURVE SMOOTH",
-"-167 1140 LINE {name = hr00;}"
-=======
 "310 1429 LINE",
 "293 1462 OFFCURVE",
 "273 1489 OFFCURVE",
@@ -61546,7 +60078,6 @@ nodes = (
 "137 1496 OFFCURVE",
 "113 1469 CURVE SMOOTH",
 "-177 1152 LINE {name = hr00;}"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -61557,19 +60088,18 @@ leftKerningGroup = circumflexcomb;
 rightKerningGroup = circumflexcomb;
 },
 {
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-glyphname = circumflexcomb_tildecomb;
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 glyphname = circumflexcomb_hookabovecomb;
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 anchors = (
 {
 name = _top;
-position = "{149, 994}";
+position = "{150, 994}";
+},
+{
+name = top;
+position = "{233, 1551}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -61577,32 +60107,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"445 1746 OFFCURVE",
-"433 1692 OFFCURVE",
-"384 1692 CURVE SMOOTH",
-"327 1692 OFFCURVE",
-"273 1804 OFFCURVE",
-"142 1804 CURVE SMOOTH",
-"65 1804 OFFCURVE",
-"13 1740 OFFCURVE",
-"1 1667 CURVE SMOOTH",
-"-2 1648 OFFCURVE",
-"19 1630 OFFCURVE",
-"34 1630 CURVE SMOOTH",
-"52 1630 OFFCURVE",
-"64 1682 OFFCURVE",
-"115 1682 CURVE SMOOTH",
-"196 1682 OFFCURVE",
-"262 1573 OFFCURVE",
-"355 1573 CURVE SMOOTH",
-"436 1573 OFFCURVE",
-"484 1630 OFFCURVE",
-"496 1709 CURVE SMOOTH",
-"499 1728 OFFCURVE",
-"478 1746 OFFCURVE",
-"463 1746 CURVE SMOOTH"
-=======
 "518 1430 LINE",
 "517 1437 OFFCURVE",
 "516 1444 OFFCURVE",
@@ -61637,21 +60141,20 @@ nodes = (
 "411 1461 OFFCURVE",
 "419 1447 OFFCURVE",
 "424 1430 CURVE"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 },
 {
 closed = 1;
 nodes = (
 "-50 1140 LINE",
-"201 1317 LINE",
+"202 1341 LINE",
 "399 1140 LINE",
 "512 1140 LINE",
-"316 1429 LINE",
-"292 1462 OFFCURVE",
-"275 1489 OFFCURVE",
-"226 1489 CURVE SMOOTH",
-"178 1489 OFFCURVE",
+"310 1429 LINE",
+"293 1462 OFFCURVE",
+"273 1489 OFFCURVE",
+"224 1489 CURVE SMOOTH",
+"176 1489 OFFCURVE",
 "148 1466 OFFCURVE",
 "122 1438 CURVE",
 "-168 1140 LINE"
@@ -61665,6 +60168,10 @@ anchors = (
 {
 name = _top;
 position = "{149, 994}";
+},
+{
+name = top;
+position = "{233, 1551}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -61672,32 +60179,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"468 1765 OFFCURVE",
-"456 1706 OFFCURVE",
-"403 1706 CURVE SMOOTH",
-"341 1706 OFFCURVE",
-"282 1827 OFFCURVE",
-"142 1827 CURVE SMOOTH",
-"58 1827 OFFCURVE",
-"1 1758 OFFCURVE",
-"-11 1679 CURVE SMOOTH",
-"-14 1659 OFFCURVE",
-"8 1638 OFFCURVE",
-"25 1638 CURVE SMOOTH",
-"45 1638 OFFCURVE",
-"57 1695 OFFCURVE",
-"112 1695 CURVE SMOOTH",
-"199 1695 OFFCURVE",
-"270 1577 OFFCURVE",
-"371 1577 CURVE SMOOTH",
-"460 1577 OFFCURVE",
-"512 1638 OFFCURVE",
-"524 1724 CURVE SMOOTH",
-"527 1745 OFFCURVE",
-"505 1765 OFFCURVE",
-"488 1765 CURVE SMOOTH"
-=======
 "584 1424 LINE",
 "583 1429 OFFCURVE",
 "583 1435 OFFCURVE",
@@ -61732,26 +60213,11 @@ nodes = (
 "464 1452 OFFCURVE",
 "475 1432 OFFCURVE",
 "480 1424 CURVE"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 },
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"-36 1140 LINE",
-"203 1307 LINE",
-"386 1140 LINE",
-"512 1140 LINE",
-"327 1434 LINE SMOOTH",
-"310 1462 OFFCURVE",
-"286 1497 OFFCURVE",
-"225 1497 CURVE SMOOTH",
-"165 1497 OFFCURVE",
-"134 1467 OFFCURVE",
-"111 1442 CURVE SMOOTH",
-"-167 1140 LINE {name = hr00;}"
-=======
 "-38 1152 LINE",
 "196 1322 LINE",
 "374 1152 LINE",
@@ -61888,7 +60354,6 @@ nodes = (
 "127 1496 OFFCURVE",
 "103 1469 CURVE SMOOTH",
 "-177 1152 LINE {name = hr00;}"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -61900,21 +60365,17 @@ rightKerningGroup = circumflexcomb;
 },
 {
 glyphname = brevecomb_acutecomb.case;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 lastChange = "2019-10-20 01:55:13 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 anchors = (
 {
 name = _top;
-position = "{150, 994}";
+position = "{151, 994}";
 },
 {
 name = top;
-position = "{230, 1543}";
+position = "{235, 1553}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -61922,27 +60383,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"273 1529 OFFCURVE",
-"431 1635 OFFCURVE",
-"463 1660 CURVE SMOOTH",
-"486 1678 OFFCURVE",
-"505 1709 OFFCURVE",
-"505 1742 CURVE SMOOTH",
-"505 1757 OFFCURVE",
-"500 1772 OFFCURVE",
-"489 1786 CURVE SMOOTH",
-"473 1806 OFFCURVE",
-"453 1817 OFFCURVE",
-"433 1817 CURVE SMOOTH",
-"405 1817 OFFCURVE",
-"375 1804 OFFCURVE",
-"355 1786 CURVE SMOOTH",
-"326 1760 OFFCURVE",
-"182 1580 OFFCURVE",
-"132 1516 CURVE",
-"182 1471 LINE"
-=======
 "329 1174 OFFCURVE",
 "494 1223 OFFCURVE",
 "540 1492 CURVE",
@@ -61963,34 +60403,11 @@ nodes = (
 "-90 1215 OFFCURVE",
 "88 1174 OFFCURVE",
 "190 1174 CURVE SMOOTH"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 },
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"281 1121 OFFCURVE",
-"477 1181 OFFCURVE",
-"500 1439 CURVE",
-"394 1439 LINE",
-"374 1345 OFFCURVE",
-"304 1263 OFFCURVE",
-"192 1263 CURVE SMOOTH",
-"49 1263 OFFCURVE",
-"-1 1335 OFFCURVE",
-"-1 1421 CURVE SMOOTH",
-"-1 1427 OFFCURVE",
-"-1 1433 OFFCURVE",
-"0 1439 CURVE",
-"-106 1439 LINE",
-"-109 1417 OFFCURVE",
-"-113 1397 OFFCURVE",
-"-113 1378 CURVE SMOOTH",
-"-113 1162 OFFCURVE",
-"68 1121 OFFCURVE",
-"170 1121 CURVE SMOOTH"
-=======
 "205 1534 LINE",
 "365 1656 OFFCURVE",
 "496 1723 OFFCURVE",
@@ -62010,7 +60427,6 @@ nodes = (
 "365 1863 OFFCURVE",
 "306 1746 OFFCURVE",
 "151 1589 CURVE"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -62020,7 +60436,7 @@ width = 0;
 anchors = (
 {
 name = _top;
-position = "{149, 994}";
+position = "{154, 994}";
 },
 {
 name = top;
@@ -62032,52 +60448,31 @@ paths = (
 {
 closed = 1;
 nodes = (
-"304 1557 OFFCURVE",
-"475 1672 OFFCURVE",
-"510 1699 CURVE SMOOTH",
-"535 1718 OFFCURVE",
-"555 1752 OFFCURVE",
-"555 1787 CURVE SMOOTH",
-"555 1804 OFFCURVE",
-"550 1820 OFFCURVE",
-"538 1835 CURVE SMOOTH",
-"521 1857 OFFCURVE",
-"499 1869 OFFCURVE",
-"477 1869 CURVE SMOOTH",
-"447 1869 OFFCURVE",
-"415 1854 OFFCURVE",
-"393 1835 CURVE SMOOTH",
-"361 1808 OFFCURVE",
-"206 1612 OFFCURVE",
-"152 1543 CURVE",
-"206 1494 LINE"
+"339 1180 OFFCURVE",
+"535 1247 OFFCURVE",
+"561 1501 CURVE",
+"436 1501 LINE",
+"413 1387 OFFCURVE",
+"345 1366 OFFCURVE",
+"209 1366 CURVE SMOOTH",
+"83 1366 OFFCURVE",
+"21 1387 OFFCURVE",
+"21 1479 CURVE SMOOTH",
+"21 1486 OFFCURVE",
+"21 1493 OFFCURVE",
+"22 1501 CURVE",
+"-103 1501 LINE",
+"-109 1471 OFFCURVE",
+"-112 1444 OFFCURVE",
+"-112 1419 CURVE SMOOTH",
+"-112 1232 OFFCURVE",
+"42 1180 OFFCURVE",
+"181 1180 CURVE SMOOTH {name = hr00;}"
 );
 },
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"330 1144 OFFCURVE",
-"554 1203 OFFCURVE",
-"554 1502 CURVE",
-"425 1502 LINE",
-"400 1380 OFFCURVE",
-"332 1331 OFFCURVE",
-"196 1331 CURVE SMOOTH",
-"43 1331 OFFCURVE",
-"17 1398 OFFCURVE",
-"17 1484 CURVE SMOOTH",
-"17 1490 OFFCURVE",
-"17 1496 OFFCURVE",
-"18 1502 CURVE",
-"-102 1502 LINE",
-"-108 1485 OFFCURVE",
-"-126 1452 OFFCURVE",
-"-126 1397 CURVE SMOOTH",
-"-126 1219 OFFCURVE",
-"18 1144 OFFCURVE",
-"172 1144 CURVE SMOOTH"
-=======
 "205 1541 LINE",
 "364 1653 OFFCURVE",
 "494 1715 OFFCURVE",
@@ -62097,7 +60492,6 @@ nodes = (
 "345 1882 OFFCURVE",
 "281 1754 OFFCURVE",
 "154 1594 CURVE {name = hr00;}"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -62109,29 +60503,17 @@ rightKerningGroup = brevecomb;
 },
 {
 glyphname = brevecomb_gravecomb.case;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 lastChange = "2019-10-20 01:56:47 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 anchors = (
 {
 name = _top;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-position = "{150, 994}";
-},
-{
-name = top;
-position = "{-86, 1496}";
-=======
 position = "{153, 994}";
 },
 {
 name = top;
 position = "{236, 1549}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -62139,27 +60521,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"274 1511 LINE",
-"220 1579 OFFCURVE",
-"94 1768 OFFCURVE",
-"66 1796 CURVE SMOOTH",
-"47 1815 OFFCURVE",
-"21 1831 OFFCURVE",
-"-6 1834 CURVE SMOOTH",
-"-26 1836 OFFCURVE",
-"-48 1832 OFFCURVE",
-"-65 1812 CURVE SMOOTH",
-"-76 1799 OFFCURVE",
-"-84 1785 OFFCURVE",
-"-86 1770 CURVE SMOOTH",
-"-90 1737 OFFCURVE",
-"-73 1705 OFFCURVE",
-"-52 1684 CURVE SMOOTH",
-"-23 1655 OFFCURVE",
-"145 1537 OFFCURVE",
-"230 1470 CURVE"
-=======
 "293 1174 OFFCURVE",
 "496 1223 OFFCURVE",
 "542 1492 CURVE",
@@ -62180,34 +60541,11 @@ nodes = (
 "-88 1215 OFFCURVE",
 "80 1174 OFFCURVE",
 "182 1174 CURVE SMOOTH"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 },
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"278 1121 OFFCURVE",
-"481 1170 OFFCURVE",
-"527 1439 CURVE",
-"421 1439 LINE",
-"401 1345 OFFCURVE",
-"324 1263 OFFCURVE",
-"188 1263 CURVE SMOOTH",
-"61 1263 OFFCURVE",
-"6 1335 OFFCURVE",
-"6 1421 CURVE SMOOTH",
-"6 1427 OFFCURVE",
-"6 1433 OFFCURVE",
-"7 1439 CURVE",
-"-99 1439 LINE",
-"-102 1417 OFFCURVE",
-"-103 1397 OFFCURVE",
-"-103 1378 CURVE SMOOTH",
-"-103 1162 OFFCURVE",
-"65 1121 OFFCURVE",
-"167 1121 CURVE SMOOTH"
-=======
 "319 1589 LINE",
 "190 1746 OFFCURVE",
 "121 1875 OFFCURVE",
@@ -62227,7 +60565,6 @@ nodes = (
 "-16 1737 OFFCURVE",
 "105 1683 OFFCURVE",
 "266 1534 CURVE"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -62237,11 +60574,7 @@ width = 0;
 anchors = (
 {
 name = _top;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-position = "{149, 994}";
-=======
 position = "{151, 994}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 },
 {
 name = top;
@@ -62253,27 +60586,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"287 1543 LINE",
-"177 1687 OFFCURVE",
-"92 1822 OFFCURVE",
-"66 1848 CURVE SMOOTH",
-"49 1865 OFFCURVE",
-"22 1883 OFFCURVE",
-"-6 1885 CURVE SMOOTH",
-"-29 1887 OFFCURVE",
-"-59 1875 OFFCURVE",
-"-74 1859 CURVE SMOOTH",
-"-87 1845 OFFCURVE",
-"-94 1828 OFFCURVE",
-"-96 1811 CURVE SMOOTH",
-"-100 1778 OFFCURVE",
-"-81 1750 OFFCURVE",
-"-65 1732 CURVE SMOOTH",
-"-40 1703 OFFCURVE",
-"101 1616 OFFCURVE",
-"245 1500 CURVE {name = hr00;}"
-=======
 "336 1180 OFFCURVE",
 "532 1247 OFFCURVE",
 "558 1501 CURVE",
@@ -62294,34 +60606,11 @@ nodes = (
 "-115 1232 OFFCURVE",
 "39 1180 OFFCURVE",
 "178 1180 CURVE SMOOTH {name = hr00;}"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 },
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"329 1144 OFFCURVE",
-"553 1203 OFFCURVE",
-"553 1502 CURVE",
-"424 1502 LINE",
-"399 1380 OFFCURVE",
-"331 1331 OFFCURVE",
-"195 1331 CURVE SMOOTH",
-"42 1331 OFFCURVE",
-"16 1398 OFFCURVE",
-"16 1484 CURVE SMOOTH",
-"16 1490 OFFCURVE",
-"16 1496 OFFCURVE",
-"17 1502 CURVE",
-"-103 1502 LINE",
-"-109 1485 OFFCURVE",
-"-127 1452 OFFCURVE",
-"-127 1397 CURVE SMOOTH",
-"-127 1219 OFFCURVE",
-"17 1144 OFFCURVE",
-"171 1144 CURVE SMOOTH"
-=======
 "318 1594 LINE",
 "211 1756 OFFCURVE",
 "152 1888 OFFCURVE",
@@ -62341,7 +60630,6 @@ nodes = (
 "-19 1745 OFFCURVE",
 "107 1676 OFFCURVE",
 "262 1544 CURVE {name = hr00;}"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -62353,29 +60641,17 @@ rightKerningGroup = brevecomb;
 },
 {
 glyphname = brevecomb_hookabovecomb.case;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 lastChange = "2019-10-20 01:56:31 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 anchors = (
 {
 name = _top;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-position = "{150, 994}";
-},
-{
-name = top;
-position = "{-74, 1539}";
-=======
 position = "{136, 994}";
 },
 {
 name = top;
 position = "{219, 1549}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -62383,42 +60659,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"275 1484 LINE",
-"274 1491 OFFCURVE",
-"273 1498 OFFCURVE",
-"273 1505 CURVE SMOOTH",
-"273 1526 OFFCURVE",
-"286 1552 OFFCURVE",
-"307 1566 CURVE SMOOTH",
-"385 1618 OFFCURVE",
-"445 1628 OFFCURVE",
-"445 1730 CURVE SMOOTH",
-"445 1804 OFFCURVE",
-"371 1852 OFFCURVE",
-"282 1852 CURVE SMOOTH",
-"206 1852 OFFCURVE",
-"156 1832 OFFCURVE",
-"120 1813 CURVE SMOOTH",
-"93 1799 OFFCURVE",
-"75 1765 OFFCURVE",
-"75 1734 CURVE SMOOTH",
-"75 1718 OFFCURVE",
-"82 1701 OFFCURVE",
-"97 1701 CURVE SMOOTH",
-"107 1701 OFFCURVE",
-"148 1735 OFFCURVE",
-"203 1737 CURVE SMOOTH",
-"285 1740 OFFCURVE",
-"306 1716 OFFCURVE",
-"290 1672 CURVE SMOOTH",
-"278 1639 OFFCURVE",
-"174 1619 OFFCURVE",
-"174 1534 CURVE SMOOTH",
-"174 1515 OFFCURVE",
-"179 1501 OFFCURVE",
-"187 1484 CURVE"
-=======
 "276 1174 OFFCURVE",
 "479 1223 OFFCURVE",
 "525 1492 CURVE",
@@ -62439,34 +60679,11 @@ nodes = (
 "-105 1215 OFFCURVE",
 "63 1174 OFFCURVE",
 "165 1174 CURVE SMOOTH"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 },
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"277 1121 OFFCURVE",
-"480 1170 OFFCURVE",
-"526 1439 CURVE",
-"420 1439 LINE",
-"400 1345 OFFCURVE",
-"323 1263 OFFCURVE",
-"187 1263 CURVE SMOOTH",
-"60 1263 OFFCURVE",
-"5 1335 OFFCURVE",
-"5 1421 CURVE SMOOTH",
-"5 1427 OFFCURVE",
-"5 1433 OFFCURVE",
-"6 1439 CURVE",
-"-100 1439 LINE",
-"-103 1417 OFFCURVE",
-"-104 1397 OFFCURVE",
-"-104 1378 CURVE SMOOTH",
-"-104 1162 OFFCURVE",
-"64 1121 OFFCURVE",
-"166 1121 CURVE SMOOTH"
-=======
 "274 1537 LINE",
 "273 1546 OFFCURVE",
 "272 1555 OFFCURVE",
@@ -62501,7 +60718,6 @@ nodes = (
 "167 1576 OFFCURVE",
 "175 1558 OFFCURVE",
 "180 1537 CURVE"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -62511,19 +60727,11 @@ width = 0;
 anchors = (
 {
 name = _top;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-position = "{149, 994}";
-},
-{
-name = top;
-position = "{-71, 1539}";
-=======
 position = "{147, 994}";
 },
 {
 name = top;
 position = "{230, 1549}";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -62531,42 +60739,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"272 1483 LINE",
-"271 1488 OFFCURVE",
-"272 1494 OFFCURVE",
-"272 1497 CURVE SMOOTH",
-"272 1544 OFFCURVE",
-"300 1559 OFFCURVE",
-"349 1583 CURVE SMOOTH",
-"420 1618 OFFCURVE",
-"469 1652 OFFCURVE",
-"469 1730 CURVE SMOOTH",
-"469 1791 OFFCURVE",
-"407 1853 OFFCURVE",
-"282 1853 CURVE SMOOTH",
-"211 1853 OFFCURVE",
-"151 1841 OFFCURVE",
-"106 1816 CURVE SMOOTH",
-"76 1799 OFFCURVE",
-"55 1785 OFFCURVE",
-"55 1730 CURVE SMOOTH",
-"55 1709 OFFCURVE",
-"61 1685 OFFCURVE",
-"76 1685 CURVE SMOOTH",
-"106 1685 OFFCURVE",
-"126 1725 OFFCURVE",
-"210 1725 CURVE SMOOTH",
-"252 1725 OFFCURVE",
-"275 1719 OFFCURVE",
-"272 1682 CURVE SMOOTH",
-"268 1628 OFFCURVE",
-"171 1633 OFFCURVE",
-"161 1530 CURVE SMOOTH",
-"159 1510 OFFCURVE",
-"168 1491 OFFCURVE",
-"172 1483 CURVE"
-=======
 "333 1180 OFFCURVE",
 "529 1247 OFFCURVE",
 "555 1501 CURVE",
@@ -62587,34 +60759,11 @@ nodes = (
 "-118 1232 OFFCURVE",
 "36 1180 OFFCURVE",
 "175 1180 CURVE SMOOTH {name = hr00;}"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 },
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"331 1144 OFFCURVE",
-"557 1203 OFFCURVE",
-"554 1502 CURVE",
-"425 1502 LINE",
-"400 1380 OFFCURVE",
-"332 1331 OFFCURVE",
-"196 1331 CURVE SMOOTH",
-"43 1331 OFFCURVE",
-"17 1398 OFFCURVE",
-"17 1484 CURVE SMOOTH",
-"17 1490 OFFCURVE",
-"17 1496 OFFCURVE",
-"18 1502 CURVE",
-"-102 1502 LINE",
-"-108 1485 OFFCURVE",
-"-126 1452 OFFCURVE",
-"-126 1397 CURVE SMOOTH",
-"-126 1219 OFFCURVE",
-"18 1144 OFFCURVE",
-"172 1144 CURVE SMOOTH"
-=======
 "286 1550 LINE",
 "285 1557 OFFCURVE",
 "285 1564 OFFCURVE",
@@ -62649,7 +60798,6 @@ nodes = (
 "166 1586 OFFCURVE",
 "177 1561 OFFCURVE",
 "182 1550 CURVE"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -62661,21 +60809,17 @@ rightKerningGroup = brevecomb;
 },
 {
 glyphname = brevecomb_tildecomb.case;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 lastChange = "2019-10-20 01:55:27 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 anchors = (
 {
 name = _top;
-position = "{150, 994}";
+position = "{147, 994}";
 },
 {
 name = top;
-position = "{231, 1549}";
+position = "{233, 1549}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -62683,28 +60827,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"299 1121 OFFCURVE",
-"463 1182 OFFCURVE",
-"507 1439 CURVE",
-"391 1439 LINE",
-"376 1344 OFFCURVE",
-"291 1263 OFFCURVE",
-"175 1263 CURVE SMOOTH",
-"32 1263 OFFCURVE",
-"-14 1335 OFFCURVE",
-"-14 1421 CURVE SMOOTH",
-"-14 1427 OFFCURVE",
-"-14 1433 OFFCURVE",
-"-13 1439 CURVE",
-"-119 1439 LINE",
-"-122 1417 OFFCURVE",
-"-123 1396 OFFCURVE",
-"-123 1356 CURVE SMOOTH",
-"-123 1183 OFFCURVE",
-"17 1121 OFFCURVE",
-"161 1121 CURVE SMOOTH"
-=======
 "289 1174 OFFCURVE",
 "492 1223 OFFCURVE",
 "539 1492 CURVE",
@@ -62725,38 +60847,11 @@ nodes = (
 "-91 1215 OFFCURVE",
 "76 1174 OFFCURVE",
 "178 1174 CURVE SMOOTH"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 },
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"405 1696 OFFCURVE",
-"393 1642 OFFCURVE",
-"344 1642 CURVE SMOOTH",
-"287 1642 OFFCURVE",
-"233 1754 OFFCURVE",
-"102 1754 CURVE SMOOTH",
-"25 1754 OFFCURVE",
-"-27 1690 OFFCURVE",
-"-39 1617 CURVE SMOOTH",
-"-42 1598 OFFCURVE",
-"-21 1580 OFFCURVE",
-"-6 1580 CURVE SMOOTH",
-"12 1580 OFFCURVE",
-"24 1632 OFFCURVE",
-"75 1632 CURVE SMOOTH",
-"156 1632 OFFCURVE",
-"222 1523 OFFCURVE",
-"315 1523 CURVE SMOOTH",
-"396 1523 OFFCURVE",
-"444 1580 OFFCURVE",
-"456 1659 CURVE SMOOTH",
-"459 1678 OFFCURVE",
-"438 1696 OFFCURVE",
-"423 1696 CURVE SMOOTH"
-=======
 "447 1797 OFFCURVE",
 "435 1739 OFFCURVE",
 "382 1739 CURVE SMOOTH",
@@ -62781,7 +60876,6 @@ nodes = (
 "504 1778 OFFCURVE",
 "482 1797 OFFCURVE",
 "466 1797 CURVE SMOOTH"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -62795,7 +60889,7 @@ position = "{149, 994}";
 },
 {
 name = top;
-position = "{222, 1543}";
+position = "{232, 1549}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -62803,55 +60897,55 @@ paths = (
 {
 closed = 1;
 nodes = (
-"331 1144 OFFCURVE",
-"557 1203 OFFCURVE",
-"554 1502 CURVE",
-"425 1502 LINE",
-"400 1380 OFFCURVE",
-"332 1331 OFFCURVE",
-"196 1331 CURVE SMOOTH",
-"43 1331 OFFCURVE",
-"17 1398 OFFCURVE",
-"17 1484 CURVE SMOOTH",
-"17 1490 OFFCURVE",
-"17 1496 OFFCURVE",
-"18 1502 CURVE",
-"-102 1502 LINE",
-"-108 1485 OFFCURVE",
-"-126 1452 OFFCURVE",
-"-126 1397 CURVE SMOOTH",
-"-126 1219 OFFCURVE",
-"18 1144 OFFCURVE",
-"172 1144 CURVE SMOOTH"
+"335 1180 OFFCURVE",
+"531 1247 OFFCURVE",
+"557 1501 CURVE",
+"432 1501 LINE",
+"409 1387 OFFCURVE",
+"340 1366 OFFCURVE",
+"204 1366 CURVE SMOOTH",
+"78 1366 OFFCURVE",
+"17 1386 OFFCURVE",
+"17 1477 CURVE SMOOTH",
+"17 1485 OFFCURVE",
+"17 1493 OFFCURVE",
+"18 1501 CURVE",
+"-107 1501 LINE",
+"-113 1471 OFFCURVE",
+"-116 1444 OFFCURVE",
+"-116 1419 CURVE SMOOTH",
+"-116 1232 OFFCURVE",
+"38 1180 OFFCURVE",
+"177 1180 CURVE SMOOTH {name = hr00;}"
 );
 },
 {
 closed = 1;
 nodes = (
-"438 1717 OFFCURVE",
-"426 1658 OFFCURVE",
-"373 1658 CURVE SMOOTH",
-"311 1658 OFFCURVE",
-"252 1779 OFFCURVE",
-"112 1779 CURVE SMOOTH",
-"28 1779 OFFCURVE",
-"-29 1710 OFFCURVE",
-"-41 1631 CURVE SMOOTH",
-"-44 1611 OFFCURVE",
-"-22 1590 OFFCURVE",
-"-5 1590 CURVE SMOOTH",
-"15 1590 OFFCURVE",
-"27 1647 OFFCURVE",
-"82 1647 CURVE SMOOTH",
-"169 1647 OFFCURVE",
-"240 1529 OFFCURVE",
-"341 1529 CURVE SMOOTH",
-"430 1529 OFFCURVE",
-"482 1590 OFFCURVE",
-"494 1676 CURVE SMOOTH",
-"497 1697 OFFCURVE",
-"475 1717 OFFCURVE",
-"458 1717 CURVE SMOOTH"
+"459 1803 OFFCURVE",
+"446 1741 OFFCURVE",
+"391 1741 CURVE SMOOTH",
+"327 1741 OFFCURVE",
+"265 1867 OFFCURVE",
+"119 1867 CURVE SMOOTH",
+"32 1867 OFFCURVE",
+"-28 1795 OFFCURVE",
+"-40 1713 CURVE SMOOTH",
+"-43 1692 OFFCURVE",
+"-20 1671 OFFCURVE",
+"-3 1671 CURVE SMOOTH",
+"18 1671 OFFCURVE",
+"31 1733 OFFCURVE",
+"88 1730 CURVE",
+"179 1733 OFFCURVE",
+"253 1607 OFFCURVE",
+"358 1607 CURVE SMOOTH",
+"450 1607 OFFCURVE",
+"505 1671 OFFCURVE",
+"517 1760 CURVE SMOOTH",
+"520 1782 OFFCURVE",
+"497 1803 OFFCURVE",
+"480 1803 CURVE SMOOTH"
 );
 }
 );
@@ -62863,11 +60957,7 @@ rightKerningGroup = brevecomb;
 },
 {
 glyphname = circumflexcomb_acutecomb.case;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 anchors = (
@@ -62885,27 +60975,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"554 1494 OFFCURVE",
-"734 1596 OFFCURVE",
-"766 1620 CURVE SMOOTH",
-"789 1638 OFFCURVE",
-"808 1669 OFFCURVE",
-"808 1702 CURVE SMOOTH",
-"808 1717 OFFCURVE",
-"803 1732 OFFCURVE",
-"792 1746 CURVE SMOOTH",
-"777 1767 OFFCURVE",
-"756 1774 OFFCURVE",
-"736 1774 CURVE SMOOTH",
-"708 1774 OFFCURVE",
-"680 1761 OFFCURVE",
-"660 1743 CURVE SMOOTH",
-"630 1718 OFFCURVE",
-"483 1545 OFFCURVE",
-"423 1482 CURVE",
-"463 1436 LINE"
-=======
 "650 1490 OFFCURVE",
 "775 1552 OFFCURVE",
 "805 1576 CURVE SMOOTH",
@@ -62925,21 +60994,20 @@ nodes = (
 "582 1544 OFFCURVE",
 "477 1434 CURVE",
 "515 1384 LINE"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 },
 {
 closed = 1;
 nodes = (
 "-50 1140 LINE",
-"207 1337 LINE",
+"202 1341 LINE",
 "399 1140 LINE",
 "512 1140 LINE",
-"316 1429 LINE",
-"292 1462 OFFCURVE",
-"275 1489 OFFCURVE",
-"226 1489 CURVE SMOOTH",
-"178 1489 OFFCURVE",
+"310 1429 LINE",
+"293 1462 OFFCURVE",
+"273 1489 OFFCURVE",
+"224 1489 CURVE SMOOTH",
+"176 1489 OFFCURVE",
 "148 1466 OFFCURVE",
 "122 1438 CURVE",
 "-168 1140 LINE"
@@ -62964,27 +61032,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"621 1536 OFFCURVE",
-"770 1609 OFFCURVE",
-"798 1634 CURVE SMOOTH",
-"816 1650 OFFCURVE",
-"834 1682 OFFCURVE",
-"834 1715 CURVE SMOOTH",
-"834 1732 OFFCURVE",
-"829 1750 OFFCURVE",
-"817 1765 CURVE SMOOTH",
-"803 1782 OFFCURVE",
-"779 1792 OFFCURVE",
-"756 1792 CURVE SMOOTH",
-"727 1792 OFFCURVE",
-"699 1778 OFFCURVE",
-"680 1763 CURVE SMOOTH",
-"652 1741 OFFCURVE",
-"553 1615 OFFCURVE",
-"428 1483 CURVE",
-"466 1436 LINE {name = hr00;}"
-=======
 "687 1486 OFFCURVE",
 "834 1584 OFFCURVE",
 "866 1616 CURVE SMOOTH",
@@ -63004,24 +61051,23 @@ nodes = (
 "608 1585 OFFCURVE",
 "494 1466 CURVE",
 "534 1408 LINE {name = hr00;}"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 },
 {
 closed = 1;
 nodes = (
-"-36 1140 LINE",
-"203 1307 LINE",
-"386 1140 LINE",
-"512 1140 LINE",
-"327 1434 LINE SMOOTH",
-"310 1462 OFFCURVE",
-"286 1497 OFFCURVE",
-"225 1497 CURVE SMOOTH",
-"165 1497 OFFCURVE",
-"134 1467 OFFCURVE",
-"111 1442 CURVE SMOOTH",
-"-167 1140 LINE {name = hr00;}"
+"-51 1140 LINE",
+"198 1321 LINE",
+"398 1140 LINE",
+"541 1140 LINE",
+"347 1469 LINE SMOOTH",
+"328 1501 OFFCURVE",
+"298 1529 OFFCURVE",
+"229 1529 CURVE SMOOTH",
+"161 1529 OFFCURVE",
+"124 1506 OFFCURVE",
+"99 1478 CURVE SMOOTH",
+"-199 1140 LINE {name = hr00;}"
 );
 }
 );
@@ -63031,11 +61077,7 @@ width = 0;
 },
 {
 glyphname = circumflexcomb_gravecomb.case;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 anchors = (
@@ -63053,8 +61095,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-=======
 "777 1338 LINE",
 "670 1489 OFFCURVE",
 "614 1611 OFFCURVE",
@@ -63079,43 +61119,18 @@ nodes = (
 {
 closed = 1;
 nodes = (
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 "-50 1140 LINE",
-"207 1337 LINE",
+"202 1341 LINE",
 "399 1140 LINE",
 "512 1140 LINE",
-"316 1429 LINE",
-"292 1462 OFFCURVE",
-"275 1489 OFFCURVE",
-"226 1489 CURVE SMOOTH",
-"178 1489 OFFCURVE",
+"310 1429 LINE",
+"293 1462 OFFCURVE",
+"273 1489 OFFCURVE",
+"224 1489 CURVE SMOOTH",
+"176 1489 OFFCURVE",
 "148 1466 OFFCURVE",
 "122 1438 CURVE",
 "-168 1140 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"642 1442 LINE",
-"589 1511 OFFCURVE",
-"461 1699 OFFCURVE",
-"434 1727 CURVE SMOOTH",
-"415 1746 OFFCURVE",
-"389 1762 OFFCURVE",
-"362 1765 CURVE SMOOTH",
-"342 1767 OFFCURVE",
-"320 1763 OFFCURVE",
-"303 1743 CURVE SMOOTH",
-"292 1730 OFFCURVE",
-"284 1716 OFFCURVE",
-"282 1701 CURVE SMOOTH",
-"279 1668 OFFCURVE",
-"295 1636 OFFCURVE",
-"316 1615 CURVE SMOOTH",
-"345 1587 OFFCURVE",
-"513 1468 OFFCURVE",
-"598 1401 CURVE"
 );
 }
 );
@@ -63137,20 +61152,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"-36 1140 LINE",
-"203 1307 LINE",
-"386 1140 LINE",
-"512 1140 LINE",
-"327 1434 LINE SMOOTH",
-"310 1462 OFFCURVE",
-"286 1497 OFFCURVE",
-"225 1497 CURVE SMOOTH",
-"165 1497 OFFCURVE",
-"134 1467 OFFCURVE",
-"111 1442 CURVE SMOOTH",
-"-167 1140 LINE {name = hr00;}"
-=======
 "803 1369 LINE",
 "698 1530 OFFCURVE",
 "640 1660 OFFCURVE",
@@ -63170,31 +61171,23 @@ nodes = (
 "469 1518 OFFCURVE",
 "595 1450 OFFCURVE",
 "749 1320 CURVE {name = hr00;}"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 },
 {
 closed = 1;
 nodes = (
-"663 1434 LINE",
-"553 1578 OFFCURVE",
-"468 1714 OFFCURVE",
-"442 1739 CURVE SMOOTH",
-"425 1756 OFFCURVE",
-"398 1773 OFFCURVE",
-"370 1776 CURVE SMOOTH",
-"347 1778 OFFCURVE",
-"317 1766 OFFCURVE",
-"302 1750 CURVE SMOOTH",
-"289 1736 OFFCURVE",
-"282 1719 OFFCURVE",
-"280 1702 CURVE SMOOTH",
-"276 1669 OFFCURVE",
-"295 1641 OFFCURVE",
-"311 1623 CURVE SMOOTH",
-"337 1595 OFFCURVE",
-"477 1507 OFFCURVE",
-"621 1391 CURVE {name = hr00;}"
+"-51 1140 LINE",
+"198 1321 LINE",
+"398 1140 LINE",
+"541 1140 LINE",
+"347 1469 LINE SMOOTH",
+"328 1501 OFFCURVE",
+"298 1529 OFFCURVE",
+"229 1529 CURVE SMOOTH",
+"161 1529 OFFCURVE",
+"124 1506 OFFCURVE",
+"99 1478 CURVE SMOOTH",
+"-199 1140 LINE {name = hr00;}"
 );
 }
 );
@@ -63206,11 +61199,7 @@ rightKerningGroup = circumflexcomb;
 },
 {
 glyphname = circumflexcomb_hookabovecomb.case;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 anchors = (
@@ -63228,42 +61217,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"565 1457 LINE",
-"564 1464 OFFCURVE",
-"563 1471 OFFCURVE",
-"563 1478 CURVE SMOOTH",
-"563 1499 OFFCURVE",
-"576 1525 OFFCURVE",
-"597 1539 CURVE SMOOTH",
-"675 1592 OFFCURVE",
-"735 1601 OFFCURVE",
-"735 1703 CURVE SMOOTH",
-"735 1777 OFFCURVE",
-"661 1825 OFFCURVE",
-"572 1825 CURVE SMOOTH",
-"496 1825 OFFCURVE",
-"446 1805 OFFCURVE",
-"410 1786 CURVE SMOOTH",
-"383 1772 OFFCURVE",
-"365 1738 OFFCURVE",
-"365 1707 CURVE SMOOTH",
-"365 1691 OFFCURVE",
-"372 1674 OFFCURVE",
-"387 1674 CURVE SMOOTH",
-"397 1674 OFFCURVE",
-"438 1708 OFFCURVE",
-"493 1710 CURVE SMOOTH",
-"575 1713 OFFCURVE",
-"596 1689 OFFCURVE",
-"580 1645 CURVE SMOOTH",
-"568 1612 OFFCURVE",
-"464 1592 OFFCURVE",
-"464 1507 CURVE SMOOTH",
-"464 1488 OFFCURVE",
-"469 1474 OFFCURVE",
-"477 1457 CURVE"
-=======
 "602 1351 LINE",
 "601 1358 OFFCURVE",
 "600 1365 OFFCURVE",
@@ -63298,21 +61251,20 @@ nodes = (
 "495 1382 OFFCURVE",
 "503 1368 OFFCURVE",
 "508 1351 CURVE"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 },
 {
 closed = 1;
 nodes = (
 "-50 1140 LINE",
-"207 1337 LINE",
+"202 1341 LINE",
 "399 1140 LINE",
 "512 1140 LINE",
-"316 1429 LINE",
-"292 1462 OFFCURVE",
-"275 1489 OFFCURVE",
-"226 1489 CURVE SMOOTH",
-"178 1489 OFFCURVE",
+"310 1429 LINE",
+"293 1462 OFFCURVE",
+"273 1489 OFFCURVE",
+"224 1489 CURVE SMOOTH",
+"176 1489 OFFCURVE",
 "148 1466 OFFCURVE",
 "122 1438 CURVE",
 "-168 1140 LINE"
@@ -63337,42 +61289,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-"569 1457 LINE",
-"568 1462 OFFCURVE",
-"569 1468 OFFCURVE",
-"569 1471 CURVE SMOOTH",
-"573 1518 OFFCURVE",
-"597 1533 OFFCURVE",
-"646 1557 CURVE SMOOTH",
-"717 1592 OFFCURVE",
-"766 1626 OFFCURVE",
-"766 1704 CURVE SMOOTH",
-"766 1765 OFFCURVE",
-"704 1827 OFFCURVE",
-"579 1827 CURVE SMOOTH",
-"508 1827 OFFCURVE",
-"448 1815 OFFCURVE",
-"403 1790 CURVE SMOOTH",
-"373 1773 OFFCURVE",
-"352 1759 OFFCURVE",
-"352 1704 CURVE SMOOTH",
-"352 1683 OFFCURVE",
-"358 1659 OFFCURVE",
-"373 1659 CURVE SMOOTH",
-"403 1659 OFFCURVE",
-"423 1699 OFFCURVE",
-"507 1699 CURVE SMOOTH",
-"549 1699 OFFCURVE",
-"572 1693 OFFCURVE",
-"569 1656 CURVE SMOOTH",
-"564 1602 OFFCURVE",
-"467 1607 OFFCURVE",
-"458 1504 CURVE SMOOTH",
-"456 1484 OFFCURVE",
-"465 1465 OFFCURVE",
-"469 1457 CURVE"
-=======
 "653 1359 LINE",
 "652 1364 OFFCURVE",
 "652 1370 OFFCURVE",
@@ -63407,24 +61323,23 @@ nodes = (
 "533 1387 OFFCURVE",
 "544 1367 OFFCURVE",
 "549 1359 CURVE"
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 );
 },
 {
 closed = 1;
 nodes = (
-"-36 1140 LINE",
-"203 1307 LINE",
-"386 1140 LINE",
-"512 1140 LINE",
-"327 1434 LINE SMOOTH",
-"310 1462 OFFCURVE",
-"286 1497 OFFCURVE",
-"225 1497 CURVE SMOOTH",
-"165 1497 OFFCURVE",
-"134 1467 OFFCURVE",
-"111 1442 CURVE SMOOTH",
-"-167 1140 LINE {name = hr00;}"
+"-51 1140 LINE",
+"198 1321 LINE",
+"398 1140 LINE",
+"541 1140 LINE",
+"347 1469 LINE SMOOTH",
+"328 1501 OFFCURVE",
+"298 1529 OFFCURVE",
+"229 1529 CURVE SMOOTH",
+"161 1529 OFFCURVE",
+"124 1506 OFFCURVE",
+"99 1478 CURVE SMOOTH",
+"-199 1140 LINE {name = hr00;}"
 );
 }
 );
@@ -63436,11 +61351,7 @@ rightKerningGroup = circumflexcomb;
 },
 {
 glyphname = circumflexcomb_tildecomb.case;
-<<<<<<< HEAD:source/Gelasio Italic.glyphs
-lastChange = "2019-08-30 21:39:21 +0000";
-=======
 lastChange = "2019-10-12 03:45:35 +0000";
->>>>>>> SorkinType-master:sources/Gelasio-Italic.glyphs
 layers = (
 {
 anchors = (
@@ -63454,47 +61365,47 @@ paths = (
 {
 closed = 1;
 nodes = (
-"445 1746 OFFCURVE",
-"433 1692 OFFCURVE",
-"384 1692 CURVE SMOOTH",
-"327 1692 OFFCURVE",
-"272 1804 OFFCURVE",
-"142 1804 CURVE SMOOTH",
-"65 1804 OFFCURVE",
-"13 1740 OFFCURVE",
-"1 1667 CURVE SMOOTH",
-"-2 1648 OFFCURVE",
-"19 1630 OFFCURVE",
-"34 1630 CURVE SMOOTH",
-"52 1630 OFFCURVE",
-"64 1682 OFFCURVE",
-"115 1682 CURVE SMOOTH",
-"196 1682 OFFCURVE",
-"262 1573 OFFCURVE",
-"355 1573 CURVE SMOOTH",
-"436 1573 OFFCURVE",
-"484 1630 OFFCURVE",
-"496 1709 CURVE SMOOTH",
-"499 1728 OFFCURVE",
-"478 1746 OFFCURVE",
-"463 1746 CURVE SMOOTH"
+"-58 1110 LINE",
+"198 1341 LINE",
+"391 1110 LINE",
+"504 1110 LINE",
+"311 1459 LINE",
+"294 1492 OFFCURVE",
+"274 1519 OFFCURVE",
+"225 1519 CURVE SMOOTH",
+"177 1519 OFFCURVE",
+"149 1496 OFFCURVE",
+"122 1468 CURVE",
+"-176 1110 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-50 1140 LINE",
-"207 1337 LINE",
-"399 1140 LINE",
-"512 1140 LINE",
-"316 1429 LINE",
-"292 1462 OFFCURVE",
-"275 1489 OFFCURVE",
-"226 1489 CURVE SMOOTH",
-"178 1489 OFFCURVE",
-"148 1466 OFFCURVE",
-"122 1438 CURVE",
-"-168 1140 LINE"
+"447 1807 OFFCURVE",
+"435 1749 OFFCURVE",
+"382 1749 CURVE SMOOTH",
+"322 1749 OFFCURVE",
+"263 1868 OFFCURVE",
+"125 1868 CURVE SMOOTH",
+"44 1868 OFFCURVE",
+"-12 1800 OFFCURVE",
+"-24 1723 CURVE SMOOTH",
+"-27 1703 OFFCURVE",
+"-5 1684 OFFCURVE",
+"11 1684 CURVE SMOOTH",
+"30 1684 OFFCURVE",
+"42 1742 OFFCURVE",
+"97 1739 CURVE",
+"183 1742 OFFCURVE",
+"253 1623 OFFCURVE",
+"352 1623 CURVE SMOOTH",
+"438 1623 OFFCURVE",
+"488 1684 OFFCURVE",
+"501 1768 CURVE SMOOTH",
+"504 1788 OFFCURVE",
+"482 1807 OFFCURVE",
+"466 1807 CURVE SMOOTH"
 );
 }
 );
@@ -63512,47 +61423,47 @@ paths = (
 {
 closed = 1;
 nodes = (
-"468 1765 OFFCURVE",
-"456 1706 OFFCURVE",
-"403 1706 CURVE SMOOTH",
-"341 1706 OFFCURVE",
-"282 1827 OFFCURVE",
-"142 1827 CURVE SMOOTH",
-"58 1827 OFFCURVE",
-"1 1758 OFFCURVE",
-"-11 1679 CURVE SMOOTH",
-"-14 1659 OFFCURVE",
-"8 1638 OFFCURVE",
-"25 1638 CURVE SMOOTH",
-"45 1638 OFFCURVE",
-"57 1698 OFFCURVE",
-"112 1695 CURVE",
-"199 1698 OFFCURVE",
-"270 1577 OFFCURVE",
-"371 1577 CURVE SMOOTH",
-"460 1577 OFFCURVE",
-"512 1638 OFFCURVE",
-"524 1724 CURVE SMOOTH",
-"527 1745 OFFCURVE",
-"505 1765 OFFCURVE",
-"488 1765 CURVE SMOOTH"
+"-51 1140 LINE",
+"198 1321 LINE",
+"398 1140 LINE",
+"541 1140 LINE",
+"347 1469 LINE SMOOTH",
+"328 1501 OFFCURVE",
+"298 1529 OFFCURVE",
+"229 1529 CURVE SMOOTH",
+"161 1529 OFFCURVE",
+"123 1506 OFFCURVE",
+"98 1478 CURVE SMOOTH",
+"-199 1140 LINE {name = hr00;}"
 );
 },
 {
 closed = 1;
 nodes = (
-"-36 1140 LINE",
-"203 1307 LINE",
-"386 1140 LINE",
-"512 1140 LINE",
-"327 1434 LINE SMOOTH",
-"310 1462 OFFCURVE",
-"286 1497 OFFCURVE",
-"225 1497 CURVE SMOOTH",
-"165 1497 OFFCURVE",
-"134 1467 OFFCURVE",
-"111 1442 CURVE SMOOTH",
-"-167 1140 LINE {name = hr00;}"
+"459 1803 OFFCURVE",
+"446 1741 OFFCURVE",
+"391 1741 CURVE SMOOTH",
+"327 1741 OFFCURVE",
+"265 1867 OFFCURVE",
+"119 1867 CURVE SMOOTH",
+"32 1867 OFFCURVE",
+"-28 1795 OFFCURVE",
+"-40 1713 CURVE SMOOTH",
+"-43 1692 OFFCURVE",
+"-20 1671 OFFCURVE",
+"-3 1671 CURVE SMOOTH",
+"18 1671 OFFCURVE",
+"31 1733 OFFCURVE",
+"88 1730 CURVE",
+"179 1733 OFFCURVE",
+"253 1607 OFFCURVE",
+"358 1607 CURVE SMOOTH",
+"450 1607 OFFCURVE",
+"505 1671 OFFCURVE",
+"517 1760 CURVE SMOOTH",
+"520 1782 OFFCURVE",
+"497 1803 OFFCURVE",
+"480 1803 CURVE SMOOTH"
 );
 }
 );
