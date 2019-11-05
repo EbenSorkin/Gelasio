@@ -6,50 +6,15 @@ DisplayStrings = (
 "/four.tf",
 "/Ocircumflexhookabove nnoHOnoeA ",
 "/four.lf",
-"/seveneighths",
+"Brexit : /lcaron opposition britannique tente /dcaron empêcher une sortie sans accord\012/Lcaron autoroute urbaine qui déchire Bombay\012/Lcaron arrêté antipesticides du m aire de Langouët suspendu par la justice\012S/eogonek dziowie oskar/zdotaccent ani o akcj/eogonek  przeciwá Ma/lslash gorzacie Gersdorf /zdotaccent/aogonek daj/aogonek  zado/sacute/cacute uczynienia\012Dlaczego zgin/aogonek/lslash  kolarz Bjorg Lambvrecht. Jest wynik prokuratorskiego /sacute ledztwa\012Deal to develop three high-tech agriculture    ",
 A,
 "/dotbelowcomb.case/Acircumflexdotbelow",
 "/cedillacomb.case/Tcedilla",
 "/brevecomb_acutecomb",
-"/brevecomb_tildecomb/acircumflexacute",
-"/brevecomb_gravecomb/acircumflexgrave",
-z,
 "/tildecomb/uhorntilde",
-"/ohorn",
-"/circumflexcomb_tildecomb/ocircumflextilde",
-"/dieresiscomb ü",
-w,
-"/dotaccentcomb/odotaccentmacron",
-m,
-o,
-y,
-g,
-"/circumflexcomb_acutecomb.case/Acircumflexacute",
-"/Acircumflexdotbelow",
-"/circumflexcomb_gravecomb.case/Acircumflexgrave",
-"/circumflexcomb_hookabovecomb.case/Acircumflexhookabove",
-"/Acircumflextilde",
-C,
-"/brevecomb_acutecomb/abreveacute",
-"/circumflexcomb_acutecomb/acircumflexacute",
-"/circumflexcomb_acutecomb/acircumflexacute",
-"/acutecomb/ringcomb/aringacute",
-"/aringacute",
-f,
-"/cedi",
-"/colonsign",
-"/guarani",
-"/brevecomb_acutecomb.case",
-"/Abreveacute/Abrevegrave/Abrevehookabove",
-"/brevecomb_gravecomb.case/brevecomb_gravecomb.case/brevecomb_hookabovecomb.case/brevecomb_tildecomb.case",
-"/brevecomb_tildecomb",
-"/brevecomb_gravecomb",
-"/dblgravecomb/adblgrave",
-"ª",
-"/daggerdbl",
-"/ij_acutecomb",
-"/ij_acutecomb",
-"/IJ_acutecomb"
+"3/minute 5/doubleprimemod 3\"",
+"3/primemod 3/doubleprimemod 5/primemod \0121/primemod 1/doubleprimemod 2/primemod \0122/primemod 2/doubleprimemod 3/primemod \0123/primemod 3/doubleprimemod 4/primemod \0124/primemod 4/doubleprimemod 5/primemod \0125/primemod 5/doubleprimemod 6/primemod \0126/primemod 6/doubleprimemod 7/primemod \0127/primemod 7/doubleprimemod 8/primemod \0128/primemod 8/doubleprimemod 9/primemod \0129/primemod 9/doubleprimemod 0/primemod \0120/primemod 0/doubleprimemod 1/primemod",
+"/primemod"
 );
 classes = (
 {
@@ -113,6 +78,14 @@ Tag = wght;
 },
 {
 name = "Use Line Breaks";
+value = 1;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Enforce Compatibility Check";
 value = 1;
 },
 {
@@ -573,11 +546,11 @@ custom = Italic;
 customParameters = (
 {
 name = typoAscender;
-value = 1889;
+value = 1900;
 },
 {
 name = typoDescender;
-value = -671;
+value = -700;
 },
 {
 name = typoLineGap;
@@ -585,11 +558,11 @@ value = 0;
 },
 {
 name = hheaAscender;
-value = 1889;
+value = 1900;
 },
 {
 name = hheaDescender;
-value = -671;
+value = -700;
 },
 {
 name = hheaLineGap;
@@ -597,11 +570,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 2510;
+value = 2600;
 },
 {
 name = winDescent;
-value = 671;
+value = 800;
 },
 {
 name = underlineThickness;
@@ -625,12 +598,14 @@ position = "{1033, 2609}";
 position = "{30, 693}";
 },
 {
+angle = 197.0208;
 position = "{32, 1470}";
 },
 {
 position = "{140, 1740}";
 },
 {
+angle = 90;
 position = "{10, 1188}";
 },
 {
@@ -752,7 +727,7 @@ value = 2600;
 },
 {
 name = winDescent;
-value = 700;
+value = 800;
 },
 {
 name = underlineThickness;
@@ -53246,27 +53221,35 @@ unicode = 02BB;
 },
 {
 glyphname = doubleprimemod;
-lastChange = "2019-10-12 03:45:35 +0000";
+lastChange = "2019-11-05 17:31:03 +0000";
 layers = (
 {
 components = (
 {
 name = minute;
-transform = "{1, 0, 0.14945, 1, -383, 0}";
+transform = "{1, 0, 0.14945, 1, 43, 0}";
+},
+{
+name = minute;
+transform = "{1, 0, 0.14945, 1, -246, 0}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
-width = 0;
+width = 886;
 },
 {
 components = (
 {
 name = minute;
-transform = "{1, 0, 0.14945, 1, -405, 0}";
+transform = "{1, 0, 0.14945, 1, 117, 0}";
+},
+{
+name = minute;
+transform = "{1, 0, 0.14945, 1, -254, 0}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
-width = 0;
+width = 923;
 }
 );
 unicode = 02BA;
@@ -53327,27 +53310,27 @@ unicode = 02CB;
 },
 {
 glyphname = primemod;
-lastChange = "2019-10-12 03:45:35 +0000";
+lastChange = "2019-11-05 17:31:22 +0000";
 layers = (
 {
 components = (
 {
 name = minute;
-transform = "{1, 0, 0.14945, 1, -236, 0}";
+transform = "{1, 0, 0.14945, 1, -246, 0}";
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
-width = 600;
+width = 587;
 },
 {
 components = (
 {
 name = minute;
-transform = "{1, 0, 0.14945, 1, -245, 0}";
+transform = "{1, 0, 0.14945, 1, -254, 0}";
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
-width = 600;
+width = 552;
 }
 );
 unicode = 02B9;
@@ -61520,6 +61503,8 @@ instanceInterpolations = {
 "BDB4B313-38B1-4B24-B843-560B185382BD" = 0.66667;
 "D92FDD0B-F694-41DD-AE46-0E4F694F0F38" = 0.33333;
 };
+isItalic = 1;
+linkStyle = SemiBold;
 name = "SemiBold Italic";
 weightClass = SemiBold;
 },
@@ -61539,6 +61524,8 @@ instanceInterpolations = {
 "BDB4B313-38B1-4B24-B843-560B185382BD" = 0.33333;
 "D92FDD0B-F694-41DD-AE46-0E4F694F0F38" = 0.66667;
 };
+isItalic = 1;
+linkStyle = Medium;
 name = "Medium Italic";
 weightClass = Medium;
 },
