@@ -1,0 +1,10 @@
+#!/Users/ebensorkin/Documents/GitHub/Merriweather-ST/Merriweather/venv/bin/python3.7
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from glyphsLib.cli import _ufo2glyphs_entry_point
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(_ufo2glyphs_entry_point())
