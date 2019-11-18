@@ -1,9 +1,14 @@
 {
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 .appVersion = "1230";
+=======
+.appVersion = "1270";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 DisplayStrings = (
 "/tildecomb.case/Otildeacute",
 "/circumflexcomb_hookabovecomb.case/Ocircumflexhookabove",
 "/four.tf",
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 "/Ocircumflexhookabove nnoHOnoeA ",
 "/four.lf",
 "Brexit : /lcaron opposition britannique tente /dcaron empêcher une sortie sans accord\012/Lcaron autoroute urbaine qui déchire Bombay\012/Lcaron arrêté antipesticides du m aire de Langouët suspendu par la justice\012S/eogonek dziowie oskar/zdotaccent ani o akcj/eogonek  przeciwá Ma/lslash gorzacie Gersdorf /zdotaccent/aogonek daj/aogonek  zado/sacute/cacute uczynienia\012Dlaczego zgin/aogonek/lslash  kolarz Bjorg Lambvrecht. Jest wynik prokuratorskiego /sacute ledztwa\012Deal to develop three high-tech agriculture    ",
@@ -14,6 +19,55 @@ DisplayStrings = (
 "\012/Ccedillaacute/Ecedillabreve ,/Scedilla ,;/cedillacomb.case/Tcedilla ç/ccedillaacute/ecedillabreve/scedilla  ",
 "¸",
 "/brevecomb_hookabovecomb.case/Abrevehookabove/Acircumflexhookabove/Ahookabove/Ecircumflexhookabove/Ehookabove/Ihookabove/Ocircumflexhookabove/Ohookabove/Ohornhookabove/Uhookabove/Uhornhookabove/Yhookabove/brevecomb_hookabovecomb/abrevehookabove/circumflexcomb_hookabovecomb/ahookabove/circumflexcomb_hookabovecomb/ecircumflexhookabove/ehookabove/hookabovecomb/ihookabove/ocircumflexhookabove/ohookabove/ohornhookabove/uhookabove/uhornhookabove/yhookabove/hookabovecomb/hookabovecomb.case/brevecomb_hookabovecomb/circumflexcomb_hookabovecomb/brevecomb_hookabovecomb.case/circumflexcomb_hookabovecomb.case"
+=======
+"4",
+"/four.lf",
+"/seveneighths",
+A,
+"/dotbelowcomb.case/Acircumflexdotbelow",
+"/cedillacomb.case/Tcedilla",
+"/brevecomb_acutecomb",
+"/brevecomb_tildecomb/acircumflexacute",
+"/brevecomb_gravecomb/acircumflexgrave",
+z,
+"/tildecomb/uhorntilde",
+"/ohorn",
+"/circumflexcomb_tildecomb/ocircumflextilde",
+"/dieresiscomb ü",
+w,
+"/dotaccentcomb/odotaccentmacron",
+m,
+o,
+y,
+g,
+"/circumflexcomb_acutecomb.case/Acircumflexacute",
+"/Acircumflexdotbelow",
+"/circumflexcomb_gravecomb.case/Acircumflexgrave",
+"/circumflexcomb_hookabovecomb.case/Acircumflexhookabove",
+"/Acircumflextilde",
+C,
+"/brevecomb_acutecomb/abreveacute",
+"/circumflexcomb_acutecomb/acircumflexacute",
+"/circumflexcomb_acutecomb/acircumflexacute",
+"/acutecomb/ringcomb/aringacute",
+"/aringacute",
+f,
+"/cedi",
+"/colonsign",
+"/guarani",
+"/brevecomb_acutecomb.case",
+"/Abreveacute/Abrevegrave/Abrevehookabove",
+"/brevecomb_gravecomb.case/brevecomb_gravecomb.case/brevecomb_hookabovecomb.case/brevecomb_tildecomb.case",
+"/brevecomb_tildecomb",
+"/brevecomb_acutecomb",
+"/brevecomb_gravecomb",
+"/dblgravecomb/adblgrave",
+"ª",
+"/daggerdbl",
+"/ij_acutecomb",
+"/ij_acutecomb",
+"/IJ_acutecomb"
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 );
 classes = (
 {
@@ -80,6 +134,7 @@ name = "Use Line Breaks";
 value = 1;
 },
 {
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 name = "Use Typo Metrics";
 value = 1;
 },
@@ -88,6 +143,8 @@ name = "Enforce Compatibility Check";
 value = 1;
 },
 {
+=======
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 name = "OLD blueScale";
 value = 0.03963;
 }
@@ -667,10 +724,23 @@ position = "{804, 1703}";
 position = "{482, -426}";
 },
 {
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 position = "{-310, 1495}";
 },
 {
 position = "{325, -488}";
+=======
+position = "{1033, 2609}";
+},
+{
+position = "{-310, 1534}";
+},
+{
+position = "{-310, 1534}";
+},
+{
+position = "{-310, 1495}";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 }
 );
 horizontalStems = (
@@ -684,8 +754,14 @@ verticalStems = (
 214,
 243
 );
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 weightValue = 400;
 xHeight = 986;
+=======
+weight = Bold;
+weightValue = 700;
+xHeight = 994;
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 },
 {
 alignmentZones = (
@@ -781,7 +857,12 @@ position = "{0, 0}";
 position = "{851, 1420}";
 },
 {
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 position = "{880, 1462}";
+=======
+angle = 90;
+position = "{851, 939}";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 },
 {
 position = "{-2, -15}";
@@ -793,10 +874,14 @@ position = "{81, 503}";
 position = "{798, 1447}";
 },
 {
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 position = "{851, 958}";
 },
 {
 position = "{450, -491}";
+=======
+position = "{-310, 1495}";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 },
 {
 position = "{819, 980}";
@@ -820,6 +905,12 @@ position = "{-310, 1534}";
 position = "{-310, 1534}";
 },
 {
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
+=======
+position = "{482, -426}";
+},
+{
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 position = "{-310, 1495}";
 }
 );
@@ -829,6 +920,7 @@ horizontalStems = (
 );
 id = "BDB4B313-38B1-4B24-B843-560B185382BD";
 italicAngle = 8.5;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 verticalStems = (
 314,
 340,
@@ -837,6 +929,10 @@ verticalStems = (
 weight = Bold;
 weightValue = 700;
 xHeight = 994;
+=======
+weightValue = 400;
+xHeight = 986;
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 }
 );
 glyphs = (
@@ -1679,7 +1775,11 @@ com.typemytype.robofont.mark = (
 },
 {
 glyphname = Ahookabove;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 21:37:21 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -2862,7 +2962,11 @@ unicode = 010C;
 },
 {
 glyphname = Ccedilla;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 21:06:15 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -2871,7 +2975,11 @@ name = C;
 },
 {
 name = cedillacomb.case;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 transform = "{1, 0, 0, 1, 570, 0}";
+=======
+transform = "{1, 0, 0, 1, 715, 0}";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -2884,7 +2992,11 @@ name = C;
 },
 {
 name = cedillacomb.case;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 transform = "{1, 0, 0, 1, 617, 0}";
+=======
+transform = "{1, 0, 0, 1, 796, 0}";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -2903,7 +3015,11 @@ com.typemytype.robofont.mark = (
 },
 {
 glyphname = Ccedillaacute;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 21:06:13 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -2912,7 +3028,11 @@ name = C;
 },
 {
 name = cedillacomb.case;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 transform = "{1, 0, 0, 1, 570, 0}";
+=======
+transform = "{1, 0, 0, 1, 715, 0}";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 },
 {
 name = acutecomb.case;
@@ -2929,7 +3049,11 @@ name = C;
 },
 {
 name = cedillacomb.case;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 transform = "{1, 0, 0, 1, 617, 0}";
+=======
+transform = "{1, 0, 0, 1, 796, 0}";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 },
 {
 name = acutecomb.case;
@@ -3838,7 +3962,11 @@ unicode = 011A;
 },
 {
 glyphname = Ecedillabreve;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 21:06:13 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -4250,7 +4378,11 @@ unicode = 00C8;
 },
 {
 glyphname = Ehookabove;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 21:37:21 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -6283,7 +6415,11 @@ unicode = 00CC;
 },
 {
 glyphname = Ihookabove;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 21:37:21 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -9121,7 +9257,11 @@ unicode = 00D2;
 },
 {
 glyphname = Ohookabove;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 21:37:21 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -9320,7 +9460,11 @@ unicode = 1EDC;
 },
 {
 glyphname = Ohornhookabove;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 21:37:21 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -11509,7 +11653,11 @@ unicode = 1E66;
 },
 {
 glyphname = Scedilla;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 21:06:13 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -12240,7 +12388,11 @@ unicode = 0164;
 },
 {
 glyphname = Tcedilla;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 21:06:13 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -13012,7 +13164,11 @@ unicode = 00D9;
 },
 {
 glyphname = Uhookabove;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 21:37:21 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -13211,7 +13367,11 @@ unicode = 1EEA;
 },
 {
 glyphname = Uhornhookabove;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 21:37:21 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -14587,7 +14747,11 @@ unicode = 1EF2;
 },
 {
 glyphname = Yhookabove;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 21:37:21 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -15405,7 +15569,11 @@ unicode = 1EB1;
 },
 {
 glyphname = abrevehookabove;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 18:20:04 +0000";
+=======
+lastChange = "2019-10-20 02:01:41 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -15866,7 +16034,11 @@ com.typemytype.robofont.mark = (
 },
 {
 glyphname = ahookabove;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 21:22:28 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -16878,7 +17050,11 @@ unicode = 010D;
 },
 {
 glyphname = ccedilla;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 21:02:53 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -16919,7 +17095,11 @@ com.typemytype.robofont.mark = (
 },
 {
 glyphname = ccedillaacute;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 20:51:13 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -17934,7 +18114,11 @@ unicode = 011B;
 },
 {
 glyphname = ecedillabreve;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 20:51:13 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -18346,7 +18530,11 @@ unicode = 00E8;
 },
 {
 glyphname = ehookabove;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 21:22:28 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -20124,7 +20312,11 @@ unicode = 00EC;
 },
 {
 glyphname = ihookabove;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 21:22:28 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -20774,7 +20966,11 @@ unicode = 006B;
 },
 {
 glyphname = kcommaaccent;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 17:10:26 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -21251,7 +21447,11 @@ unicode = 013E;
 },
 {
 glyphname = lcommaaccent;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 16:47:52 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -22051,7 +22251,11 @@ com.typemytype.robofont.mark = (
 },
 {
 glyphname = ncommaaccent;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 17:10:26 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -23228,7 +23432,11 @@ unicode = 00F2;
 },
 {
 glyphname = ohookabove;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 21:22:28 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -23250,7 +23458,11 @@ name = o;
 },
 {
 name = hookabovecomb;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 transform = "{1, 0, 0, 1, 405, 0}";
+=======
+transform = "{1, 0, 0, 1, 585, 0}";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -23427,7 +23639,11 @@ unicode = 1EDD;
 },
 {
 glyphname = ohornhookabove;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 21:22:28 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -23449,7 +23665,11 @@ name = ohorn;
 },
 {
 name = hookabovecomb;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 transform = "{1, 0, 0, 1, 405, 0}";
+=======
+transform = "{1, 0, 0, 1, 585, 0}";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -25118,7 +25338,11 @@ unicode = 0159;
 },
 {
 glyphname = rcommaaccent;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 17:10:26 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -25568,7 +25792,11 @@ unicode = 1E67;
 },
 {
 glyphname = scedilla;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 20:51:13 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -25642,7 +25870,11 @@ unicode = 015D;
 },
 {
 glyphname = scommaaccent;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 17:10:26 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -26313,7 +26545,11 @@ unicode = 0165;
 },
 {
 glyphname = tcedilla;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 21:00:42 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -26346,7 +26582,11 @@ unicode = 0163;
 },
 {
 glyphname = tcommaaccent;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 17:10:26 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -27113,7 +27353,11 @@ unicode = 00F9;
 },
 {
 glyphname = uhookabove;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 21:22:28 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -27312,7 +27556,11 @@ unicode = 1EEB;
 },
 {
 glyphname = uhornhookabove;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 21:22:28 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -28830,7 +29078,11 @@ unicode = 1EF3;
 },
 {
 glyphname = yhookabove;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 21:22:28 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -28839,7 +29091,11 @@ name = y;
 },
 {
 name = hookabovecomb;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 transform = "{1, 0, 0, 1, 367, 0}";
+=======
+transform = "{1, 0, 0, 1, 508, 0}";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -28852,7 +29108,11 @@ name = y;
 },
 {
 name = hookabovecomb;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 transform = "{1, 0, 0, 1, 459, 0}";
+=======
+transform = "{1, 0, 0, 1, 639, 0}";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 }
 );
 layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
@@ -39059,7 +39319,11 @@ unicode = 002E;
 },
 {
 glyphname = comma;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 16:46:57 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 background = {
@@ -53291,7 +53555,11 @@ unicode = 02BB;
 },
 {
 glyphname = doubleprimemod;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-05 17:31:03 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -53380,7 +53648,11 @@ unicode = 02CB;
 },
 {
 glyphname = primemod;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-05 17:31:22 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 components = (
@@ -54240,7 +54512,11 @@ unicode = 030B;
 },
 {
 glyphname = caroncomb.alt;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 16:40:16 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 background = {
@@ -55163,7 +55439,11 @@ unicode = 0304;
 },
 {
 glyphname = hookabovecomb;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 21:41:11 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 anchors = (
@@ -56491,7 +56771,11 @@ unicode = 0324;
 },
 {
 glyphname = commaaccentcomb;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 17:10:23 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 anchors = (
@@ -56903,7 +57187,11 @@ unicode = 0326;
 },
 {
 glyphname = cedillacomb;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 20:53:03 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 anchors = (
@@ -58120,7 +58408,11 @@ unicode = 00AF;
 },
 {
 glyphname = cedilla;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 20:57:40 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 background = {
@@ -58128,6 +58420,7 @@ paths = (
 {
 closed = 1;
 nodes = (
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 "-472 18 LINE",
 "-579 18 LINE",
 "-619 -144 LINE",
@@ -58259,6 +58552,40 @@ nodes = (
 "-100 -463 OFFCURVE",
 "-40 -488 OFFCURVE",
 "54 -488 CURVE SMOOTH"
+=======
+"574 18 LINE",
+"467 18 LINE",
+"427 -144 LINE",
+"428 -144 LINE",
+"427 -145 LINE",
+"427 -145 OFFCURVE",
+"573 -152 OFFCURVE",
+"573 -238 CURVE SMOOTH",
+"573 -292 OFFCURVE",
+"539 -305 OFFCURVE",
+"480 -305 CURVE SMOOTH",
+"436 -305 OFFCURVE",
+"398 -292 OFFCURVE",
+"360 -292 CURVE SMOOTH",
+"347 -292 OFFCURVE",
+"336 -293 OFFCURVE",
+"328 -297 CURVE SMOOTH",
+"313 -304 OFFCURVE",
+"279 -337 OFFCURVE",
+"279 -363 CURVE SMOOTH",
+"279 -378 OFFCURVE",
+"308 -396 OFFCURVE",
+"346 -409 CURVE SMOOTH",
+"403 -428 OFFCURVE",
+"437 -436 OFFCURVE",
+"487 -436 CURVE SMOOTH",
+"583 -436 OFFCURVE",
+"721 -385 OFFCURVE",
+"721 -258 CURVE SMOOTH",
+"721 -156 OFFCURVE",
+"622 -117 OFFCURVE",
+"539 -105 CURVE"
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -58268,6 +58595,7 @@ paths = (
 {
 closed = 1;
 nodes = (
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 "245 -488 OFFCURVE",
 "346 -371 OFFCURVE",
 "346 -271 CURVE SMOOTH",
@@ -58302,6 +58630,39 @@ nodes = (
 }
 );
 width = 462;
+=======
+"665 -485 OFFCURVE",
+"803 -417 OFFCURVE",
+"803 -283 CURVE SMOOTH",
+"803 -215 OFFCURVE",
+"768 -172 OFFCURVE",
+"649 -138 CURVE {name = hr03;}",
+"709 18 LINE",
+"552 18 LINE {name = hr01;}",
+"476 -191 LINE",
+"595 -192 OFFCURVE",
+"667 -223 OFFCURVE",
+"667 -283 CURVE SMOOTH {name = hr02;}",
+"667 -348 OFFCURVE",
+"600 -381 OFFCURVE",
+"500 -381 CURVE SMOOTH",
+"457 -381 OFFCURVE",
+"409 -376 OFFCURVE",
+"357 -363 CURVE SMOOTH",
+"328 -356 OFFCURVE",
+"311 -412 OFFCURVE",
+"311 -435 CURVE SMOOTH",
+"311 -445 OFFCURVE",
+"316 -451 OFFCURVE",
+"327 -455 CURVE SMOOTH",
+"362 -468 OFFCURVE",
+"421 -485 OFFCURVE",
+"530 -485 CURVE SMOOTH"
+);
+}
+);
+width = 1024;
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 },
 {
 background = {
@@ -58309,6 +58670,7 @@ paths = (
 {
 closed = 1;
 nodes = (
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 "-818 -438 OFFCURVE",
 "-727 -368 OFFCURVE",
 "-727 -279 CURVE SMOOTH",
@@ -58469,6 +58831,34 @@ nodes = (
 "-104 -453 OFFCURVE",
 "-26 -497 OFFCURVE",
 "104 -497 CURVE SMOOTH"
+=======
+"814 -438 OFFCURVE",
+"905 -368 OFFCURVE",
+"905 -279 CURVE SMOOTH",
+"905 -185 OFFCURVE",
+"836 -114 OFFCURVE",
+"688 -91 CURVE {name = hr03;}",
+"718 18 LINE",
+"561 18 LINE {name = hr01;}",
+"521 -144 LINE",
+"523 -144 LINE",
+"521 -145 LINE",
+"642 -177 OFFCURVE",
+"660 -214 OFFCURVE",
+"660 -258 CURVE SMOOTH {name = hr02;}",
+"660 -313 OFFCURVE",
+"574 -333 OFFCURVE",
+"430 -316 CURVE SMOOTH",
+"403 -313 OFFCURVE",
+"394 -354 OFFCURVE",
+"394 -380 CURVE SMOOTH",
+"394 -395 OFFCURVE",
+"399 -403 OFFCURVE",
+"414 -408 CURVE SMOOTH",
+"450 -420 OFFCURVE",
+"512 -438 OFFCURVE",
+"621 -438 CURVE SMOOTH"
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -58478,6 +58868,7 @@ paths = (
 {
 closed = 1;
 nodes = (
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 "257 -497 OFFCURVE",
 "405 -409 OFFCURVE",
 "405 -271 CURVE SMOOTH",
@@ -58512,6 +58903,39 @@ nodes = (
 }
 );
 width = 522;
+=======
+"667 -466 OFFCURVE",
+"827 -404 OFFCURVE",
+"827 -276 CURVE SMOOTH",
+"827 -199 OFFCURVE",
+"777 -147 OFFCURVE",
+"650 -119 CURVE {name = hr03;}",
+"708 18 LINE",
+"551 18 LINE {name = hr01;}",
+"472 -209 LINE",
+"553 -209 OFFCURVE",
+"629 -222 OFFCURVE",
+"629 -281 CURVE SMOOTH {name = hr02;}",
+"629 -334 OFFCURVE",
+"575 -362 OFFCURVE",
+"493 -362 CURVE SMOOTH",
+"458 -362 OFFCURVE",
+"410 -357 OFFCURVE",
+"358 -344 CURVE SMOOTH",
+"329 -337 OFFCURVE",
+"312 -393 OFFCURVE",
+"312 -416 CURVE SMOOTH",
+"312 -426 OFFCURVE",
+"317 -432 OFFCURVE",
+"328 -436 CURVE SMOOTH",
+"363 -449 OFFCURVE",
+"422 -466 OFFCURVE",
+"531 -466 CURVE SMOOTH"
+);
+}
+);
+width = 1024;
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 }
 );
 leftKerningGroup = cedilla;
@@ -59578,7 +60002,11 @@ rightKerningGroup = macron.cap;
 },
 {
 glyphname = hookabovecomb.case;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 21:38:00 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 anchors = (
@@ -60429,7 +60857,11 @@ rightKerningGroup = commaaccent;
 },
 {
 glyphname = cedillacomb.case;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 21:06:14 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 anchors = (
@@ -60731,6 +61163,7 @@ paths = (
 {
 closed = 1;
 nodes = (
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 "257 -517 OFFCURVE",
 "405 -425 OFFCURVE",
 "405 -293 CURVE SMOOTH",
@@ -60761,6 +61194,35 @@ nodes = (
 "-104 -473 OFFCURVE",
 "-26 -517 OFFCURVE",
 "104 -517 CURVE SMOOTH"
+=======
+"100 -523 OFFCURVE",
+"250 -435 OFFCURVE",
+"250 -299 CURVE SMOOTH",
+"250 -223 OFFCURVE",
+"161 -143 OFFCURVE",
+"31 -131 CURVE {name = hr03;}",
+"94 18 LINE",
+"-63 18 LINE {name = hr01;}",
+"-145 -211 LINE",
+"-73 -211 OFFCURVE",
+"-5 -232 OFFCURVE",
+"-5 -285 CURVE SMOOTH {name = hr02;}",
+"-5 -341 OFFCURVE",
+"-53 -366 OFFCURVE",
+"-126 -366 CURVE SMOOTH",
+"-157 -366 OFFCURVE",
+"-200 -361 OFFCURVE",
+"-246 -350 CURVE SMOOTH",
+"-271 -344 OFFCURVE",
+"-307 -425 OFFCURVE",
+"-307 -448 CURVE SMOOTH",
+"-307 -458 OFFCURVE",
+"-302 -464 OFFCURVE",
+"-291 -468 CURVE SMOOTH",
+"-256 -481 OFFCURVE",
+"-190 -523 OFFCURVE",
+"-49 -523 CURVE SMOOTH"
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -61256,7 +61718,11 @@ rightKerningGroup = brevecomb;
 },
 {
 glyphname = brevecomb_hookabovecomb;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 22:15:33 +0000";
+=======
+lastChange = "2019-10-20 02:01:28 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 anchors = (
@@ -61267,9 +61733,52 @@ position = "{74, 994}";
 {
 name = top;
 position = "{158, 1553}";
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 }
 );
 background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"205 1547 LINE",
+"204 1556 OFFCURVE",
+"203 1565 OFFCURVE",
+"203 1573 CURVE SMOOTH",
+"203 1600 OFFCURVE",
+"216 1634 OFFCURVE",
+"237 1650 CURVE SMOOTH",
+"314 1709 OFFCURVE",
+"393 1727 OFFCURVE",
+"393 1856 CURVE SMOOTH",
+"393 1930 OFFCURVE",
+"307 1978 OFFCURVE",
+"218 1978 CURVE SMOOTH",
+"156 1978 OFFCURVE",
+"110 1966 OFFCURVE",
+"74 1949 CURVE SMOOTH",
+"46 1936 OFFCURVE",
+"29 1901 OFFCURVE",
+"29 1870 CURVE SMOOTH",
+"29 1854 OFFCURVE",
+"36 1843 OFFCURVE",
+"51 1843 CURVE SMOOTH",
+"61 1843 OFFCURVE",
+"103 1863 OFFCURVE",
+"157 1863 CURVE SMOOTH",
+"212 1863 OFFCURVE",
+"254 1838 OFFCURVE",
+"243 1793 CURVE",
+"238 1760 OFFCURVE",
+"98 1716 OFFCURVE",
+"98 1610 CURVE SMOOTH",
+"98 1586 OFFCURVE",
+"106 1568 OFFCURVE",
+"111 1547 CURVE"
+=======
+}
+);
+layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
 paths = (
 {
 closed = 1;
@@ -61313,6 +61822,88 @@ nodes = (
 {
 closed = 1;
 nodes = (
+"214 1184 OFFCURVE",
+"417 1233 OFFCURVE",
+"463 1502 CURVE",
+"357 1502 LINE",
+"337 1408 OFFCURVE",
+"260 1326 OFFCURVE",
+"124 1326 CURVE SMOOTH",
+"-3 1326 OFFCURVE",
+"-58 1398 OFFCURVE",
+"-58 1484 CURVE SMOOTH",
+"-58 1490 OFFCURVE",
+"-58 1496 OFFCURVE",
+"-57 1502 CURVE",
+"-163 1502 LINE",
+"-166 1480 OFFCURVE",
+"-167 1460 OFFCURVE",
+"-167 1441 CURVE SMOOTH",
+"-167 1225 OFFCURVE",
+"1 1184 OFFCURVE",
+"103 1184 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{72, 994}";
+},
+{
+name = top;
+position = "{155, 1553}";
+}
+);
+layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
+paths = (
+{
+closed = 1;
+nodes = (
+"214 1550 LINE",
+"213 1557 OFFCURVE",
+"213 1564 OFFCURVE",
+"213 1570 CURVE SMOOTH",
+"213 1634 OFFCURVE",
+"236 1653 OFFCURVE",
+"285 1686 CURVE SMOOTH",
+"351 1731 OFFCURVE",
+"418 1771 OFFCURVE",
+"418 1864 CURVE SMOOTH",
+"418 1928 OFFCURVE",
+"351 1982 OFFCURVE",
+"191 1982 CURVE SMOOTH",
+"128 1982 OFFCURVE",
+"72 1969 OFFCURVE",
+"28 1945 CURVE SMOOTH",
+"2 1931 OFFCURVE",
+"-39 1902 OFFCURVE",
+"-39 1834 CURVE SMOOTH",
+"-39 1812 OFFCURVE",
+"-34 1797 OFFCURVE",
+"-19 1797 CURVE SMOOTH",
+"13 1797 OFFCURVE",
+"40 1849 OFFCURVE",
+"127 1849 CURVE SMOOTH",
+"172 1849 OFFCURVE",
+"196 1834 OFFCURVE",
+"196 1796 CURVE SMOOTH",
+"196 1740 OFFCURVE",
+"94 1721 OFFCURVE",
+"94 1614 CURVE SMOOTH",
+"94 1586 OFFCURVE",
+"105 1561 OFFCURVE",
+"110 1550 CURVE"
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
+);
+},
+{
+closed = 1;
+nodes = (
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 "653 1543 LINE",
 "652 1553 OFFCURVE",
 "650 1561 OFFCURVE",
@@ -61348,6 +61939,50 @@ nodes = (
 "556 1564 OFFCURVE",
 "566 1543 CURVE"
 );
+=======
+"257 1180 OFFCURVE",
+"453 1247 OFFCURVE",
+"479 1501 CURVE",
+"354 1501 LINE",
+"331 1387 OFFCURVE",
+"263 1356 OFFCURVE",
+"127 1356 CURVE SMOOTH",
+"1 1356 OFFCURVE",
+"-61 1387 OFFCURVE",
+"-61 1479 CURVE SMOOTH",
+"-61 1486 OFFCURVE",
+"-61 1493 OFFCURVE",
+"-60 1501 CURVE",
+"-185 1501 LINE",
+"-191 1471 OFFCURVE",
+"-194 1444 OFFCURVE",
+"-194 1419 CURVE SMOOTH",
+"-194 1232 OFFCURVE",
+"-40 1180 OFFCURVE",
+"99 1180 CURVE SMOOTH {name = hr00;}"
+);
+}
+);
+width = 0;
+}
+);
+leftKerningGroup = brevecomb;
+rightKerningGroup = brevecomb;
+},
+{
+glyphname = brevecomb_tildecomb;
+lastChange = "2019-10-20 02:01:37 +0000";
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{74, 994}";
+},
+{
+name = top;
+position = "{158, 1553}";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 }
 );
 };
@@ -61356,6 +61991,38 @@ paths = (
 {
 closed = 1;
 nodes = (
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
+=======
+"377 1807 OFFCURVE",
+"365 1749 OFFCURVE",
+"312 1749 CURVE SMOOTH",
+"252 1749 OFFCURVE",
+"193 1868 OFFCURVE",
+"55 1868 CURVE SMOOTH",
+"-26 1868 OFFCURVE",
+"-82 1800 OFFCURVE",
+"-94 1723 CURVE SMOOTH",
+"-97 1703 OFFCURVE",
+"-75 1684 OFFCURVE",
+"-59 1684 CURVE SMOOTH",
+"-40 1684 OFFCURVE",
+"-28 1742 OFFCURVE",
+"27 1739 CURVE",
+"113 1742 OFFCURVE",
+"183 1623 OFFCURVE",
+"282 1623 CURVE SMOOTH",
+"368 1623 OFFCURVE",
+"418 1684 OFFCURVE",
+"431 1768 CURVE SMOOTH",
+"434 1788 OFFCURVE",
+"412 1807 OFFCURVE",
+"396 1807 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 "214 1184 OFFCURVE",
 "417 1233 OFFCURVE",
 "463 1502 CURVE",
@@ -61376,6 +62043,7 @@ nodes = (
 "-167 1225 OFFCURVE",
 "1 1184 OFFCURVE",
 "103 1184 CURVE SMOOTH"
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 );
 },
 {
@@ -61418,6 +62086,8 @@ nodes = (
 "100 1582 OFFCURVE",
 "106 1569 OFFCURVE",
 "116 1550 CURVE"
+=======
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -61439,6 +62109,7 @@ paths = (
 {
 closed = 1;
 nodes = (
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 "214 1550 LINE",
 "213 1557 OFFCURVE",
 "213 1564 OFFCURVE",
@@ -61587,6 +62258,32 @@ nodes = (
 "494 1564 OFFCURVE",
 "500 1548 OFFCURVE",
 "510 1526 CURVE"
+=======
+"399 1803 OFFCURVE",
+"386 1741 OFFCURVE",
+"331 1741 CURVE SMOOTH",
+"267 1741 OFFCURVE",
+"205 1867 OFFCURVE",
+"59 1867 CURVE SMOOTH",
+"-28 1867 OFFCURVE",
+"-88 1795 OFFCURVE",
+"-100 1713 CURVE SMOOTH",
+"-103 1692 OFFCURVE",
+"-80 1671 OFFCURVE",
+"-63 1671 CURVE SMOOTH",
+"-42 1671 OFFCURVE",
+"-29 1733 OFFCURVE",
+"28 1730 CURVE",
+"119 1733 OFFCURVE",
+"193 1607 OFFCURVE",
+"298 1607 CURVE SMOOTH",
+"390 1607 OFFCURVE",
+"445 1671 OFFCURVE",
+"457 1760 CURVE SMOOTH",
+"460 1782 OFFCURVE",
+"437 1803 OFFCURVE",
+"420 1803 CURVE SMOOTH"
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -61616,6 +62313,7 @@ nodes = (
 "-194 1232 OFFCURVE",
 "-40 1180 OFFCURVE",
 "99 1180 CURVE SMOOTH {name = hr00;}"
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 );
 },
 {
@@ -61658,6 +62356,8 @@ nodes = (
 "88 1614 OFFCURVE",
 "94 1597 OFFCURVE",
 "104 1574 CURVE"
+=======
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -61668,8 +62368,13 @@ leftKerningGroup = brevecomb;
 rightKerningGroup = brevecomb;
 },
 {
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 glyphname = brevecomb_tildecomb;
 lastChange = "2019-10-20 02:01:37 +0000";
+=======
+glyphname = circumflexcomb_acutecomb;
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 anchors = (
@@ -61687,6 +62392,7 @@ paths = (
 {
 closed = 1;
 nodes = (
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 "377 1807 OFFCURVE",
 "365 1749 OFFCURVE",
 "312 1749 CURVE SMOOTH",
@@ -61711,6 +62417,27 @@ nodes = (
 "434 1788 OFFCURVE",
 "412 1807 OFFCURVE",
 "396 1807 CURVE SMOOTH"
+=======
+"622 1488 OFFCURVE",
+"747 1548 OFFCURVE",
+"777 1571 CURVE SMOOTH",
+"800 1589 OFFCURVE",
+"817 1618 OFFCURVE",
+"817 1650 CURVE SMOOTH",
+"817 1664 OFFCURVE",
+"813 1678 OFFCURVE",
+"802 1692 CURVE SMOOTH",
+"787 1712 OFFCURVE",
+"768 1719 OFFCURVE",
+"749 1719 CURVE SMOOTH",
+"722 1719 OFFCURVE",
+"696 1707 OFFCURVE",
+"676 1690 CURVE SMOOTH",
+"647 1666 OFFCURVE",
+"554 1540 OFFCURVE",
+"440 1431 CURVE",
+"478 1383 LINE"
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 );
 },
 {
@@ -61757,6 +62484,7 @@ paths = (
 {
 closed = 1;
 nodes = (
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 "399 1803 OFFCURVE",
 "386 1741 OFFCURVE",
 "331 1741 CURVE SMOOTH",
@@ -61781,11 +62509,33 @@ nodes = (
 "460 1782 OFFCURVE",
 "437 1803 OFFCURVE",
 "420 1803 CURVE SMOOTH"
+=======
+"653 1524 OFFCURVE",
+"783 1589 OFFCURVE",
+"811 1612 CURVE SMOOTH",
+"831 1629 OFFCURVE",
+"847 1661 OFFCURVE",
+"849 1693 CURVE SMOOTH",
+"850 1711 OFFCURVE",
+"843 1728 OFFCURVE",
+"832 1742 CURVE SMOOTH",
+"817 1761 OFFCURVE",
+"797 1771 OFFCURVE",
+"774 1770 CURVE SMOOTH",
+"745 1769 OFFCURVE",
+"714 1755 OFFCURVE",
+"696 1741 CURVE SMOOTH",
+"667 1719 OFFCURVE",
+"583 1600 OFFCURVE",
+"444 1456 CURVE",
+"480 1411 LINE {name = hr00;}"
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 );
 },
 {
 closed = 1;
 nodes = (
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 "257 1180 OFFCURVE",
 "453 1247 OFFCURVE",
 "479 1501 CURVE",
@@ -61806,6 +62556,20 @@ nodes = (
 "-194 1232 OFFCURVE",
 "-40 1180 OFFCURVE",
 "99 1180 CURVE SMOOTH {name = hr00;}"
+=======
+"-38 1152 LINE",
+"196 1322 LINE",
+"374 1152 LINE",
+"509 1152 LINE",
+"336 1461 LINE SMOOTH",
+"319 1491 OFFCURVE",
+"290 1517 OFFCURVE",
+"226 1517 CURVE SMOOTH",
+"172 1517 OFFCURVE",
+"137 1496 OFFCURVE",
+"113 1469 CURVE SMOOTH",
+"-177 1152 LINE {name = hr00;}"
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -61816,7 +62580,11 @@ leftKerningGroup = brevecomb;
 rightKerningGroup = brevecomb;
 },
 {
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 glyphname = circumflexcomb_acutecomb;
+=======
+glyphname = circumflexcomb_gravecomb;
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 lastChange = "2019-10-12 03:45:35 +0000";
 layers = (
 {
@@ -61835,6 +62603,7 @@ paths = (
 {
 closed = 1;
 nodes = (
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 "622 1488 OFFCURVE",
 "747 1548 OFFCURVE",
 "777 1571 CURVE SMOOTH",
@@ -61854,6 +62623,24 @@ nodes = (
 "554 1540 OFFCURVE",
 "440 1431 CURVE",
 "478 1383 LINE"
+=======
+"619 1423 LINE",
+"534 1591 OFFCURVE",
+"495 1721 OFFCURVE",
+"477 1749 CURVE SMOOTH",
+"464 1771 OFFCURVE",
+"439 1789 OFFCURVE",
+"407 1789 CURVE SMOOTH",
+"363 1789 OFFCURVE",
+"312 1750 OFFCURVE",
+"312 1698 CURVE SMOOTH",
+"312 1680 OFFCURVE",
+"318 1663 OFFCURVE",
+"326 1650 CURVE SMOOTH",
+"345 1624 OFFCURVE",
+"443 1550 OFFCURVE",
+"561 1383 CURVE"
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 );
 },
 {
@@ -61892,6 +62679,7 @@ paths = (
 {
 closed = 1;
 nodes = (
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 "653 1524 OFFCURVE",
 "783 1589 OFFCURVE",
 "811 1612 CURVE SMOOTH",
@@ -61911,6 +62699,24 @@ nodes = (
 "583 1600 OFFCURVE",
 "444 1456 CURVE",
 "480 1411 LINE {name = hr00;}"
+=======
+"624 1424 LINE",
+"555 1604 OFFCURVE",
+"505 1733 OFFCURVE",
+"489 1762 CURVE SMOOTH",
+"475 1787 OFFCURVE",
+"446 1810 OFFCURVE",
+"403 1810 CURVE SMOOTH",
+"346 1810 OFFCURVE",
+"303 1770 OFFCURVE",
+"303 1705 CURVE SMOOTH",
+"303 1688 OFFCURVE",
+"309 1673 OFFCURVE",
+"321 1657 CURVE SMOOTH",
+"353 1611 OFFCURVE",
+"433 1553 OFFCURVE",
+"562 1389 CURVE {name = hr00;}"
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 );
 },
 {
@@ -61936,7 +62742,11 @@ width = 0;
 );
 },
 {
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 glyphname = circumflexcomb_gravecomb;
+=======
+glyphname = circumflexcomb_hookabovecomb;
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 lastChange = "2019-10-12 03:45:35 +0000";
 layers = (
 {
@@ -61955,6 +62765,7 @@ paths = (
 {
 closed = 1;
 nodes = (
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 "619 1423 LINE",
 "534 1591 OFFCURVE",
 "495 1721 OFFCURVE",
@@ -61971,6 +62782,42 @@ nodes = (
 "345 1624 OFFCURVE",
 "443 1550 OFFCURVE",
 "561 1383 CURVE"
+=======
+"518 1430 LINE",
+"517 1437 OFFCURVE",
+"516 1444 OFFCURVE",
+"516 1451 CURVE SMOOTH",
+"516 1472 OFFCURVE",
+"529 1500 OFFCURVE",
+"550 1512 CURVE SMOOTH",
+"628 1557 OFFCURVE",
+"706 1574 OFFCURVE",
+"706 1690 CURVE SMOOTH",
+"706 1764 OFFCURVE",
+"620 1812 OFFCURVE",
+"531 1812 CURVE SMOOTH",
+"469 1812 OFFCURVE",
+"423 1800 OFFCURVE",
+"387 1783 CURVE SMOOTH",
+"359 1770 OFFCURVE",
+"342 1735 OFFCURVE",
+"342 1704 CURVE SMOOTH",
+"342 1688 OFFCURVE",
+"349 1677 OFFCURVE",
+"364 1677 CURVE SMOOTH",
+"374 1677 OFFCURVE",
+"416 1697 OFFCURVE",
+"470 1697 CURVE SMOOTH",
+"525 1697 OFFCURVE",
+"567 1672 OFFCURVE",
+"556 1627 CURVE",
+"551 1601 OFFCURVE",
+"411 1565 OFFCURVE",
+"411 1480 CURVE SMOOTH",
+"411 1461 OFFCURVE",
+"419 1447 OFFCURVE",
+"424 1430 CURVE"
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 );
 },
 {
@@ -62009,6 +62856,7 @@ paths = (
 {
 closed = 1;
 nodes = (
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 "624 1424 LINE",
 "555 1604 OFFCURVE",
 "505 1733 OFFCURVE",
@@ -62025,6 +62873,42 @@ nodes = (
 "353 1611 OFFCURVE",
 "433 1553 OFFCURVE",
 "562 1389 CURVE {name = hr00;}"
+=======
+"584 1424 LINE",
+"583 1429 OFFCURVE",
+"583 1435 OFFCURVE",
+"583 1439 CURVE SMOOTH",
+"583 1488 OFFCURVE",
+"606 1503 OFFCURVE",
+"655 1528 CURVE SMOOTH",
+"726 1564 OFFCURVE",
+"788 1598 OFFCURVE",
+"788 1691 CURVE SMOOTH",
+"788 1755 OFFCURVE",
+"721 1809 OFFCURVE",
+"561 1809 CURVE SMOOTH",
+"498 1809 OFFCURVE",
+"442 1796 OFFCURVE",
+"398 1772 CURVE SMOOTH",
+"372 1758 OFFCURVE",
+"331 1729 OFFCURVE",
+"331 1661 CURVE SMOOTH",
+"331 1639 OFFCURVE",
+"336 1624 OFFCURVE",
+"351 1624 CURVE SMOOTH",
+"383 1624 OFFCURVE",
+"410 1676 OFFCURVE",
+"497 1676 CURVE SMOOTH",
+"542 1676 OFFCURVE",
+"566 1661 OFFCURVE",
+"566 1623 CURVE SMOOTH",
+"566 1567 OFFCURVE",
+"464 1580 OFFCURVE",
+"464 1473 CURVE SMOOTH",
+"464 1452 OFFCURVE",
+"475 1432 OFFCURVE",
+"480 1424 CURVE"
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 );
 },
 {
@@ -62052,8 +62936,13 @@ leftKerningGroup = circumflexcomb;
 rightKerningGroup = circumflexcomb;
 },
 {
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 glyphname = circumflexcomb_hookabovecomb;
 lastChange = "2019-11-14 21:56:09 +0000";
+=======
+glyphname = circumflexcomb_tildecomb;
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 anchors = (
@@ -62186,6 +63075,7 @@ paths = (
 {
 closed = 1;
 nodes = (
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 "-50 1140 LINE",
 "202 1341 LINE",
 "399 1140 LINE",
@@ -62419,6 +63309,8 @@ paths = (
 {
 closed = 1;
 nodes = (
+=======
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 "447 1807 OFFCURVE",
 "435 1749 OFFCURVE",
 "382 1749 CURVE SMOOTH",
@@ -62805,7 +63697,11 @@ rightKerningGroup = brevecomb;
 },
 {
 glyphname = brevecomb_hookabovecomb.case;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 22:17:14 +0000";
+=======
+lastChange = "2019-10-20 01:56:31 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 anchors = (
@@ -62818,7 +63714,11 @@ name = top;
 position = "{219, 1549}";
 }
 );
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 background = {
+=======
+layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 paths = (
 {
 closed = 1;
@@ -62882,6 +63782,7 @@ nodes = (
 "167 1576 OFFCURVE",
 "175 1558 OFFCURVE",
 "180 1537 CURVE"
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -62953,6 +63854,8 @@ nodes = (
 "162 1572 OFFCURVE",
 "168 1559 OFFCURVE",
 "178 1540 CURVE"
+=======
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -62969,7 +63872,11 @@ name = top;
 position = "{230, 1549}";
 }
 );
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 background = {
+=======
+layerId = "BDB4B313-38B1-4B24-B843-560B185382BD";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 paths = (
 {
 closed = 1;
@@ -63033,6 +63940,7 @@ nodes = (
 "166 1586 OFFCURVE",
 "177 1561 OFFCURVE",
 "182 1550 CURVE"
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -63104,6 +64012,8 @@ nodes = (
 "163 1613 OFFCURVE",
 "169 1596 OFFCURVE",
 "179 1573 CURVE"
+=======
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 );
 }
 );
@@ -63505,7 +64415,11 @@ rightKerningGroup = circumflexcomb;
 },
 {
 glyphname = circumflexcomb_hookabovecomb.case;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 lastChange = "2019-11-14 22:22:23 +0000";
+=======
+lastChange = "2019-10-12 03:45:35 +0000";
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 layers = (
 {
 anchors = (
@@ -63888,9 +64802,12 @@ interpolationWeight = 700;
 instanceInterpolations = {
 "BDB4B313-38B1-4B24-B843-560B185382BD" = 1;
 };
-isBold = 1;
 isItalic = 1;
+<<<<<<< HEAD:sources/Gelasio-Italic.glyphs
 linkStyle = Regular;
+=======
+linkStyle = Bold;
+>>>>>>> ca18d067b7f571a799e5dfa8aeb940772ed4832b:sources/Gelasio-Italic.glyphs
 name = "Bold Italic";
 weightClass = Bold;
 },
