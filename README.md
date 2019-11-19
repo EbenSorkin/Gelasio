@@ -11,7 +11,7 @@ Notes:
 
 • However to remain a fuctional match to Georgia, Gelasio will not include kerning.
 
-• The new Georgia fornd in Windows 10 ( in 2018 ) has some features and glyphs not present in Gelasio such as support for Greek and Cyrillic, Small caps for all three scripts and some additional symbols, and box drawing glyphs. Later I hope to make Gelsio fully equivalent in these ways as well.
+• The new Georgia found in Windows 10 ( in 2018 ) has some features and glyphs not present in Gelasio such as support for Greek and Cyrillic, Small caps for all three scripts and some additional symbols, and box drawing glyphs. Later I hope to make Gelsio fully equivalent in these ways as well.
 
 •  I also hope to make a font based on this work with a new name that is
  - not metrics compatible with Georgia
