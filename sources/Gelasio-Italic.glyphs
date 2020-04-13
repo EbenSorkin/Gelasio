@@ -1,19 +1,21 @@
 {
-.appVersion = "1271";
+.appVersion = "1313";
 DisplayStrings = (
 "/tildecomb.case/Otildeacute",
 "/circumflexcomb_hookabovecomb.case/Ocircumflexhookabove",
 "/four.tf",
-"/Ocircumflexhookabove nnoHOnoeA ",
+"/Ocircumflexhookabove nnoHOnoeA/space",
 "/four.lf",
-"Brexit : /lcaron opposition britannique tente /dcaron empêcher une sortie sans accord\012/Lcaron autoroute urbaine qui déchire Bombay\012/Lcaron arrêté antipesticides du m aire de Langouët suspendu par la justice\012S/eogonek dziowie oskar/zdotaccent ani o akcj/eogonek  przeciwá Ma/lslash gorzacie Gersdorf /zdotaccent/aogonek daj/aogonek  zado/sacute/cacute uczynienia\012Dlaczego zgin/aogonek/lslash  kolarz Bjorg Lambvrecht. Jest wynik prokuratorskiego /sacute ledztwa\012Deal to develop three high-tech agriculture    ",
-"/caroncomb.alt/Lcaron d/dcaron na/lcaron noa/tcaron/sacutedotaccent/scarondotaccent/lcommaaccent/abrevehookabove/acircumflexhookabove/ecircumflexhookabove \012Ldnala nn/lcaron no/lcaron oo\012/caroncomb.alt/lcaron oiseau\012/brevecomb_hookabovecomb/abrevehookabove   /circumflexcomb_hookabovecomb/acircumflexhookabove  /hookabovecomb/ahookabove/ecircumflexhookabove",
+"Brexit/space :/space/lcaron opposition/space britannique/space tente/space/dcaron empêcher/space une/space sortie/space sans/space accord\012/Lcaron autoroute/space urbaine/space qui/space déchire/space Bombay\012/Lcaron arrêté/space antipesticides/space du/space m/space aire/space de/space Langouët/space suspendu/space par/space la/space justice\012S/eogonek dziowie/space oskar/zdotaccent ani/space o/space akcj/eogonek/space przeciwá/space Ma/lslash gorzacie/space Gersdorf/space/zdotaccent/aogonek daj/aogonek/space zado/sacute/cacute uczynienia\012Dlaczego/space zgin/aogonek/lslash/space kolarz/space Bjorg/space Lambvrecht./space Jest/space wynik/space prokuratorskiego/space/sacute ledztwa\012Deal/space to/space develop/space three/space high-tech/space agriculture/space/space/space/space",
+"/caroncomb.alt/Lcaron d/dcaron na/lcaron noa/tcaron/sacutedotaccent/scarondotaccent/lcommaaccent/abrevehookabove/acircumflexhookabove/ecircumflexhookabove \012Ldnala/space nn/lcaron no/lcaron oo\012/caroncomb.alt/lcaron oiseau\012/brevecomb_hookabovecomb/abrevehookabove/space/space/circumflexcomb_hookabovecomb/acircumflexhookabove/space/hookabovecomb/ahookabove/ecircumflexhookabove",
 "/cedillacomb.case/Tcedilla",
 "3/minute 5/doubleprimemod 3\"",
 "3/primemod 3/doubleprimemod 5/primemod \0121/primemod 1/doubleprimemod 2/primemod \0122/primemod 2/doubleprimemod 3/primemod \0123/primemod 3/doubleprimemod 4/primemod \0124/primemod 4/doubleprimemod 5/primemod \0125/primemod 5/doubleprimemod 6/primemod \0126/primemod 6/doubleprimemod 7/primemod \0127/primemod 7/doubleprimemod 8/primemod \0128/primemod 8/doubleprimemod 9/primemod \0129/primemod 9/doubleprimemod 0/primemod \0120/primemod 0/doubleprimemod 1/primemod",
-"\012/Ccedillaacute/Ecedillabreve ,/Scedilla ,;/cedillacomb.case/Tcedilla ç/ccedillaacute/ecedillabreve/scedilla  ",
+"\012/Ccedillaacute/Ecedillabreve ,/Scedilla ,;/cedillacomb.case/Tcedilla ç/ccedillaacute/ecedillabreve/scedilla/space",
 "¸",
-"/brevecomb_hookabovecomb.case/Abrevehookabove/Acircumflexhookabove/Ahookabove/Ecircumflexhookabove/Ehookabove/Ihookabove/Ocircumflexhookabove/Ohookabove/Ohornhookabove/Uhookabove/Uhornhookabove/Yhookabove/brevecomb_hookabovecomb/abrevehookabove/circumflexcomb_hookabovecomb/ahookabove/circumflexcomb_hookabovecomb/ecircumflexhookabove/ehookabove/hookabovecomb/ihookabove/ocircumflexhookabove/ohookabove/ohornhookabove/uhookabove/uhornhookabove/yhookabove/hookabovecomb/hookabovecomb.case/brevecomb_hookabovecomb/circumflexcomb_hookabovecomb/brevecomb_hookabovecomb.case/circumflexcomb_hookabovecomb.case"
+"/brevecomb_hookabovecomb.case/Abrevehookabove/Acircumflexhookabove/Ahookabove/Ecircumflexhookabove/Ehookabove/Ihookabove/Ocircumflexhookabove/Ohookabove/Ohornhookabove/Uhookabove/Uhornhookabove/Yhookabove/brevecomb_hookabovecomb/abrevehookabove/circumflexcomb_hookabovecomb/ahookabove/circumflexcomb_hookabovecomb/ecircumflexhookabove/ehookabove/hookabovecomb/ihookabove/ocircumflexhookabove/ohookabove/ohornhookabove/uhookabove/uhornhookabove/yhookabove/hookabovecomb/hookabovecomb.case/brevecomb_hookabovecomb/circumflexcomb_hookabovecomb/brevecomb_hookabovecomb.case/circumflexcomb_hookabovecomb.case",
+"/literSign",
+"/Omega/Ohm"
 );
 classes = (
 {
@@ -49436,7 +49438,7 @@ unicode = 03C0;
 },
 {
 glyphname = literSign;
-lastChange = "2019-10-12 03:45:35 +0000";
+lastChange = "2020-04-13 02:58:46 +0000";
 layers = (
 {
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -49444,11 +49446,11 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-1 40 LINE",
-"45 77 OFFCURVE",
-"85 109 OFFCURVE",
-"130 154 CURVE",
-"181 40 OFFCURVE",
+"-21 40 LINE",
+"25 77 OFFCURVE",
+"65 109 OFFCURVE",
+"110 154 CURVE",
+"161 40 OFFCURVE",
 "266 -10 OFFCURVE",
 "344 -10 CURVE SMOOTH",
 "546 -10 OFFCURVE",
@@ -49461,21 +49463,21 @@ nodes = (
 "315 109 OFFCURVE",
 "261 143 OFFCURVE",
 "232 255 CURVE",
-"484 501 OFFCURVE",
-"672 889 OFFCURVE",
-"672 1230 CURVE SMOOTH",
-"672 1362 OFFCURVE",
-"621 1450 OFFCURVE",
+"514 501 OFFCURVE",
+"732 889 OFFCURVE",
+"732 1230 CURVE SMOOTH",
+"732 1362 OFFCURVE",
+"681 1450 OFFCURVE",
 "524 1450 CURVE SMOOTH",
 "291 1450 OFFCURVE",
-"94 964 OFFCURVE",
-"94 484 CURVE SMOOTH",
-"94 431 OFFCURVE",
-"97 337 OFFCURVE",
-"102 292 CURVE",
-"41 233 OFFCURVE",
-"-22 181 OFFCURVE",
-"-100 127 CURVE"
+"74 964 OFFCURVE",
+"74 484 CURVE SMOOTH",
+"74 431 OFFCURVE",
+"77 337 OFFCURVE",
+"82 292 CURVE",
+"21 233 OFFCURVE",
+"-42 181 OFFCURVE",
+"-120 127 CURVE"
 );
 },
 {
@@ -49512,20 +49514,20 @@ nodes = (
 "571 -12 OFFCURVE",
 "661 223 OFFCURVE",
 "700 403 CURVE",
-"601 432 LINE",
-"576 307 OFFCURVE",
-"501 178 OFFCURVE",
+"611 432 LINE",
+"586 307 OFFCURVE",
+"511 178 OFFCURVE",
 "419 178 CURVE SMOOTH",
 "382 178 OFFCURVE",
 "345 196 OFFCURVE",
 "319 263 CURVE",
 "573 555 OFFCURVE",
-"728 878 OFFCURVE",
-"728 1190 CURVE SMOOTH",
-"728 1376 OFFCURVE",
-"639 1483 OFFCURVE",
-"535 1483 CURVE SMOOTH",
-"294 1483 OFFCURVE",
+"748 878 OFFCURVE",
+"748 1190 CURVE SMOOTH",
+"748 1376 OFFCURVE",
+"659 1483 OFFCURVE",
+"555 1483 CURVE SMOOTH",
+"314 1483 OFFCURVE",
 "95 1059 OFFCURVE",
 "95 562 CURVE SMOOTH",
 "95 473 OFFCURVE",
@@ -49540,14 +49542,14 @@ nodes = (
 closed = 1;
 nodes = (
 "280 593 LINE",
-"280 946 OFFCURVE",
-"351 1333 OFFCURVE",
-"457 1333 CURVE SMOOTH",
-"479 1333 OFFCURVE",
-"496 1289 OFFCURVE",
-"496 1218 CURVE SMOOTH",
-"496 979 OFFCURVE",
-"403 709 OFFCURVE",
+"280 1016 OFFCURVE",
+"371 1333 OFFCURVE",
+"477 1333 CURVE SMOOTH",
+"499 1333 OFFCURVE",
+"516 1289 OFFCURVE",
+"516 1218 CURVE SMOOTH",
+"516 979 OFFCURVE",
+"423 709 OFFCURVE",
 "280 517 CURVE"
 );
 }
@@ -56798,7 +56800,7 @@ unicode = 1E6B;
 },
 {
 glyphname = Delta;
-lastChange = "2019-10-12 03:45:35 +0000";
+lastChange = "2020-04-13 02:55:04 +0000";
 layers = (
 {
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -56851,11 +56853,11 @@ nodes = (
 width = 1523;
 }
 );
-unicode = "0394,03B4";
+unicode = 0394;
 },
 {
 glyphname = Omega;
-lastChange = "2019-10-12 03:45:35 +0000";
+lastChange = "2020-04-13 02:58:25 +0000";
 layers = (
 {
 layerId = "D92FDD0B-F694-41DD-AE46-0E4F694F0F38";
@@ -56863,21 +56865,21 @@ paths = (
 {
 closed = 1;
 nodes = (
-"647 0 LINE",
-"648 129 LINE",
-"519 224 OFFCURVE",
-"389 389 OFFCURVE",
-"389 680 CURVE SMOOTH",
-"389 1106 OFFCURVE",
+"654 0 LINE",
+"668 129 LINE",
+"539 224 OFFCURVE",
+"409 389 OFFCURVE",
+"409 680 CURVE SMOOTH",
+"409 1106 OFFCURVE",
 "637 1336 OFFCURVE",
-"931 1336 CURVE SMOOTH",
-"1126 1336 OFFCURVE",
-"1310 1227 OFFCURVE",
-"1310 989 CURVE SMOOTH",
-"1310 576 OFFCURVE",
-"1087 255 OFFCURVE",
-"798 129 CURVE",
-"774 0 LINE",
+"908 1336 CURVE SMOOTH",
+"1106 1336 OFFCURVE",
+"1280 1227 OFFCURVE",
+"1280 949 CURVE SMOOTH",
+"1280 576 OFFCURVE",
+"1077 255 OFFCURVE",
+"818 129 CURVE",
+"802 0 LINE",
 "1419 0 LINE",
 "1543 371 LINE SMOOTH",
 "1544 373 OFFCURVE",
@@ -56894,17 +56896,17 @@ nodes = (
 "1211 170 CURVE SMOOTH",
 "1003 170 LINE",
 "1238 303 OFFCURVE",
-"1519 625 OFFCURVE",
-"1519 964 CURVE SMOOTH",
-"1519 1302 OFFCURVE",
-"1256 1448 OFFCURVE",
-"954 1448 CURVE SMOOTH",
+"1489 625 OFFCURVE",
+"1489 924 CURVE SMOOTH",
+"1489 1302 OFFCURVE",
+"1236 1448 OFFCURVE",
+"931 1448 CURVE SMOOTH",
 "483 1448 OFFCURVE",
-"196 1153 OFFCURVE",
-"196 744 CURVE SMOOTH",
-"196 517 OFFCURVE",
-"373 245 OFFCURVE",
-"480 170 CURVE",
+"216 1153 OFFCURVE",
+"216 744 CURVE SMOOTH",
+"216 457 OFFCURVE",
+"413 245 OFFCURVE",
+"520 170 CURVE",
 "292 170 LINE SMOOTH",
 "199 170 OFFCURVE",
 "136 263 OFFCURVE",
@@ -56927,21 +56929,21 @@ paths = (
 {
 closed = 1;
 nodes = (
-"749 0 LINE",
-"750 99 LINE",
-"621 194 OFFCURVE",
-"521 389 OFFCURVE",
-"521 680 CURVE SMOOTH",
-"521 1106 OFFCURVE",
-"694 1336 OFFCURVE",
-"988 1336 CURVE SMOOTH",
-"1163 1336 OFFCURVE",
-"1322 1227 OFFCURVE",
-"1322 989 CURVE SMOOTH",
-"1322 576 OFFCURVE",
-"1131 225 OFFCURVE",
-"910 99 CURVE",
-"886 0 LINE",
+"755 0 LINE",
+"756 99 LINE",
+"627 194 OFFCURVE",
+"527 389 OFFCURVE",
+"527 716 CURVE SMOOTH",
+"527 1106 OFFCURVE",
+"700 1336 OFFCURVE",
+"974 1336 CURVE SMOOTH",
+"1169 1336 OFFCURVE",
+"1308 1227 OFFCURVE",
+"1308 902 CURVE SMOOTH",
+"1308 536 OFFCURVE",
+"1127 221 OFFCURVE",
+"916 95 CURVE",
+"909 0 LINE",
 "1622 0 LINE",
 "1716 391 LINE SMOOTH",
 "1717 393 OFFCURVE",
@@ -56956,37 +56958,37 @@ nodes = (
 "1556 283 OFFCURVE",
 "1507 190 OFFCURVE",
 "1414 190 CURVE SMOOTH",
-"1145 190 LINE",
-"1350 318 OFFCURVE",
-"1651 625 OFFCURVE",
-"1651 964 CURVE SMOOTH",
-"1651 1302 OFFCURVE",
-"1308 1451 OFFCURVE",
-"1001 1451 CURVE SMOOTH",
-"516 1451 OFFCURVE",
-"198 1161 OFFCURVE",
-"198 764 CURVE SMOOTH",
-"198 529 OFFCURVE",
-"405 267 OFFCURVE",
-"512 190 CURVE",
-"305 190 LINE SMOOTH",
-"212 190 OFFCURVE",
-"149 283 OFFCURVE",
-"121 392 CURVE",
-"117 416 OFFCURVE",
-"103 425 OFFCURVE",
-"82 425 CURVE SMOOTH",
-"67 425 OFFCURVE",
-"34 414 OFFCURVE",
-"33 391 CURVE",
-"35 0 LINE"
+"1171 190 LINE",
+"1449 318 OFFCURVE",
+"1637 625 OFFCURVE",
+"1637 902 CURVE SMOOTH",
+"1637 1302 OFFCURVE",
+"1314 1451 OFFCURVE",
+"987 1451 CURVE SMOOTH",
+"522 1451 OFFCURVE",
+"204 1161 OFFCURVE",
+"204 797 CURVE SMOOTH",
+"204 455 OFFCURVE",
+"411 267 OFFCURVE",
+"518 190 CURVE",
+"315 190 LINE SMOOTH",
+"222 190 OFFCURVE",
+"159 283 OFFCURVE",
+"131 392 CURVE",
+"127 416 OFFCURVE",
+"113 425 OFFCURVE",
+"92 425 CURVE SMOOTH",
+"77 425 OFFCURVE",
+"44 414 OFFCURVE",
+"43 391 CURVE",
+"45 0 LINE"
 );
 }
 );
 width = 1797;
 }
 );
-unicode = "03A9,03C9";
+unicode = 03A9;
 },
 {
 glyphname = mu;
